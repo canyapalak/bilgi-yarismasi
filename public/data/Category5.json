@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türk mutfağının en ünlü çorbası hangisidir?",
+      "option1": "Mantar çorbası",
+      "option2": "Brokoli çorbası",
+      "option3": "Balkabağı çorbası",
+      "option4": "Mercimek çorbası",
+      "answer": "Mercimek çorbası"
+    },
+    {
+      "id": 2,
+      "question": "Sütlaç hangi malzemeyle yapılır?",
+      "option1": "Mısır",
+      "option2": "Bulgur",
+      "option3": "Pirinç",
+      "option4": "Mercimek",
+      "answer": "Pirinç"
+    },
+    {
+      "id": 3,
+      "question": "İskender kebabı hangi şehirle özdeşleşmiştir?",
+      "option1": "Adana",
+      "option2": "Bursa",
+      "option3": "Gaziantep",
+      "option4": "Konya",
+      "answer": "Bursa"
+    },
+    {
+      "id": 4,
+      "question": "Menemen yapmak için yumurtayla birlikte hangi malzeme gereklidir?",
+      "option1": "Peynir",
+      "option2": "Domates",
+      "option3": "Patates",
+      "option4": "Patlıcan",
+      "answer": "Domates"
+    },
+    {
+      "id": 5,
+      "question": "Hangisi bir Türk yemeği değildir?",
+      "option1": "Şinitzel",
+      "option2": "Dolma",
+      "option3": "Lahmacun",
+      "option4": "Karnıyarık",
+      "answer": "Şinitzel"
+    },
+    {
+      "id": 6,
+      "question": "Leblebi hangi baklagili kavurarak yapılır?",
+      "option1": "Fasulye",
+      "option2": "Bakla",
+      "option3": "Nohut",
+      "option4": "Bezelye",
+      "answer": "Nohut"
+    },
+    {
+      "id": 7,
+      "question": "Bir fincan kahvenin kaç yıl hatrı vardır?",
+      "option1": "3",
+      "option2": "5",
+      "option3": "10",
+      "option4": "40",
+      "answer": "40"
+    },
+    {
+      "id": 8,
+      "question": "Türkiye'de zeytin hangi bölgede yetişir?",
+      "option1": "Karadeniz",
+      "option2": "Doğu Anadolu",
+      "option3": "Ege",
+      "option4": "İç Anadolu",
+      "answer": "Ege"
+    },
+    {
+      "id": 9,
+      "question": "Mantısıyla ünlü şehrimiz hangisidir?",
+      "option1": "Malatya",
+      "option2": "Antalya",
+      "option3": "Rize",
+      "option4": "Kayseri",
+      "answer": "Kayseri"
+    },
+    {
+      "id": 10,
+      "question": "Ayran hangi malzemelerle yapılır?",
+      "option1": "Yoğurt ve su",
+      "option2": "Süt ve şeker",
+      "option3": "Yoğurt ve sirke",
+      "option4": "Su ve limon",
+      "answer": "Yoğurt ve su"
+    }
+  ]
+}

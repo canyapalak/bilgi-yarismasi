@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türkiye'nin başkenti neresidir?",
+      "option1": "İstanbul",
+      "option2": "Ankara",
+      "option3": "İzmir",
+      "option4": "Bursa",
+      "answer": "Ankara"
+    },
+    {
+      "id": 2,
+      "question": "Türkiye'nin en uzun nehri hangisidir?",
+      "option1": "Kızılırmak",
+      "option2": "Yeşilırmak",
+      "option3": "Fırat",
+      "option4": "Dicle",
+      "answer": "Kızılırmak"
+    },
+    {
+      "id": 3,
+      "question": "Türkiye'nin en yüksek dağı hangisidir?",
+      "option1": "Uludağ",
+      "option2": "Erciyes",
+      "option3": "Ağrı",
+      "option4": "Kaçkar",
+      "answer": "Ağrı"
+    },
+    {
+      "id": 4,
+      "question": "Türkiye'nin en büyük gölü hangisidir?",
+      "option1": "Van",
+      "option2": "Tuz",
+      "option3": "Beyşehir",
+      "option4": "Eğirdir",
+      "answer": "Van"
+    },
+    {
+      "id": 5,
+      "question": "Anıtkabir hangi ilimizdedir?",
+      "option1": "Çanakkale",
+      "option2": "Samsun",
+      "option3": "İstanbul",
+      "option4": "Ankara",
+      "answer": "Ankara"
+    },
+    {
+      "id": 6,
+      "question": "Türkiye'nin en kalabalık şehri hangisidir?",
+      "option1": "Ankara",
+      "option2": "İstanbul",
+      "option3": "İzmir",
+      "option4": "Bursa",
+      "answer": "İstanbul"
+    },
+    {
+      "id": 7,
+      "question": "Türkiye kaç coğrafi bölgeye ayrılır?",
+      "option1": "5",
+      "option2": "6",
+      "option3": "7",
+      "option4": "8",
+      "answer": "7"
+    },
+    {
+      "id": 8,
+      "question": "Pamukkale travertenleri hangi ilde bulunur?",
+      "option1": "Aydın",
+      "option2": "Denizli",
+      "option3": "Muğla",
+      "option4": "Isparta",
+      "answer": "Denizli"
+    },
+    {
+      "id": 9,
+      "question": "Hangi ilimizin denize kıyısı yoktur?",
+      "option1": "Mersin",
+      "option2": "Bursa",
+      "option3": "Konya",
+      "option4": "Trabzon",
+      "answer": "Konya"
+    },
+    {
+      "id": 10,
+      "question": "Türkiye'nin en doğusundaki il hangisidir?",
+      "option1": "Van",
+      "option2": "Iğdır",
+      "option3": "Ağrı",
+      "option4": "Hakkari",
+      "answer": "Iğdır"
+    }
+  ]
+}

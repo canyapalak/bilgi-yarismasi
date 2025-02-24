@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdaki kelimelerden hangisi özel isimdir?",
+      "option1": "Masa",
+      "option2": "Ankara",
+      "option3": "Kalem",
+      "option4": "Defter",
+      "answer": "Ankara"
+    },
+    {
+      "id": 2,
+      "question": "Hangisi bir zamirdir?",
+      "option1": "Ev",
+      "option2": "Güzel",
+      "option3": "Sen",
+      "option4": "Kitap",
+      "answer": "Sen"
+    },
+    {
+      "id": 3,
+      "question": "Hangisi bir fiildir?",
+      "option1": "Koşmak",
+      "option2": "Deniz",
+      "option3": "Bisiklet",
+      "option4": "Mutluluk",
+      "answer": "Koşmak"
+    },
+    {
+      "id": 4,
+      "question": "Bir cümlenin öznesini bulmak için hangi soruyu sorarız?",
+      "option1": "Nasıl?",
+      "option2": "Ne zaman?",
+      "option3": "Kim?",
+      "option4": "Nerede?",
+      "answer": "Kim?"
+    },
+    {
+      "id": 5,
+      "question": "Hangisi bir tamlama değildir?",
+      "option1": "Güzel çiçek",
+      "option2": "Kitap okuyorum",
+      "option3": "Çocuğun çantası",
+      "option4": "Mavi gökyüzü",
+      "answer": "Kitap okuyorum"
+    },
+    {
+      "id": 6,
+      "question": "Hangi kelime tür olarak diğerlerinden farklıdır?",
+      "option1": "Ben",
+      "option2": "Onlar",
+      "option3": "Siz",
+      "option4": "Bazen",
+      "answer": "Bazen"
+    },
+    {
+      "id": 7,
+      "question": "Hangisi bir fiil değildir?",
+      "option1": "Yürümek",
+      "option2": "Görmek",
+      "option3": "Oynamak",
+      "option4": "Yumak",
+      "answer": "Yumak"
+    },
+    {
+      "id": 8,
+      "question": "Aşağıdaki kelimelerden hangisi bir bağlaçtır?",
+      "option1": "Veya",
+      "option2": "Uyumak",
+      "option3": "Güzel",
+      "option4": "Tamam",
+      "answer": "Veya"
+    },
+    {
+      "id": 9,
+      "question": "Hangi cümle olumsuzdur?",
+      "option1": "Sabah erken kalktım.",
+      "option2": "Kitap okumayı severim.",
+      "option3": "Yemek yapıyorum.",
+      "option4": "Dışarı çıkmayacağım.",
+      "answer": "Dışarı çıkmayacağım."
+    },
+    {
+      "id": 10,
+      "question": "Hangisi bir sıfat değildir?",
+      "option1": "Kırmızı",
+      "option2": "Sıcak",
+      "option3": "Güneş",
+      "option4": "Parlak",
+      "answer": "Güneş"
+    }
+  ]
+}

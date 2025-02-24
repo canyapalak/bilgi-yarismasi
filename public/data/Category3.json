@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Hangi bayramda çocuklara şeker verilir?",
+      "option1": "Ramazan Bayramı",
+      "option2": "Kurban Bayramı",
+      "option3": "Cumhuriyet Bayramı",
+      "option4": "Zafer Bayramı",
+      "answer": "Ramazan Bayramı"
+    },
+    {
+      "id": 2,
+      "question": "Türk kültüründe misafirlere ikram edilen en yaygın içecek nedir?",
+      "option1": "Kola",
+      "option2": "Meyve suyu",
+      "option3": "Çay",
+      "option4": "Şalgam",
+      "answer": "Çay"
+    },
+    {
+      "id": 3,
+      "question": "Hacivat ve Karagöz hangi geleneksel sanat türüne aittir?",
+      "option1": "Ebru",
+      "option2": "Gölge oyunu",
+      "option3": "Hat sanatı",
+      "option4": "Minyatür",
+      "answer": "Gölge oyunu"
+    },
+    {
+      "id": 4,
+      "question": "Türk halk müziğinde kullanılan telli çalgımız hangisidir?",
+      "option1": "Saz",
+      "option2": "Keman",
+      "option3": "Zurna",
+      "option4": "Davul",
+      "answer": "Saz"
+    },
+    {
+      "id": 5,
+      "question": "Hangisi Türkiye'de yaygın olarak oynanan bir çocuk oyunu değildir?",
+      "option1": "Saklambaç",
+      "option2": "Körebe",
+      "option3": "Yakan top",
+      "option4": "Frizbi",
+      "answer": "Frizbi"
+    },
+    {
+      "id": 6,
+      "question": "Hangisi Türk kültüründe önemli bir hayvandır?",
+      "option1": "Kurt",
+      "option2": "Zürafa",
+      "option3": "Timsah",
+      "option4": "Tavşan",
+      "answer": "Kurt"
+    },
+    {
+      "id": 7,
+      "question": "Aşık Veysel hangi sanat dalında ünlüdür?",
+      "option1": "Resim",
+      "option2": "Müzik",
+      "option3": "Tiyatro",
+      "option4": "Heykel",
+      "answer": "Müzik"
+    },
+    {
+      "id": 8,
+      "question": "Hangi oyun geleneksel Türk halk oyunlarından biridir?",
+      "option1": "Horon",
+      "option2": "Sirtaki",
+      "option3": "Flamenko",
+      "option4": "Tango",
+      "answer": "Horon"
+    },
+    {
+      "id": 9,
+      "question": "Hangisi ünlü Türk masal kahramanıdır?",
+      "option1": "Peter Pan",
+      "option2": "Kırmızı Başlıklı Kız",
+      "option3": "Keloğlan",
+      "option4": "Şirin Baba",
+      "answer": "Keloğlan"
+    },
+    {
+      "id": 10,
+      "question": "Kırkpınar güreşleri hangi şehirde düzenlenir?",
+      "option1": "Bursa",
+      "option2": "İzmir",
+      "option3": "Manisa",
+      "option4": "Edirne",
+      "answer": "Edirne"
+    }
+  ]
+}

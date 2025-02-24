@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Kuyruğu var, at değil. Kanadı var, kuş değil.",
+      "option1": "Ayakkabı",
+      "option2": "Balık",
+      "option3": "Ağaç",
+      "option4": "Gökyüzü",
+      "answer" : "Balık"
+    },
+    {
+      "id": 2,
+      "question": "Ben giderim, o gider. Yanımda tın tın eder.",
+      "option1": "Palto",
+      "option2": "Araba",
+      "option3": "Baston",
+      "option4": "Koltuk",
+      "answer" : "Baston"
+    },
+        {
+      "id": 3,
+      "question": "Çarşıdan aldım bir tane, eve geldim bin tane.",
+      "option1": "Nar",
+      "option2": "Ekmek",
+      "option3": "Çiçek",
+      "option4": "Düğme",
+      "answer" : "Nar"
+    },
+        {
+      "id": 4,
+      "question": "Yarım kaşık, duvara yapışık.",
+      "option1": "Saat",
+      "option2": "Top",
+      "option3": "Ayak",
+      "option4": "Kulak",
+      "answer" : "Kulak"
+    },
+        {
+      "id": 5,
+      "question": "İçi var, dışı yok. Dayak yer, suçu yok.",
+      "option1": "Çorap",
+      "option2": "İğne",
+      "option3": "Sopa",
+      "option4": "Top",
+      "answer" : "Top"
+    },
+            {
+      "id": 6,
+      "question": "Dişi var, ağzı yok.",
+      "option1": "Şemsiye",
+      "option2": "Dolap",
+      "option3": "Tarak",
+      "option4": "Saksı",
+      "answer" : "Tarak"
+    },
+            {
+      "id": 7,
+      "question": "Yedi delikli tokmak. Bulamıyorsan aynaya bak.",
+      "option1": "Kafa",
+      "option2": "Davul",
+      "option3": "Topaç",
+      "option4": "Gömlek",
+      "answer" : "Kafa"
+    },
+            {
+      "id": 8,
+      "question": "Karşıdan baktım taş, yanına gittim dört ayak bir baş.",
+      "option1": "Dağ",
+      "option2": "Kaplumbağa",
+      "option3": "Tren",
+      "option4": "Çadır",
+      "answer" : "Kaplumbağa"
+    },
+            {
+      "id": 9,
+      "question": "Ne kanı var ne canı, beş tanedir parmağı.",
+      "option1": "Kazak",
+      "option2": "Şapka",
+      "option3": "Atkı",
+      "option4": "Eldiven",
+      "answer" : "Eldiven"
+    },
+            {
+      "id": 10,
+      "question": "Uzun uzun odalar, birbirini kovalar. .",
+      "option1": "Karınca",
+      "option2": "Tren",
+      "option3": "Yıldız",
+      "option4": "Kapı",
+      "answer" : "Tren"
+    }
+  ]
+}
