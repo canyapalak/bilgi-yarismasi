@@ -9,6 +9,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Condense';
+  src: url('../public/fonts/Condense.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @keyframes fadeIn {
   0% {
@@ -21,13 +28,13 @@
 }
 
 body {
-  background: rgb(235, 237, 242);
-  background: radial-gradient(circle, rgba(235, 237, 242, 1) 25%, rgba(243, 250, 255, 1) 73%);
+  background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 24%, rgba(222, 231, 238, 1) 73%);
   font-family: "Righteous";
 }
 
 .header {
-  font-family: "Times New Roman";
+  font-family: "Condense";
 }
 
 .container-dash {
@@ -49,8 +56,8 @@ body {
 }
 
 .modal-box {
-  background: rgb(235, 237, 242);
-    background: radial-gradient(circle, rgba(235, 237, 242, 1) 25%, rgba(243, 250, 255, 1) 73%);
+  background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 24%, rgba(222, 231, 238, 1) 73%);
 }
 
 .modal-dash {

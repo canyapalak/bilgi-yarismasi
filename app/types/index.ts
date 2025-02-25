@@ -1,3 +1,7 @@
+export interface WelcomeButtonsProps {
+  openHowToPlay: () => void;
+}
+
 export interface Category {
   title: string;
   fileName: string;
