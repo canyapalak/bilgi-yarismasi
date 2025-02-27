@@ -1,10 +1,8 @@
-export default function HowToPlay({
-  closeHowToPlay,
-}: {
-  closeHowToPlay: () => void;
-}) {
+import { HowToPlayProps } from "../types";
+
+export default function HowToPlay({ closeHowToPlay }: HowToPlayProps) {
   return (
-    <div className="flex flex-col gap-8 items-center ">
+    <div className="flex flex-col gap-8 items-center">
       <p className="text-neutral-700 fade-in break-words text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
