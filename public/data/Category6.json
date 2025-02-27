@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+      "option1": "İnönü",
+      "option2": "Atatürk",
+      "option3": "Menderes",
+      "option4": "Bayar",
+      "answer": "Atatürk"
+    },
+    {
+      "id": 2,
+      "question": "İstiklal Marşı'nın yazarı kimdir?",
+      "option1": "Yahya Kemal",
+      "option2": "Mehmet Akif",
+      "option3": "Namık Kemal",
+      "option4": "Necip Fazıl",
+      "answer": "Mehmet Akif"
+    },
+    {
+      "id": 3,
+      "question": "Osmanlı'da matbaayı kim getirdi?",
+      "option1": "Evliya Çelebi",
+      "option2": "İbrahim Müteferrika",
+      "option3": "Katip Çelebi",
+      "option4": "Ali Kuşçu",
+      "answer": "İbrahim Müteferrika"
+    },
+    {
+      "id": 4,
+      "question": "İlk Türk kadın pilot kimdir?",
+      "option1": "Sabiha Gökçen",
+      "option2": "Afet İnan",
+      "option3": "Halide Edib",
+      "option4": "Latife Hanım",
+      "answer": "Sabiha Gökçen"
+    },
+    {
+      "id": 5,
+      "question": "Türkiye'nin ilk Nobel ödüllü yazarı kimdir?",
+      "option1": "Yaşar Kemal",
+      "option2": "Orhan Pamuk",
+      "option3": "Nazım Hikmet",
+      "option4": "Ahmet Hamdi",
+      "answer": "Orhan Pamuk"
+    },
+    {
+      "id": 6,
+      "question": "Divan edebiyatının en ünlü şairlerinden biri kimdir?",
+      "option1": "Fuzuli",
+      "option2": "Yunus Emre",
+      "option3": "Mevlana",
+      "option4": "Pir Sultan",
+      "answer": "Fuzuli"
+    },
+    {
+      "id": 7,
+      "question": "Ünlü denizci Barbaros Hayreddin Paşa'nın gerçek adı nedir?",
+      "option1": "Piri Reis",
+      "option2": "Hızır Reis",
+      "option3": "Turgut Reis",
+      "option4": "Evliya Çelebi",
+      "answer": "Hızır Reis"
+    },
+    {
+      "id": 8,
+      "question": "Türk sinemasının önemli yönetmenlerinden biri kimdir?",
+      "option1": "Nuri Bilge",
+      "option2": "Yılmaz Güney",
+      "option3": "Atıf Yılmaz",
+      "option4": "Metin Erksan",
+      "answer": "Yılmaz Güney"
+    },
+    {
+      "id": 9,
+      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazandı?",
+      "option1": "Fizik",
+      "option2": "Kimya",
+      "option3": "Tıp",
+      "option4": "Matematik",
+      "answer": "Kimya"
+    },
+    {
+      "id": 10,
+      "question": "Hangi Osmanlı padişahı 'Kanuni' unvanına sahiptir?",
+      "option1": "Fatih",
+      "option2": "Kanuni",
+      "option3": "Yavuz",
+      "option4": "Orhan",
+      "answer": "Kanuni"
+    }
+  ]
+}

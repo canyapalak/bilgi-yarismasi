@@ -5,6 +5,7 @@ import Header from "@/app/components/Header";
 import { useState } from "react";
 import ContactSupportRounded from "@mui/icons-material/ContactSupportRounded";
 import CreditsModal from "@/app/components/CreditsModal";
+import { ContestProvider } from "@/app/context/ContestContext";
 
 export default function MyApp({ Component, pageProps }: any) {
   const [open, setOpen] = useState(false);
@@ -17,7 +18,9 @@ export default function MyApp({ Component, pageProps }: any) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./favicon.ico" />
-        <title>Bilgi Yarışması</title>
+        <title>
+          "Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
+        </title>
       </Head>
       <div className="flex flex-row gap-1">
         <ContactSupportRounded
@@ -32,7 +35,9 @@ export default function MyApp({ Component, pageProps }: any) {
           className="ml-auto mr-auto border-dashed
       border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-6 w-10/12 md:w-3/4 mb-6 container-dash"
         >
-          <Component {...pageProps} />
+          <ContestProvider>
+            <Component {...pageProps} />
+          </ContestProvider>
         </div>
       </main>
     </>

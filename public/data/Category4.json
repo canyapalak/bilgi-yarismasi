@@ -2,93 +2,93 @@
   "questions": [
     {
       "id": 1,
-      "question": "Kuyruğu var, at değil. Kanadı var, kuş değil.",
-      "option1": "Ayakkabı",
-      "option2": "Balık",
-      "option3": "Ağaç",
-      "option4": "Gökyüzü",
-      "answer" : "Balık"
+      "question": "Osmanlı Devleti'nin kurucusu kimdir?",
+      "option1": "Fatih",
+      "option2": "Kanuni",
+      "option3": "Yavuz",
+      "option4": "Osman Gazi",
+      "answer": "Osman Gazi"
     },
     {
       "id": 2,
-      "question": "Ben giderim, o gider. Yanımda tın tın eder.",
-      "option1": "Palto",
-      "option2": "Araba",
-      "option3": "Baston",
-      "option4": "Koltuk",
-      "answer" : "Baston"
+      "question": "Kurtuluş Savaşı'nın lideri kimdir?",
+      "option1": "İnönü",
+      "option2": "Atatürk",
+      "option3": "Enver",
+      "option4": "Karabekir",
+      "answer": "Atatürk"
     },
-        {
+    {
       "id": 3,
-      "question": "Çarşıdan aldım bir tane, eve geldim bin tane.",
-      "option1": "Nar",
-      "option2": "Ekmek",
-      "option3": "Çiçek",
-      "option4": "Düğme",
-      "answer" : "Nar"
+      "question": "İstanbul'u fetheden padişah kimdir?",
+      "option1": "Kanuni",
+      "option2": "Yavuz",
+      "option3": "Fatih",
+      "option4": "Bayezid",
+      "answer": "Fatih"
     },
-        {
+    {
       "id": 4,
-      "question": "Yarım kaşık, duvara yapışık.",
-      "option1": "Saat",
-      "option2": "Top",
-      "option3": "Ayak",
-      "option4": "Kulak",
-      "answer" : "Kulak"
+      "question": "Osmanlı'nın son padişahı kimdir?",
+      "option1": "Abdülhamid",
+      "option2": "Mehmet V",
+      "option3": "Vahdettin",
+      "option4": "Murat IV",
+      "answer": "Vahdettin"
     },
-        {
+    {
       "id": 5,
-      "question": "İçi var, dışı yok. Dayak yer, suçu yok.",
-      "option1": "Çorap",
-      "option2": "İğne",
-      "option3": "Sopa",
-      "option4": "Top",
-      "answer" : "Top"
+      "question": "Türkiye'nin ilk başbakanı kimdir?",
+      "option1": "Bayar",
+      "option2": "İnönü",
+      "option3": "Menderes",
+      "option4": "Atatürk",
+      "answer": "İnönü"
     },
-            {
+    {
       "id": 6,
-      "question": "Dişi var, ağzı yok.",
-      "option1": "Şemsiye",
-      "option2": "Dolap",
-      "option3": "Tarak",
-      "option4": "Saksı",
-      "answer" : "Tarak"
+      "question": "Malazgirt Savaşı'nı kim kazandı?",
+      "option1": "Bizans",
+      "option2": "Selçuklu",
+      "option3": "Osmanlı",
+      "option4": "Moğollar",
+      "answer": "Selçuklu"
     },
-            {
+    {
       "id": 7,
-      "question": "Yedi delikli tokmak. Bulamıyorsan aynaya bak.",
-      "option1": "Kafa",
-      "option2": "Davul",
-      "option3": "Topaç",
-      "option4": "Gömlek",
-      "answer" : "Kafa"
+      "question": "Lozan Antlaşması'nın önemi nedir?",
+      "option1": "Osmanlı güçlendi",
+      "option2": "Bağımsızlık",
+      "option3": "Cumhuriyet",
+      "option4": "Kapitülasyon",
+      "answer": "Bağımsızlık"
     },
-            {
+    {
       "id": 8,
-      "question": "Karşıdan baktım taş, yanına gittim dört ayak bir baş.",
-      "option1": "Dağ",
-      "option2": "Kaplumbağa",
-      "option3": "Tren",
-      "option4": "Çadır",
-      "answer" : "Kaplumbağa"
+      "question": "Atatürk'ün önemli ilkelerinden biri nedir?",
+      "option1": "Saltanat",
+      "option2": "Milliyetçilik",
+      "option3": "Teokrasi",
+      "option4": "Monarşi",
+      "answer": "Milliyetçilik"
     },
-            {
+    {
       "id": 9,
-      "question": "Ne kanı var ne canı, beş tanedir parmağı.",
-      "option1": "Kazak",
-      "option2": "Şapka",
-      "option3": "Atkı",
-      "option4": "Eldiven",
-      "answer" : "Eldiven"
+      "question": "Türklerin Anadolu'ya göç nedeni nedir?",
+      "option1": "İklim",
+      "option2": "Sanayi",
+      "option3": "Osmanlı yıkıldı",
+      "option4": "Ticaret",
+      "answer": "İklim"
     },
-            {
+    {
       "id": 10,
-      "question": "Uzun uzun odalar, birbirini kovalar. .",
-      "option1": "Karınca",
-      "option2": "Tren",
-      "option3": "Yıldız",
-      "option4": "Kapı",
-      "answer" : "Tren"
+      "question": "Divan-ı Hümayun'un başkanı kimdi?",
+      "option1": "Şeyhülislam",
+      "option2": "Sadrazam",
+      "option3": "Kaptan",
+      "option4": "Defterdar",
+      "answer": "Sadrazam"
     }
   ]
 }

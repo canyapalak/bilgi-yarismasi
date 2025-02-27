@@ -1,10 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Category, WelcomeButtonsProps } from "../types/index.js";
 import ToggleOffOutlinedIcon from "@mui/icons-material/ToggleOffOutlined";
 import ToggleOnOutlinedIcon from "@mui/icons-material/ToggleOnOutlined";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import { ContestContext } from "../context/ContestContext";
 
-export default function WelcomeButtons({ openHowToPlay }: WelcomeButtonsProps) {
+export default function WelcomeButtons({
+  openHowToPlay,
+  openContest,
+}: WelcomeButtonsProps) {
+  const { setPickedCategoryFileName } = useContext(ContestContext);
+
   const [clickedCategoryButton, setClickedCategoryButton] = useState<
     string | null
   >(null);
@@ -16,6 +22,7 @@ export default function WelcomeButtons({ openHowToPlay }: WelcomeButtonsProps) {
   const handleContestCategoryClick = (fileName: string, title: string) => {
     setClickedCategoryButton(title);
     setIsCategoryPicked(true);
+    setPickedCategoryFileName(fileName);
   };
 
   useEffect(() => {
@@ -24,19 +31,25 @@ export default function WelcomeButtons({ openHowToPlay }: WelcomeButtonsProps) {
 
   const [isChillMode, setIsChillMode] = useState<boolean | null>(false);
 
+  console.log("isChillMode :>> ", isChillMode);
+
   const handleChillModeClick = () => {
     setIsChillMode(!isChillMode);
   };
 
+  const handleContestStartClick = () => {
+    openContest();
+  };
+
   const CategoryArray: Category[] = [
-    { title: "Türk Mutfağı", fileName: "Category2" },
-    { title: "Coğrafya", fileName: "Category3" },
-    { title: "Türk Dili", fileName: "Category4" },
-    { title: "Tarih", fileName: "Category5" },
-    { title: "Kültür", fileName: "Category5" },
-    { title: "Güncel Bilgiler", fileName: "Category5" },
-    { title: "Ünlü Kişiler", fileName: "Category5" },
-    { title: "Hepsi!", fileName: "All" },
+    { title: "Türk Dili", fileName: "Category2" },
+    { title: "Coğrafya", fileName: "Category1" },
+    { title: "Tarih", fileName: "Category4" },
+    { title: "Kültür", fileName: "Category3" },
+    { title: "Türk Mutfağı", fileName: "Category5" },
+    { title: "Güncel Bilgiler", fileName: "Category7" },
+    { title: "Ünlü Kişiler", fileName: "Category6" },
+    { title: "Hepsi!", fileName: "Category7" },
   ];
 
   return (
@@ -92,6 +105,7 @@ export default function WelcomeButtons({ openHowToPlay }: WelcomeButtonsProps) {
   cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 ${
     isCategoryPicked ? "" : "opacity-50 pointer-events-none"
   }`}
+          onClick={handleContestStartClick}
         >
           Başlat
         </div>

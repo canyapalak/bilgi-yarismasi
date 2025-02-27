@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türkiye'nin en son düzenlenen büyük spor organizasyonu hangisidir?",
+      "option1": "EURO 2024",
+      "option2": "FIBA Dünya Kupası",
+      "option3": "Formula 1",
+      "option4": "WRC Türkiye Rallisi",
+      "answer": "WRC Türkiye Rallisi"
+    },
+    {
+      "id": 2,
+      "question": "Son yıllarda Türkiye'de en çok izlenen dizi hangisidir?",
+      "option1": "Kuruluş Osman",
+      "option2": "Camdaki Kız",
+      "option3": "Yalı Çapkını",
+      "option4": "Sadakatsiz",
+      "answer": "Yalı Çapkını"
+    },
+    {
+      "id": 3,
+      "question": "Türkiye'nin yerli otomobil markası nedir?",
+      "option1": "Tofaş",
+      "option2": "TOGG",
+      "option3": "BMC",
+      "option4": "Renault",
+      "answer": "TOGG"
+    },
+    {
+      "id": 4,
+      "question": "Türkiye'nin son yıllarda uzaya gönderdiği ilk astronot kimdir?",
+      "option1": "Cevdet Yılmaz",
+      "option2": "Alper Gezeravcı",
+      "option3": "Eren Özmen",
+      "option4": "Aziz Sancar",
+      "answer": "Alper Gezeravcı"
+    },
+    {
+      "id": 5,
+      "question": "Türkiye'de en çok kullanılan sosyal medya platformu hangisidir?",
+      "option1": "Facebook",
+      "option2": "Instagram",
+      "option3": "Twitter",
+      "option4": "TikTok",
+      "answer": "Instagram"
+    },
+    {
+      "id": 6,
+      "question": "Türkiye'de son yıllarda en çok dinlenen şarkıcılardan biri kimdir?",
+      "option1": "Tarkan",
+      "option2": "Sezen Aksu",
+      "option3": "Mabel Matiz",
+      "option4": "Mero",
+      "answer": "Mabel Matiz"
+    },
+    {
+      "id": 7,
+      "question": "Son yıllarda Türkiye'de en çok konuşulan ekonomik gelişme nedir?",
+      "option1": "Kripto para",
+      "option2": "Döviz kuru",
+      "option3": "Asgari ücret",
+      "option4": "Enflasyon",
+      "answer": "Enflasyon"
+    },
+    {
+      "id": 8,
+      "question": "Türkiye'de hangi teknoloji şirketi son yıllarda en çok yatırım aldı?",
+      "option1": "Trendyol",
+      "option2": "Getir",
+      "option3": "Hepsiburada",
+      "option4": "BiTaksi",
+      "answer": "Getir"
+    },
+    {
+      "id": 9,
+      "question": "Türkiye'nin yerli ve milli savunma sanayisindeki en önemli projelerinden biri hangisidir?",
+      "option1": "Altay Tankı",
+      "option2": "İHA/SİHA",
+      "option3": "Denizaltı Projesi",
+      "option4": "Milli Piyade Tüfeği",
+      "answer": "İHA/SİHA"
+    },
+    {
+      "id": 10,
+      "question": "Son yıllarda Türkiye'de en çok turist çeken şehir hangisidir?",
+      "option1": "İstanbul",
+      "option2": "Antalya",
+      "option3": "Kapadokya",
+      "option4": "Bodrum",
+      "answer": "Antalya"
+    }
+  ]
+}

@@ -36,13 +36,13 @@ export default function CreditsModal({ open, setOpen }: ModalInterface) {
               </p>
               <p className="header text-xl font-bold">Eğitim Ataşeliği</p>
               <p className="text-red-600 text-md text-center mt-2 mb-10">
-                "Bir Yıldız Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
+                "Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
               </p>
               <p className="text-md">2025</p>
               <p className="text-md">Versiyon: 1.0</p>
               <div className="flex flex-row gap-1">
                 <p className="text-md italic text-center mt-2 text-gray-default">
-                  Tüm hakları T.C. Berlin Başkonsolosluğu Eğitim Ataşeliği'nde
+                  Tüm hakları T.C. Berlin Başkonsolosluğu Eğitim Ataşeliğinde
                   saklıdır.
                 </p>
               </div>
