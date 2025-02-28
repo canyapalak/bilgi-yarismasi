@@ -89,6 +89,24 @@
       "option3": "Kapadokya",
       "option4": "Bodrum",
       "answer": "Antalya"
+    },
+    {
+      "id": 11,
+      "question": "Türkiye'nin en büyük havaalanı hangisidir?",
+      "option1": "Sabiha Gökçen",
+      "option2": "Esenboğa",
+      "option3": "İstanbul Havalimanı",
+      "option4": "Adnan Menderes",
+      "answer": "İstanbul Havalimanı"
+    },
+    {
+      "id": 12,
+      "question": "Türkiye'de en fazla nüfusa sahip ilçe hangisidir?",
+      "option1": "Esenyurt",
+      "option2": "Keçiören",
+      "option3": "Çankaya",
+      "option4": "Bağcılar",
+      "answer": "Esenyurt"
     }
   ]
 }

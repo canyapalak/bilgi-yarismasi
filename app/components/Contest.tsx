@@ -181,7 +181,7 @@ export default function Contest({ closeContest }: ContestProps) {
         )}
       </div>
       <div
-        className="button-prm bg-gray-default hover:bg-gray-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-1"
+        className="button-prm bg-gray-default hover:bg-gray-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-3"
         onClick={closeContest}
       >
         Ana Sayfa

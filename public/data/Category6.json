@@ -89,6 +89,33 @@
       "option3": "Yavuz",
       "option4": "Orhan",
       "answer": "Kanuni"
+    },
+    {
+      "id": 11,
+      "question": "Hangi Türk yazar ‘İnce Memed’ romanını yazmıştır?",
+      "option1": "Yaşar Kemal",
+      "option2": "Orhan Pamuk",
+      "option3": "Reşat Nuri Güntekin",
+      "option4": "Sait Faik Abasıyanık",
+      "answer": "Yaşar Kemal"
+    },
+    {
+      "id": 12,
+      "question": "Hangi Türk halk müziği sanatçısı ‘Mihriban’ şarkısıyla ünlüdür?",
+      "option1": "Neşet Ertaş",
+      "option2": "Musa Eroğlu",
+      "option3": "Mahsuni Şerif",
+      "option4": "Aşık Veysel",
+      "answer": "Musa Eroğlu"
+    },
+    {
+      "id": 13,
+      "question": "Hangi Türk müzisyen ‘Dönence’ şarkısıyla tanınmıştır?",
+      "option1": "Barış Manço",
+      "option2": "Cem Karaca",
+      "option3": "İlhan İrem",
+      "option4": "Zeki Müren",
+      "answer": "Barış Manço"
     }
   ]
 }

@@ -89,6 +89,24 @@
       "option3": "Kaptan",
       "option4": "Defterdar",
       "answer": "Sadrazam"
+    },
+    {
+      "id": 11,
+      "question": "Osmanlı Devleti’nin ilk başkenti ?hangisidir",
+      "option1": "Ankara",
+      "option2": "Bursa",
+      "option3": "İzmir",
+      "option4": "İstanbul",
+      "answer": "Bursa"
+    },
+    {
+      "id": 12,
+      "question": "Malazgirt Meydan Muharebesi hangi yıl gerçekleşmiştir?",
+      "option1": "1071",
+      "option2": "1453",
+      "option3": "1517",
+      "option4": "1923",
+      "answer": "1071"
     }
   ]
 }

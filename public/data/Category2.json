@@ -89,6 +89,42 @@
       "option3": "Güneş",
       "option4": "Parlak",
       "answer": "Güneş"
+    },
+    {
+      "id": 11,
+      "question": "Türkçede kaç ünlü harf vardır?",
+      "option1": "5",
+      "option2": "8",
+      "option3": "10",
+      "option4": "12",
+      "answer": "8"
+    },
+    {
+      "id": 12,
+      "question": "Türkçede birleşik fiil türlerinden biri değildir?",
+      "option1": "Yardımcı eylem",
+      "option2": "Deyimleşmiş fiil",
+      "option3": "Basit fiil",
+      "option4": "Kural birleşik fiil",
+      "answer": "Basit fiil"
+    },
+    {
+      "id": 13,
+      "question": "Aşağıdaki eklerden hangisi yapım eki değildir?",
+      "option1": "-lik",
+      "option2": "-de",
+      "option3": "-cı",
+      "option4": "-gil",
+      "answer": "-de"
+    },
+    {
+      "id": 14,
+      "question": "Hangisi Türkçede büyük ünlü uyumuna uyar?",
+      "option1": "Kalemlik",
+      "option2": "Evler",
+      "option3": "Kitapçı",
+      "option4": "Kardeş",
+      "answer": "Kalemlik"
     }
   ]
 }

@@ -89,6 +89,33 @@
       "option3": "Ağrı",
       "option4": "Hakkari",
       "answer": "Iğdır"
+    },
+    {
+      "id": 11,
+      "question": "Karadeniz Bölgesi'nin en büyük şehri hangisidir?",
+      "option1": "Samsun",
+      "option2": "Trabzon",
+      "option3": "Ordu",
+      "option4": "Rize",
+      "answer": "Samsun"
+    },
+    {
+      "id": 12,
+      "question": "Türkiye'de en fazla tarım  yapılan bölge hangisidir?",
+      "option1": "Karadeniz",
+      "option2": "Marmara",
+      "option3": "Akdeniz",
+      "option4": "Güneydoğu Anadolu",
+      "answer": "Akdeniz"
+    },
+    {
+      "id": 13,
+      "question": "Türkiye hangi ülkeyle komşu değildir?",
+      "option1": "Gürcistan",
+      "option2": "Bulgaristan",
+      "option3": "Romanya",
+      "option4": "İran",
+      "answer": "Romanya"
     }
   ]
 }

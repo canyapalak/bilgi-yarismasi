@@ -89,6 +89,33 @@
       "option3": "Manisa",
       "option4": "Edirne",
       "answer": "Edirne"
+    },
+    {
+      "id": 11,
+      "question": "Türk kültüründe nazardan korunmak için ne kullanılır?",
+      "option1": "Kehribar",
+      "option2": "Nazar boncuğu",
+      "option3": "Kına",
+      "option4": "Tespih",
+      "answer": "Nazar boncuğu"
+    },
+    {
+      "id": 12,
+      "question": "Hangi geleneksel Türk oyunu çocuklar arasında popülerdir?",
+      "option1": "Misket",
+      "option2": "Satranç",
+      "option3": "Dama",
+      "option4": "Go",
+      "answer": "Misket"
+    },
+        {
+      "id": 13,
+      "question": "Hangi çiçek Türk görsel sanatlarında sıkça kullanılır?",
+      "option1": "Lale",
+      "option2": "Orkide",
+      "option3": "Papatya",
+      "option4": "Kiraz çiçeği",
+      "answer": "Lale"
     }
   ]
 }

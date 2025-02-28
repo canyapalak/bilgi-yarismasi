@@ -89,6 +89,33 @@
       "option3": "Yoğurt ve sirke",
       "option4": "Su ve limon",
       "answer": "Yoğurt ve su"
+    },
+    {
+      "id": 11,
+      "question": "Hangi yemek et ile yapılmaz?",
+      "option1": "Menemen",
+      "option2": "Kavurma",
+      "option3": "İskender",
+      "option4": "Kuzu tandır",
+      "answer": "Menemen"
+    },
+    {
+      "id": 12,
+      "question": "Geleneksel Türk mutfağında hangi içecek darıdan yapılır?",
+      "option1": "Ayran",
+      "option2": "Boza",
+      "option3": "Şalgam",
+      "option4": "Çay",
+      "answer": "Boza"
+    },
+    {
+      "id": 13,
+      "question": "Hangi geleneksel Türk tatlısı süt ile yapılmaz?",
+      "option1": "Kazandibi",
+      "option2": "Revani",
+      "option3": "Sütlaç",
+      "option4": "Keşkül",
+      "answer": "Revani"
     }
   ]
 }
