@@ -6,6 +6,7 @@ import { useState } from "react";
 import ContactSupportRounded from "@mui/icons-material/ContactSupportRounded";
 import CreditsModal from "@/app/components/CreditsModal";
 import { ContestProvider } from "@/app/context/ContestContext";
+import { ScoreProvider } from "@/app/context/ScoreContext";
 
 export default function MyApp({ Component, pageProps }: any) {
   const [open, setOpen] = useState(false);
@@ -36,7 +37,9 @@ export default function MyApp({ Component, pageProps }: any) {
       border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-6 w-10/12 md:w-3/4 mb-6 container-dash"
         >
           <ContestProvider>
-            <Component {...pageProps} />
+            <ScoreProvider>
+              <Component {...pageProps} />
+            </ScoreProvider>
           </ContestProvider>
         </div>
       </main>

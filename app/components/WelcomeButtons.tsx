@@ -10,6 +10,7 @@ export default function WelcomeButtons({
   openContest,
 }: WelcomeButtonsProps) {
   const { setPickedCategoryFileName } = useContext(ContestContext);
+  const { setPickedCategoryTitle } = useContext(ContestContext);
 
   const [clickedCategoryButton, setClickedCategoryButton] = useState<
     string | null
@@ -23,6 +24,7 @@ export default function WelcomeButtons({
     setClickedCategoryButton(title);
     setIsCategoryPicked(true);
     setPickedCategoryFileName(fileName);
+    setPickedCategoryTitle(title);
   };
 
   useEffect(() => {

@@ -15,6 +15,7 @@ export interface QuestionProps {
   option3: string;
   option4: string;
   answer: string;
+  options: string[];
 }
 
 export interface HowToPlayProps {
@@ -30,6 +31,8 @@ export interface ContestProviderProps {
   setPickedCategoryFileName: React.Dispatch<
     React.SetStateAction<string | null>
   >;
+  pickedCategoryTitle: string | null;
+  setPickedCategoryTitle: React.Dispatch<React.SetStateAction<string | null>>;
   isChillMode: boolean | null;
   setIsChillMode: React.Dispatch<React.SetStateAction<boolean | null>>;
   questionAmount: number | null;
@@ -38,6 +41,10 @@ export interface ContestProviderProps {
   setQuestionTime: React.Dispatch<React.SetStateAction<number | null>>;
 }
 
+export interface ScoreProviderProps {
+  score: number | null;
+  setScore: React.Dispatch<React.SetStateAction<number | null>>;
+}
 export interface ModalInterface {
   open: boolean;
   setOpen: (bool: boolean) => void;

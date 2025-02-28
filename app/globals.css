@@ -66,16 +66,59 @@ body {
   background-color: white;
 }
 
-.spinning {
-  animation: rotating 1.5s linear infinite;
+.category-tag {
+  position: relative;
+  bottom: 50px;
+  border: 3px solid rgb(82 82 82 / var(--tw-border-opacity));
+  border-radius: 0.375rem;
 }
 
-@keyframes rotating {
-  from {
-    -webkit-transform: rotate(0deg);
+.progress-bar {
+  border-radius: 4px;
+}
+
+.progress-moved .progress-bar {
+  animation-name: progressAnimation;
+  animation-timing-function: linear;
+}
+
+.input-area:focus-within+.input-button,
+.input-area:focus-within .input-button {
+  border-left-color: black;
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+}
+
+.fade-in-long {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
 
-  to {
-    -webkit-transform: rotate(360deg);
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 100%;
+    background-color: #77b300;
+  }
+
+  50% {
+    width: 50%;
+    background-color: #e69900;
+  }
+
+
+  100% {
+    width: 0%;
+    background-color: #ff4000;
   }
 }
