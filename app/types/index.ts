@@ -24,6 +24,7 @@ export interface HowToPlayProps {
 
 export interface ContestProps {
   closeContest: () => void;
+  openContestResult: () => void;
 }
 
 export interface ContestProviderProps {
@@ -44,6 +45,10 @@ export interface ContestProviderProps {
 export interface ScoreProviderProps {
   score: number | null;
   setScore: React.Dispatch<React.SetStateAction<number | null>>;
+}
+
+export interface ContestResultProps {
+  closeContestResult: () => void;
 }
 export interface ModalInterface {
   open: boolean;

@@ -4,6 +4,7 @@ import ToggleOffOutlinedIcon from "@mui/icons-material/ToggleOffOutlined";
 import ToggleOnOutlinedIcon from "@mui/icons-material/ToggleOnOutlined";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { ContestContext } from "../context/ContestContext";
+import { ScoreContext } from "../context/ScoreContext";
 
 export default function WelcomeButtons({
   openHowToPlay,
@@ -11,6 +12,8 @@ export default function WelcomeButtons({
 }: WelcomeButtonsProps) {
   const { setPickedCategoryFileName } = useContext(ContestContext);
   const { setPickedCategoryTitle } = useContext(ContestContext);
+  const { setIsChillMode, isChillMode } = useContext(ContestContext);
+  const { score, setScore } = useContext(ScoreContext);
 
   const [clickedCategoryButton, setClickedCategoryButton] = useState<
     string | null
@@ -29,11 +32,11 @@ export default function WelcomeButtons({
 
   useEffect(() => {
     setIsChillMode(false);
+    setScore(0);
   }, []);
 
-  const [isChillMode, setIsChillMode] = useState<boolean | null>(false);
-
   console.log("isChillMode :>> ", isChillMode);
+  console.log("welcome-score", score);
 
   const handleChillModeClick = () => {
     setIsChillMode(!isChillMode);

@@ -36,11 +36,11 @@ export default function MyApp({ Component, pageProps }: any) {
           className="ml-auto mr-auto border-dashed
       border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-6 w-10/12 md:w-3/4 mb-6 container-dash"
         >
-          <ContestProvider>
-            <ScoreProvider>
+          <ScoreProvider>
+            <ContestProvider>
               <Component {...pageProps} />
-            </ScoreProvider>
-          </ContestProvider>
+            </ContestProvider>
+          </ScoreProvider>
         </div>
       </main>
     </>

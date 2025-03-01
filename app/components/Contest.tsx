@@ -4,12 +4,15 @@ import { ContestContext } from "../context/ContestContext";
 import { ScoreContext } from "../context/ScoreContext";
 import Spinner from "./Spinner";
 import CountdownBar from "./CountdownBar";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 
-export default function Contest({ closeContest }: ContestProps) {
+export default function Contest({
+  closeContest,
+  openContestResult,
+}: ContestProps) {
   const { pickedCategoryFileName, pickedCategoryTitle, isChillMode } =
     useContext(ContestContext);
   const { score, setScore } = useContext(ScoreContext);
-
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
@@ -34,11 +37,11 @@ export default function Contest({ closeContest }: ContestProps) {
 
         setTimeout(() => {
           setQuestionData(selectedQuestion);
-          setSelectedOption(null); // Reset selected option
+          setSelectedOption(null);
           setIsCorrect(null);
           setIsTimeOut(false);
           setLoading(false);
-        }, 1500);
+        }, 500);
       } else {
         console.warn("No questions found in JSON file");
         setLoading(false);
@@ -49,8 +52,11 @@ export default function Contest({ closeContest }: ContestProps) {
     }
   };
 
+  console.log("questionCount :>> ", questionCount);
+
   useEffect(() => {
     fetchRandomQuestion();
+    setQuestionCount(0);
   }, [pickedCategoryFileName]);
 
   useEffect(() => {
@@ -89,20 +95,34 @@ export default function Contest({ closeContest }: ContestProps) {
   const handleOptionClick = (optValue: string) => {
     if (selectedOption === null && !isTimeOut) {
       setSelectedOption(optValue);
-      setIsCorrect(optValue === String(questionData?.answer));
-      if (optValue === String(questionData?.answer)) {
-        setScore((prev: number) => prev + 1);
-      }
+      setIsCorrect((prevIsCorrect) => {
+        const newIsCorrect = optValue === String(questionData?.answer);
+        if (newIsCorrect) {
+          setScore(score + 1);
+        }
+        return newIsCorrect;
+      });
       clearTimeout(timeout);
     }
   };
 
+  console.log("score :>> ", score);
+
   const handleNewQuestion = async () => {
-    if (questionCount < 9) {
-      setQuestionCount((prev) => prev + 1);
+    if (questionCount < 10) {
       fetchRandomQuestion();
+      setQuestionCount(questionCount + 1);
+    } else {
+      ("");
     }
   };
+
+  const handleShowResultsClick = (): void => {
+    closeContest();
+    openContestResult();
+  };
+
+  console.log("isChillMode", isChillMode);
 
   return (
     <div className="flex flex-col gap-2 items-center">
@@ -123,7 +143,7 @@ export default function Contest({ closeContest }: ContestProps) {
           </div>
         )}
 
-        {loading ? (
+        {loading && questionCount !== 10 ? (
           <Spinner />
         ) : (
           questionCount !== 10 &&
@@ -180,6 +200,18 @@ export default function Contest({ closeContest }: ContestProps) {
           )
         )}
       </div>
+      {questionCount === 10 && (
+        <div className="items-center flex flex-col justify-normals">
+          <CelebrationIcon className="text-5xl celebrate-icon fade-in" />
+          <p className="fade-in text-center">Yarışmayı tamamladın!</p>
+          <div
+            className="button-prm bg-purple-default hover:bg-purple-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-6"
+            onClick={handleShowResultsClick}
+          >
+            Sonucu Gör
+          </div>
+        </div>
+      )}
       <div
         className="button-prm bg-gray-default hover:bg-gray-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-3"
         onClick={closeContest}

@@ -95,6 +95,26 @@ body {
   animation: fadeIn 4s;
 }
 
+.animal {
+  -webkit-mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, .2) 50%, #000 75%);
+  mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, .2) 50%, #000 75%);
+  -webkit-mask-size: 800%;
+  mask-size: 800%;
+  -webkit-mask-position: 0;
+  mask-position: 0;
+  animation: maskAnimation 2s ease-out 1 1.5s;
+}
+
+@keyframes maskAnimation {
+  0% {
+    mask-position: 0;
+  }
+
+  100% {
+    mask-position: 120%;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
