@@ -41,7 +41,7 @@ export default function Contest({
           setIsCorrect(null);
           setIsTimeOut(false);
           setLoading(false);
-        }, 500);
+        }, 1000);
       } else {
         console.warn("No questions found in JSON file");
         setLoading(false);
@@ -202,7 +202,7 @@ export default function Contest({
       </div>
       {questionCount === 10 && (
         <div className="items-center flex flex-col justify-normals">
-          <CelebrationIcon className="text-5xl celebrate-icon fade-in" />
+          <CelebrationIcon className="text-5xl celebrate-icon fade-in text-mustard-default mb-2" />
           <p className="fade-in text-center">Yarışmayı tamamladın!</p>
           <div
             className="button-prm bg-purple-default hover:bg-purple-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-6"

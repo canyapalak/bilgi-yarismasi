@@ -4,7 +4,7 @@ import { grey } from "@mui/material/colors";
 
 export default function Spinner() {
   return (
-    <div className="mb-10">
+    <div className="mb-10 mt-10">
       <Box sx={{ display: "flex" }}>
         <CircularProgress
           sx={{

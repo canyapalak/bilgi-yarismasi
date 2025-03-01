@@ -102,15 +102,15 @@ body {
   mask-size: 800%;
   -webkit-mask-position: 0;
   mask-position: 0;
-  animation: maskAnimation 2s ease-out 1 1.5s;
+  animation: maskAnimation 10s ease-out infinite 1.5s;
 }
 
 @keyframes maskAnimation {
-  0% {
+  0%, 40% {
     mask-position: 0;
   }
 
-  100% {
+  60%, 100% {
     mask-position: 120%;
   }
 }

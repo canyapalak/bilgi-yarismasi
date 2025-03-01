@@ -47,10 +47,10 @@ export default function WelcomeButtons({
   };
 
   const CategoryArray: Category[] = [
-    { title: "Türk Dili", fileName: "Category2" },
+    { title: "Dil ve Edebiyat", fileName: "Category2" },
     { title: "Coğrafya", fileName: "Category1" },
     { title: "Tarih", fileName: "Category4" },
-    { title: "Kültür", fileName: "Category3" },
+    { title: "Kültür ve Sanat", fileName: "Category3" },
     { title: "Türk Mutfağı", fileName: "Category5" },
     { title: "Güncel Bilgiler", fileName: "Category7" },
     { title: "Ünlü Kişiler", fileName: "Category6" },
