@@ -60,7 +60,7 @@ export default function ContestResult({
       return (
         <p className="text-justify px-3">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
-          tanesine doğru cevap verdin{" "}
+          tanesine doğru cevap verdin ve{" "}
           <span className="text-brick-default">Gökbörü</span> oldun. Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

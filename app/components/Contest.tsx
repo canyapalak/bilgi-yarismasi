@@ -1,5 +1,5 @@
 import { ContestProps, QuestionProps } from "../types";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { ContestContext } from "../context/ContestContext";
 import { ScoreContext } from "../context/ScoreContext";
 import Spinner from "./Spinner";
@@ -20,6 +20,7 @@ export default function Contest({
   const [questionData, setQuestionData] = useState<QuestionProps | null>(null);
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
   const [isTimeOut, setIsTimeOut] = useState<boolean>(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   let timeout: NodeJS.Timeout;
 
   const fetchRandomQuestion = async () => {
@@ -76,13 +77,15 @@ export default function Contest({
 
   useEffect(() => {
     if (!isChillMode && questionData) {
-      timeout = setTimeout(() => {
+      timeoutRef.current = setTimeout(() => {
         setIsTimeOut(true);
         setIsCorrect(false);
       }, 10000);
     }
 
-    return () => clearTimeout(timeout);
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
   }, [questionData]);
 
   const shuffleOptionsArray = (array: string[]) => {
@@ -94,15 +97,14 @@ export default function Contest({
 
   const handleOptionClick = (optValue: string) => {
     if (selectedOption === null && !isTimeOut) {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current); // Stop countdown
+
       setSelectedOption(optValue);
-      setIsCorrect((prevIsCorrect) => {
-        const newIsCorrect = optValue === String(questionData?.answer);
-        if (newIsCorrect) {
-          setScore(score + 1);
-        }
-        return newIsCorrect;
-      });
-      clearTimeout(timeout);
+      setIsCorrect(optValue === String(questionData?.answer));
+
+      if (optValue === String(questionData?.answer)) {
+        setScore(score + 1);
+      }
     }
   };
 
@@ -166,7 +168,7 @@ export default function Contest({
                 </div>
               ) : null}
 
-              <div className="flex flex-col items-center gap-4 mt-6 mb-6">
+              <div className="flex flex-wrap items-center gap-6 mt-8 mb-6 justify-center">
                 {shuffledOptions.map((optValue, index) => (
                   <div
                     key={index}

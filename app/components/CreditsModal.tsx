@@ -31,10 +31,12 @@ export default function CreditsModal({ open, setOpen }: ModalInterface) {
                 alt="Türkiye-Bayrak"
                 className="w-8 h-8 mr-auto ml-auto"
               />
-              <p className="header text-xl mt-2 font-bold">
+              <p className="header text-xl mt-2 font-bold text-center">
                 T.C. Berlin Başkonsolosluğu
               </p>
-              <p className="header text-xl font-bold">Eğitim Ataşeliği</p>
+              <p className="header text-xl font-bold text-center">
+                Eğitim Ataşeliği
+              </p>
               <p className="text-red-600 text-md text-center mt-2 mb-10">
                 "Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
               </p>
@@ -54,7 +56,9 @@ export default function CreditsModal({ open, setOpen }: ModalInterface) {
                   className="flex items-center gap-1"
                 >
                   <HomeRounded className="text-xl cursor-pointer" />
-                  <p className="text-sm">Eğitim Ataşeliği Ana Sayfası</p>
+                  <p className="text-sm text-center">
+                    Eğitim Ataşeliği Ana Sayfası
+                  </p>
                 </a>
               </div>
             </div>
