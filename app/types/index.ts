@@ -54,9 +54,3 @@ export interface ModalInterface {
   open: boolean;
   setOpen: (bool: boolean) => void;
 }
-
-export interface AnimalsProps {
-  animalName: string;
-  animalSpecies: string;
-  animalDesc: string;
-}

@@ -1,148 +1,101 @@
 import { useContext, useState } from "react";
-import { AnimalsProps, ContestResultProps } from "../types";
+import { ContestResultProps } from "../types";
 import { ScoreContext } from "../context/ScoreContext";
 import Image from "next/image";
-import deer from "@/public/assets/deer-an.png";
-import horse from "@/public/assets/horse-an.png";
-import wolf from "@/public/assets/wolf-an.png";
-import phoenix from "@/public/assets/phoenix-an.png";
-import dragon from "@/public/assets/dragon-an.png";
+import superman from "@/public/assets/her01-removebg.png";
+import hulk from "@/public/assets/her02-removebg.png";
+import wolverine from "@/public/assets/her03-removebg.png";
+import wonderwoman from "@/public/assets/her04-removebg.png";
+import spiderman from "@/public/assets/her05-removebg.png";
+import batman from "@/public/assets/her06-removebg.png";
 
 export default function ContestResult({
   closeContestResult,
 }: ContestResultProps) {
   const { score } = useContext(ScoreContext);
-  const [isBackCard, setIsBackCard] = useState<boolean>(false);
-
-  const infoCards = [
-    {
-      animalName: "Alasığın",
-      animalSpecies: "Geyik",
-      animalDesc:
-        "Doğa ve yaşam, zarafet, denge, kutsallık, şifa verme yeteneği, huzur ve barış",
-    },
-    {
-      animalName: "Tulpar",
-      animalSpecies: "At",
-      animalDesc:
-        "Sürat ve çeviklik, özgürlük, kahramanlık, savaşçılık, sadakat, engelleri aşma",
-    },
-    {
-      animalName: "Gökbörü",
-      animalSpecies: "Kurt",
-      animalDesc:
-        "Cesaret ve liderlik, bağımsızlık, kurtuluş, kutsal rehberlik, dayanıklılık",
-    },
-    {
-      animalName: "Simurg",
-      animalSpecies: "Anka Kuşu",
-      animalDesc:
-        "Sonsuz yaşam ve yeniden doğuş, bilgelik, dönüşüm ve arınma, evrenin dengesi",
-    },
-    {
-      animalName: "Evreğen",
-      animalSpecies: "Ejderha",
-      animalDesc:
-        "Evrensel denge, yaratım, büyük güç ve kudret, koruyuculuk, doğaüstü enerji",
-    },
-  ];
 
   const getAnimalImage = (score: number) => {
-    if (score >= 0 && score <= 2) {
-      return deer;
-    } else if (score > 2 && score <= 4) {
-      return horse;
-    } else if (score > 4 && score <= 6) {
-      return wolf;
-    } else if (score > 6 && score <= 8) {
-      return phoenix;
+    if (score >= 0 && score <= 1) {
+      return hulk;
+    } else if (score >= 2 && score <= 3) {
+      return wolverine;
+    } else if (score >= 4 && score <= 5) {
+      return spiderman;
+    } else if (score >= 6 && score <= 7) {
+      return wonderwoman;
+    } else if (score >= 8 && score <= 9) {
+      return batman;
     } else {
-      return dragon;
+      return superman;
     }
   };
 
   const animalImage = getAnimalImage(score);
 
-  const getCard = (score: number) => {
-    if (score >= 0 && score <= 2) return infoCards[0];
-    if (score > 2 && score <= 4) return infoCards[1];
-    if (score > 4 && score <= 6) return infoCards[2];
-    if (score > 6 && score <= 8) return infoCards[3];
-    return infoCards[4];
-  };
-
-  const handleClickCard = () => {
-    setIsBackCard((prev) => !prev);
-  };
-
-  const { animalName, animalSpecies, animalDesc }: AnimalsProps =
-    getCard(score);
-
   const getResultText = (score: number) => {
-    if (score >= 0 && score <= 2) {
-      return (
-        <p className="text-justify px-3">
-          10 sorudan <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru bildin ve{" "}
-          <span className="text-brick-default">Alasığın</span> ile eşleştin.
-          Alasığın, kutsal ve doğayla özdeşleşmiş bir geyik figürüdür.
-          Genellikle ormanların koruyucusu, doğanın ve yaşamın simgesi olarak
-          görülür. Bu geyik, bir yandan zarafet ve dengeyi simgelerken, diğer
-          yandan mistik bir güçle ilişkilendirilir. Alasığının, şifa verme ve
-          insanları koruma gibi özel güçlere sahip olduğuna inanılır.
-        </p>
-      );
-    } else if (score > 2 && score <= 4) {
-      return (
-        <p className="text-justify px-3">
-          10 sorudan <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru yanıtlayarak{" "}
-          <span className="text-brick-default">Tulpar</span> unvanını kazandın.
-          Tulpar, Türk mitolojisinde kanatlı bir at olarak bilinir. Özellikle
-          savaşlarda ve kahramanlık hikayelerinde rol alır. Hız ve özgürlüğün
-          simgesidir. Tulpar, kahramanın yolculuklarında ona yardımcı olan güçlü
-          ve hızlı bir varlık olarak görülür. Aynı zamanda gökyüzüyle
-          bağlantılıdır ve uçma yeteneğiyle de anlamlı bir şekilde özgürlüğü
-          simgeler.
-        </p>
-      );
-    } else if (score > 4 && score <= 6) {
+    if (score >= 0 && score <= 1) {
       return (
         <p className="text-justify px-3">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
-          tanesine doğru cevap verdin ve{" "}
-          <span className="text-brick-default">Gökbörü</span> oldun. Gökbörü,
-          Türk mitolojisinde göksel bir varlık olarak kabul edilir. Bu kurt,
-          Türk halkının en değerli sembollerinden biridir ve halk arasında
-          cesaret, liderlik ve özgürlüğü temsil eder. Gökbörü, gökyüzüne dair
-          güçlü bağlantıları olan bir kurt figürü olarak, Türklerin tarihsel
-          yolculuklarında önemli bir yer tutar.
+          tanesini doğru bildin ve{" "}
+          <span className="text-brick-default">Hulk</span> oldun! İnanılmaz bir
+          güce ve büyük bir kalbe sahipsin. Bazen her şeyi bir anda çözmek zor
+          olabilir ama önemli olan her zaman gelişmek ve öğrenmeye devam etmek.
+          Senin içinde harika bir kahraman var!
         </p>
       );
-    } else if (score > 6 && score <= 8) {
+    } else if (score >= 2 && score <= 3) {
+      return (
+        <p className="text-justify px-3">
+          10 sorunun <span className="text-brick-default">{score}</span>{" "}
+          tanesini doğru yanıtladın ve{" "}
+          <span className="text-brick-default">Wolverine</span> oldun! Güçlü,
+          dayanıklı ve çok kararlısın. Zorluklar seni asla durduramaz, her zaman
+          en iyisini yapmak için çalışıyorsun. Ayrıca arkadaşlarına karşı çok
+          sadık bir kahramansın!
+        </p>
+      );
+    } else if (score >= 4 && score <= 5) {
       return (
         <p className="text-justify px-3">
           10 sorudan <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru bilerek{" "}
-          <span className="text-brick-default">Simurg</span> ile eşleştin.
-          Simurg, Türk ve Orta Asya mitolojisinde bazen "Zümrüdüanka" olarak
-          anılır ve halk arasında "Sonsuz yaşam ve yeniden doğuş" ile
-          ilişkilendirilir. Aynı zamanda bilgelik ve gücü simgeler. Bu kuş,
-          tüyleriyle ölümsüzlük, yaşamın yenilenmesi ve evrenin korunması gibi
-          derin anlamları taşır.
+          <span className="text-brick-default">Spider-Man</span> oldun! Hızlı,
+          çevik ve çok zekisin! Her zaman enerjik ve pozitif biri olarak
+          sorunların üstesinden geliyorsun. Eğlenceli kişiliğin ve cesaretin
+          sayesinde herkesin sevgisini kazanıyorsun!
+        </p>
+      );
+    } else if (score >= 6 && score <= 7) {
+      return (
+        <p className="text-justify px-3">
+          10 sorunun <span className="text-brick-default">{score}</span>{" "}
+          tanesine doğru cevap verdin ve{" "}
+          <span className="text-brick-default">Wonder Woman</span> oldun! Güçlü,
+          kararlı ve cesursun. Adaletin savunucusu olarak başkalarına ilham
+          veriyorsun. Sadece fiziksel gücünle değil, bilgeliğin ve iyiliğinle de
+          herkese örnek oluyorsun!
+        </p>
+      );
+    } else if (score >= 8 && score <= 9) {
+      return (
+        <p className="text-justify px-3">
+          10 sorudan <span className="text-brick-default">{score}</span>{" "}
+          tanesini doğru yanıtladın ve{" "}
+          <span className="text-brick-default">Batman</span> oldun! Zekân,
+          cesaretin ve harika planların sayesinde her sorunu çözebiliyorsun.
+          Teknoloji ve aklını kullanarak her zaman bir adım önde oluyorsun.
+          Geceyi aydınlatan bir kahraman olarak herkesin güvenini kazanıyorsun!
         </p>
       );
     } else {
       return (
         <p className="text-justify px-3">
-          10 sorunun <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru yanıtladın ve en yüksek unvan olan{" "}
-          <span className="text-brick-default">Evreğen</span>'i kazandın.
-          Evreğen, Türk mitolojisinde çoğunlukla gökyüzü ve yer arasındaki
-          dengeyi sağlayan, güçlü ve kudretli bir yaratık olarak kabul edilir.
-          Genellikle yıkıcı gücüyle tanınsa da, doğru ellerde bu güç koruma ve
-          iyileştirme amacını taşır. Bu ejderha, bazen yaratıcı, bazen de yıkıcı
-          bir figür olarak yer alır.
+          10 sorunun <span className="text-brick-default">10</span>'unu da doğru
+          bildin ve <span className="text-brick-default">Superman</span> oldun!
+          Süper güçlerin, hızın ve uçma yeteneğinle herkesin hayran olduğu bir
+          kahramansın. Yardımsever, cesur ve her zaman iyilik için çalışan biri
+          olarak dünyayı daha güzel bir yer haline getiriyorsun!
         </p>
       );
     }
@@ -152,48 +105,8 @@ export default function ContestResult({
 
   return (
     <div className="gap-8 items-center flex flex-col fade-in-long">
-      <div
-        className={`items-center animal-div flip-card ${
-          isBackCard ? "flipped" : ""
-        }`}
-      >
-        <div className="flip-card-inner w-64 h-64">
-          <div
-            className={`flip-card-back border-2 rounded-lg border-gray-800 p-3 text-[20px] ${
-              isBackCard ? "" : ""
-            }`}
-            onClick={handleClickCard} // Click on the back
-          >
-            <span className="flex flex-row gap-2">
-              <p className="text-mustard-default">Adı:</p> {animalName}
-            </span>
-            <div className="flex flex-row gap-2">
-              <p className="text-mustard-default">Türü:</p> {animalSpecies}
-            </div>
-
-            <span className="flex flex-wrap items-start">
-              <p className="text-mustard-default whitespace-nowrap">
-                Simgelediği:
-              </p>
-              <p className="whitespace-normal">{animalDesc}</p>
-            </span>
-          </div>
-
-          <div
-            className={`flip-card-front border-2 rounded-lg border-gray-800 ${
-              isBackCard ? "" : ""
-            }`}
-            onClick={handleClickCard}
-          >
-            <Image
-              src={animalImage}
-              alt="animal"
-              className="items-center animal"
-            />
-          </div>
-        </div>
-      </div>
-      <div>
+      <div className="items-center flex flex-col">
+        <Image src={animalImage} alt="Superhero" className="w-64 h-64 hero" />
         <p className="text-center">{resultText}</p>
       </div>
       <div
