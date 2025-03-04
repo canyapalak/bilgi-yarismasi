@@ -2,35 +2,63 @@ import { useContext, useState } from "react";
 import { ContestResultProps } from "../types";
 import { ScoreContext } from "../context/ScoreContext";
 import Image from "next/image";
-import superman from "@/public/assets/her01-removebg.png";
-import hulk from "@/public/assets/her02-removebg.png";
-import wolverine from "@/public/assets/her03-removebg.png";
-import wonderwoman from "@/public/assets/her04-removebg.png";
-import spiderman from "@/public/assets/her05-removebg.png";
-import batman from "@/public/assets/her06-removebg.png";
+import supermanImg from "@/public/assets/h-img01.png";
+import batmanImg from "@/public/assets/h-img02.png";
+import wonderwomanImg from "@/public/assets/h-img03.png";
+import spidermanImg from "@/public/assets/h-img04.png";
+import wolverineImg from "@/public/assets/h-img05.png";
+import hulkImg from "@/public/assets/h-img06.png";
+import supermanLogo from "@/public/assets/h-logo01.png";
+import batmanLogo from "@/public/assets/h-logo02.png";
+import wonderwomanLogo from "@/public/assets/h-logo03.png";
+import spidermanLogo from "@/public/assets/h-logo04.png";
+import wolverineLogo from "@/public/assets/h-logo05.png";
+import hulkLogo from "@/public/assets/h-logo06.png";
 
 export default function ContestResult({
   closeContestResult,
 }: ContestResultProps) {
   const { score } = useContext(ScoreContext);
+  const [isBackCard, setIsBackCard] = useState<boolean>(false);
 
-  const getAnimalImage = (score: number) => {
+  const getHeroImage = (score: number) => {
     if (score >= 0 && score <= 1) {
-      return hulk;
+      return hulkImg;
     } else if (score >= 2 && score <= 3) {
-      return wolverine;
+      return wolverineImg;
     } else if (score >= 4 && score <= 5) {
-      return spiderman;
+      return spidermanImg;
     } else if (score >= 6 && score <= 7) {
-      return wonderwoman;
+      return wonderwomanImg;
     } else if (score >= 8 && score <= 9) {
-      return batman;
+      return batmanImg;
     } else {
-      return superman;
+      return supermanImg;
     }
   };
 
-  const animalImage = getAnimalImage(score);
+  const getHeroLogo = (score: number) => {
+    if (score >= 0 && score <= 1) {
+      return hulkLogo;
+    } else if (score >= 2 && score <= 3) {
+      return wolverineLogo;
+    } else if (score >= 4 && score <= 5) {
+      return spidermanLogo;
+    } else if (score >= 6 && score <= 7) {
+      return wonderwomanLogo;
+    } else if (score >= 8 && score <= 9) {
+      return batmanLogo;
+    } else {
+      return supermanLogo;
+    }
+  };
+
+  const heroImage = getHeroImage(score);
+  const heroLogo = getHeroLogo(score);
+
+  const handleClickCard = () => {
+    setIsBackCard((prev) => !prev);
+  };
 
   const getResultText = (score: number) => {
     if (score >= 0 && score <= 1) {
@@ -38,10 +66,10 @@ export default function ContestResult({
         <p className="text-justify px-3">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru bildin ve{" "}
-          <span className="text-brick-default">Hulk</span> oldun! İnanılmaz bir
-          güce ve büyük bir kalbe sahipsin. Bazen her şeyi bir anda çözmek zor
-          olabilir ama önemli olan her zaman gelişmek ve öğrenmeye devam etmek.
-          Senin içinde harika bir kahraman var!
+          <span className="text-brick-default">Hulk</span> oldun! Üzülme çünkü
+          sen inanılmaz bir güce ve büyük bir kalbe sahipsin. Bazen her şeyi bir
+          anda çözmek zor olabilir ama önemli olan her zaman gelişmek ve
+          öğrenmeye devam etmek. Senin içinde harika bir kahraman var!
         </p>
       );
     } else if (score >= 2 && score <= 3) {
@@ -51,7 +79,7 @@ export default function ContestResult({
           tanesini doğru yanıtladın ve{" "}
           <span className="text-brick-default">Wolverine</span> oldun! Güçlü,
           dayanıklı ve çok kararlısın. Zorluklar seni asla durduramaz, her zaman
-          en iyisini yapmak için çalışıyorsun. Ayrıca arkadaşlarına karşı çok
+          en iyisini yapmak için çalışırsın. Ayrıca arkadaşlarına karşı çok
           sadık bir kahramansın!
         </p>
       );
@@ -105,8 +133,40 @@ export default function ContestResult({
 
   return (
     <div className="gap-8 items-center flex flex-col fade-in-long">
-      <div className="items-center flex flex-col">
-        <Image src={animalImage} alt="Superhero" className="w-64 h-64 hero" />
+      <div
+        className={`items-center flip-card flex flex-col ${
+          isBackCard ? "flipped" : ""
+        }`}
+      >
+        <div className="flip-card-inner w-64 h-64 mb-6">
+          <div
+            className={`flip-card-back hero border-2 rounded-lg border-gray-800 p-3 text-[20px] flex items-center justify-center ${
+              isBackCard ? "" : ""
+            }`}
+            onClick={handleClickCard}
+          >
+            <span className="flex items-center align-middle">
+              <Image
+                src={heroLogo}
+                alt="Superhero-Logo"
+                className="w-36 h-36"
+              />
+            </span>
+          </div>
+
+          <div
+            className={`flip-card-front hero border-2 rounded-lg border-gray-800 w-48 h-48 flex ${
+              isBackCard ? "" : ""
+            }`}
+            onClick={handleClickCard}
+          >
+            <Image
+              src={heroImage}
+              alt="Superhero-Img"
+              className="items-center h-auto w-auto"
+            />
+          </div>
+        </div>
         <p className="text-center">{resultText}</p>
       </div>
       <div
