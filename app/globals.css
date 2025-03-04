@@ -17,6 +17,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Flashrogers';
+  src: url('../public/fonts/Flashrogers.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -124,15 +132,22 @@ body {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
+  font-family: "Flashrogers";
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 23%, rgba(212, 216, 213, 1) 73%);
 }
 
 .flip-card-back {
   background-size: 100%;
   transform: rotateY(180deg);
+  background: rgb(224, 224, 224);
+  background: linear-gradient(323deg, rgba(224, 224, 224, 1) 23%, rgba(255, 255, 255, 1) 53%, rgba(224, 224, 224, 1) 82%);
+}
+
+.flip-card-front {
+  background: rgb(255, 239, 214);
+  background: linear-gradient(323deg, rgba(255, 239, 214, 1) 23%, rgba(255, 255, 255, 1) 53%, rgba(224, 224, 224, 1) 82%);
 }
 
 @keyframes maskAnimation {

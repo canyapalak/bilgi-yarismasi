@@ -53,8 +53,25 @@ export default function ContestResult({
     }
   };
 
+  const getHeroName = (score: number) => {
+    if (score >= 0 && score <= 1) {
+      return "HULK";
+    } else if (score >= 2 && score <= 3) {
+      return "WOLVERINE";
+    } else if (score >= 4 && score <= 5) {
+      return "SPIDER-MAN";
+    } else if (score >= 6 && score <= 7) {
+      return "WONDER WOMAN";
+    } else if (score >= 8 && score <= 9) {
+      return "BATMAN";
+    } else {
+      return "SUPERMAN";
+    }
+  };
+
   const heroImage = getHeroImage(score);
   const heroLogo = getHeroLogo(score);
+  const heroName = getHeroName(score);
 
   const handleClickCard = () => {
     setIsBackCard((prev) => !prev);
@@ -138,24 +155,27 @@ export default function ContestResult({
           isBackCard ? "flipped" : ""
         }`}
       >
-        <div className="flip-card-inner w-64 h-64 mb-6">
+        <div className="flip-card-inner w-[18rem] h-[18rem] mb-6">
           <div
-            className={`flip-card-back hero border-2 rounded-lg border-gray-800 p-3 text-[20px] flex items-center justify-center ${
+            className={`flip-card-back hero border-2 rounded-lg border-yellow-900 p-3 text-[20px] flex items-center justify-center ${
               isBackCard ? "" : ""
             }`}
             onClick={handleClickCard}
           >
-            <span className="flex items-center align-middle">
+            <span className="flex flex-col items-center gap-2">
+              <p className="text-center text-black text-4xl font-bolder mt-4">
+                {heroName}
+              </p>
               <Image
                 src={heroLogo}
                 alt="Superhero-Logo"
-                className="w-36 h-36"
+                className="w-[13rem] h-[13rem]"
               />
             </span>
           </div>
 
           <div
-            className={`flip-card-front hero border-2 rounded-lg border-gray-800 w-48 h-48 flex ${
+            className={`flip-card-front hero border-2 rounded-lg border-yellow-900 flex justify-center items-center ${
               isBackCard ? "" : ""
             }`}
             onClick={handleClickCard}
@@ -163,7 +183,7 @@ export default function ContestResult({
             <Image
               src={heroImage}
               alt="Superhero-Img"
-              className="items-center h-auto w-auto"
+              className="items-center w-[16rem] h-[16rem]"
             />
           </div>
         </div>
