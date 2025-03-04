@@ -9,6 +9,7 @@ export interface Category {
 }
 
 export interface QuestionProps {
+  id: number;
   question: string;
   option1: string;
   option2: string;

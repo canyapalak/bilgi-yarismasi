@@ -21,6 +21,7 @@ export default function Contest({
   const [questionData, setQuestionData] = useState<QuestionProps | null>(null);
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
   const [isTimeOut, setIsTimeOut] = useState<boolean>(false);
+  const [usedQuestionIds, setUsedQuestionIds] = useState<number[]>([]);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   let timeout: NodeJS.Timeout;
 
@@ -28,24 +29,65 @@ export default function Contest({
     setLoading(true);
 
     try {
-      const response = await fetch(`/data/${pickedCategoryFileName}.json`);
-      if (!response.ok)
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      const data = await response.json();
+      let allQuestions: QuestionProps[] = [];
 
-      if (data.questions?.length > 0) {
-        const randomIndex = Math.floor(Math.random() * data.questions.length);
-        const selectedQuestion = data.questions[randomIndex];
+      if (pickedCategoryFileName === "Hepsi!") {
+        const categoryFiles = [
+          "Category1",
+          "Category2",
+          "Category3",
+          "Category4",
+          "Category5",
+          "Category6",
+          "Category7",
+        ]; // Add all category filenames here
+
+        const responses = await Promise.all(
+          categoryFiles.map((file) => fetch(`/data/${file}.json`))
+        );
+        const dataArr = await Promise.all(responses.map((res) => res.json()));
+
+        // Merge all questions, ensuring unique IDs using category name
+        allQuestions = dataArr.flatMap((data, index) =>
+          data.questions.map((q: QuestionProps) => ({
+            ...q,
+            id: `${categoryFiles[index]}-${q.id}`, // Unique ID
+          }))
+        );
+      } else {
+        // Load only the selected category
+        const response = await fetch(`/data/${pickedCategoryFileName}.json`);
+        if (!response.ok)
+          throw new Error(`HTTP error! Status: ${response.status}`);
+
+        const data = await response.json();
+        allQuestions = data.questions.map((q: QuestionProps) => ({
+          ...q,
+          id: `${pickedCategoryFileName}-${q.id}`, // Unique ID
+        }));
+      }
+
+      // Filter out used questions
+      const availableQuestions = allQuestions.filter(
+        (q) => !usedQuestionIds.includes(q.id)
+      );
+
+      if (availableQuestions.length > 0) {
+        const randomIndex = Math.floor(
+          Math.random() * availableQuestions.length
+        );
+        const selectedQuestion = availableQuestions[randomIndex];
 
         setTimeout(() => {
           setQuestionData(selectedQuestion);
+          setUsedQuestionIds((prev) => [...prev, selectedQuestion.id]); // Store unique ID
           setSelectedOption(null);
           setIsCorrect(null);
           setIsTimeOut(false);
           setLoading(false);
         }, 1000);
       } else {
-        console.warn("No questions found in JSON file");
+        console.warn("No available questions left (this shouldn't happen).");
         setLoading(false);
       }
     } catch (error) {
@@ -55,6 +97,7 @@ export default function Contest({
   };
 
   console.log("questionCount :>> ", questionCount);
+  console.log("usedQuestionIds :>> ", usedQuestionIds);
 
   useEffect(() => {
     fetchRandomQuestion();

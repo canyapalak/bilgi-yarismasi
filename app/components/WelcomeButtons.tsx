@@ -54,7 +54,7 @@ export default function WelcomeButtons({
     { title: "Türk Mutfağı", fileName: "Category5" },
     { title: "Güncel Bilgiler", fileName: "Category7" },
     { title: "Ünlü Kişiler", fileName: "Category6" },
-    { title: "Hepsi!", fileName: "Category7" },
+    { title: "Hepsi!", fileName: "Hepsi!" },
   ];
 
   return (

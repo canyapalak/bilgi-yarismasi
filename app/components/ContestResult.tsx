@@ -183,7 +183,7 @@ export default function ContestResult({
             <Image
               src={heroImage}
               alt="Superhero-Img"
-              className="items-center w-[16rem] h-[16rem]"
+              className="items-center w-[17rem] h-[17rem]"
             />
           </div>
         </div>
