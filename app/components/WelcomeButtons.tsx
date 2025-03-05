@@ -35,9 +35,6 @@ export default function WelcomeButtons({
     setScore(0);
   }, []);
 
-  console.log("isChillMode :>> ", isChillMode);
-  console.log("welcome-score", score);
-
   const handleChillModeClick = () => {
     setIsChillMode(!isChillMode);
   };

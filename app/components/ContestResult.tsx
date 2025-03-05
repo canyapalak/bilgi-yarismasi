@@ -161,7 +161,7 @@ export default function ContestResult({
             />
           </div>
         </div>
-        <p className="text-center">{resultText}</p>
+        <div className="text-center">{resultText}</div>
       </div>
       <div
         className="button-prm bg-gray-default text-neutral-50 text-2xl rounded-md p-3

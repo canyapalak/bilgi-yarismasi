@@ -12,8 +12,7 @@ export const ContestProvider = ({ children }: { children: ReactNode }) => {
   const [pickedCategoryTitle, setPickedCategoryTitle] = useState<string | null>(
     null
   );
-  console.log("pickedCategoryFileName", pickedCategoryFileName);
-  console.log("pickedCategoryTitle", pickedCategoryTitle);
+
   const [isChillMode, setIsChillMode] = useState<boolean | null>(false);
   const [questionAmount, setQuestionAmount] = useState<number | null>(10);
   const [questionTime, setQuestionTime] = useState<number | null>(10);

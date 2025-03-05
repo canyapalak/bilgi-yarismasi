@@ -87,17 +87,12 @@ export default function Contest({
           setLoading(false);
         }, 1000);
       } else {
-        console.warn("No available questions left (this shouldn't happen).");
         setLoading(false);
       }
     } catch (error) {
-      console.error("Error fetching questions:", error);
       setLoading(false);
     }
   };
-
-  console.log("questionCount :>> ", questionCount);
-  console.log("usedQuestionIds :>> ", usedQuestionIds);
 
   useEffect(() => {
     fetchRandomQuestion();
@@ -152,8 +147,6 @@ export default function Contest({
     }
   };
 
-  console.log("score :>> ", score);
-
   const handleNewQuestion = async () => {
     if (questionCount < 10) {
       fetchRandomQuestion();
@@ -167,8 +160,6 @@ export default function Contest({
     closeContest();
     openContestResult();
   };
-
-  console.log("isChillMode", isChillMode);
 
   return (
     <div className="flex flex-col gap-2 items-center">

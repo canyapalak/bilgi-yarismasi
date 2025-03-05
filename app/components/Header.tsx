@@ -4,7 +4,7 @@ import mebLogo from "@/public/assets/meb-logo.png";
 import turkiyeFlag from "@/public/assets/flag.png";
 
 export default function Header() {
-  console.log("Başarılar!");
+  console.log('"Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması');
 
   return (
     <div className="ml-auto mr-auto mt-4 mb-16 md:mb-20">
