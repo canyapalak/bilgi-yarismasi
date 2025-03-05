@@ -204,9 +204,14 @@ export default function Contest({
                       Doğru cevap! Tebrikler!
                     </div>
                   ) : (
-                    <div className="text-xl mt-4 text-red-default flex gap-2">
-                      Bilemedin! Doğru cevap:{" "}
-                      <p className="text-black">{questionData?.answer}</p>
+                    <div className="text-xl mt-4 text-red-default flex flex-col sm:flex-row">
+                      <span className="flex flex-row gap-2">
+                        <p> Bilemedin! </p>
+                        <p className="">Doğru cevap:</p>
+                      </span>
+                      <p className="text-black ml-0 sm:ml-2">
+                        {questionData?.answer}
+                      </p>
                     </div>
                   )}
                 </div>

@@ -129,7 +129,7 @@ export default function ContestResult({
           isBackCard ? "flipped" : ""
         }`}
       >
-        <div className="flip-card-inner w-[18rem] h-[18rem] mb-6">
+        <div className="flip-card-inner w-[14rem] h-[14rem] sm:w-[18rem] sm:h-[18rem] mb-6">
           <div
             className={`flip-card-back hero border-2 rounded-lg border-yellow-900 p-3 text-[20px] flex items-center justify-center ${
               isBackCard ? "" : ""
@@ -137,13 +137,13 @@ export default function ContestResult({
             onClick={handleClickCard}
           >
             <span className="flex flex-col items-center gap-2">
-              <p className="text-center text-black text-4xl font-bolder mt-4">
+              <p className="text-center text-black text-3xl sm:text-4xl font-bolder mt-4">
                 {heroName}
               </p>
               <Image
                 src={heroLogo}
                 alt="Superhero-Logo"
-                className="w-[13rem] h-[13rem]"
+                className="w-[10rem] h-[10rem] sm:w-[13rem] sm:h-[13rem]"
               />
             </span>
           </div>
@@ -157,7 +157,7 @@ export default function ContestResult({
             <Image
               src={heroImage}
               alt="Superhero-Img"
-              className="items-center w-[17rem] h-[17rem]"
+              className="items-center w-[13rem] h-[13rem] sm:w-[17rem] sm:h-[17rem]"
             />
           </div>
         </div>

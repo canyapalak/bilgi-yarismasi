@@ -30,11 +30,11 @@ export default function MyApp({ Component, pageProps }: any) {
         />
         {open ? <CreditsModal open={open} setOpen={setOpen} /> : null}
       </div>
-      <main className={"flex flex-col min-h-screen w-11/12 md:w-3/4 mx-auto"}>
+      <main className={"flex flex-col min-h-screen w-11/12 mx-auto"}>
         <Header />
         <div
           className="ml-auto mr-auto border-dashed
-      border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-6 w-10/12 md:w-3/4 mb-6 container-dash"
+      border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-2 sm:px-4 md:px-8 w-11/12 md:w-10/12 lg:w-8/12 xl:w-7/12 mb-8 container-dash"
         >
           <ScoreProvider>
             <ContestProvider>

@@ -62,7 +62,7 @@ export default function WelcomeButtons({
       <p className="text-center text-neutral-700 fade-in text-2xl">
         Bir kategori seç!
       </p>
-      <div className="flex flex-wrap gap-6 justify-center fade-in xl:w-9/12">
+      <div className="flex flex-wrap gap-6 justify-center fade-in">
         {CategoryArray.map((cat, index) => (
           <div
             key={index}
