@@ -21,57 +21,31 @@ export default function ContestResult({
   const { score } = useContext(ScoreContext);
   const [isBackCard, setIsBackCard] = useState<boolean>(false);
 
-  const getHeroImage = (score: number) => {
+  const getHeroDetails = (score: number) => {
     if (score >= 0 && score <= 1) {
-      return hulkImg;
+      return { image: hulkImg, logo: hulkLogo, name: "HULK" };
     } else if (score >= 2 && score <= 3) {
-      return wolverineImg;
+      return { image: wolverineImg, logo: wolverineLogo, name: "WOLVERINE" };
     } else if (score >= 4 && score <= 5) {
-      return spidermanImg;
+      return { image: spidermanImg, logo: spidermanLogo, name: "SPIDER-MAN" };
     } else if (score >= 6 && score <= 7) {
-      return wonderwomanImg;
+      return {
+        image: wonderwomanImg,
+        logo: wonderwomanLogo,
+        name: "WONDER WOMAN",
+      };
     } else if (score >= 8 && score <= 9) {
-      return batmanImg;
+      return { image: batmanImg, logo: batmanLogo, name: "BATMAN" };
     } else {
-      return supermanImg;
+      return { image: supermanImg, logo: supermanLogo, name: "SUPERMAN" };
     }
   };
 
-  const getHeroLogo = (score: number) => {
-    if (score >= 0 && score <= 1) {
-      return hulkLogo;
-    } else if (score >= 2 && score <= 3) {
-      return wolverineLogo;
-    } else if (score >= 4 && score <= 5) {
-      return spidermanLogo;
-    } else if (score >= 6 && score <= 7) {
-      return wonderwomanLogo;
-    } else if (score >= 8 && score <= 9) {
-      return batmanLogo;
-    } else {
-      return supermanLogo;
-    }
-  };
-
-  const getHeroName = (score: number) => {
-    if (score >= 0 && score <= 1) {
-      return "HULK";
-    } else if (score >= 2 && score <= 3) {
-      return "WOLVERINE";
-    } else if (score >= 4 && score <= 5) {
-      return "SPIDER-MAN";
-    } else if (score >= 6 && score <= 7) {
-      return "WONDER WOMAN";
-    } else if (score >= 8 && score <= 9) {
-      return "BATMAN";
-    } else {
-      return "SUPERMAN";
-    }
-  };
-
-  const heroImage = getHeroImage(score);
-  const heroLogo = getHeroLogo(score);
-  const heroName = getHeroName(score);
+  const {
+    image: heroImage,
+    logo: heroLogo,
+    name: heroName,
+  } = getHeroDetails(score);
 
   const handleClickCard = () => {
     setIsBackCard((prev) => !prev);
