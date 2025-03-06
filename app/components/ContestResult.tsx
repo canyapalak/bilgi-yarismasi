@@ -110,11 +110,11 @@ export default function ContestResult({
     } else {
       return (
         <p className="text-justify px-3">
-          10 sorunun <span className="text-brick-default">10</span>'unu da doğru
-          bildin ve <span className="text-brick-default">Superman</span> oldun!
-          Süper güçlerin, hızın ve uçma yeteneğinle herkesin hayran olduğu bir
-          kahramansın. Yardımsever, cesur ve her zaman iyilik için çalışan biri
-          olarak dünyayı daha güzel bir yer haline getiriyorsun!
+          10 sorunun <span className="text-brick-default">10</span>&apos;unu da
+          doğru bildin ve <span className="text-brick-default">Superman</span>{" "}
+          oldun! Süper güçlerin, hızın ve uçma yeteneğinle herkesin hayran
+          olduğu bir kahramansın. Yardımsever, cesur ve her zaman iyilik için
+          çalışan biri olarak dünyayı daha güzel bir yer haline getiriyorsun!
         </p>
       );
     }
