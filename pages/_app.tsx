@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: any) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./favicon.ico" />
         <title>
-          "Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
+          &quot;Bir Yıldız, Bir Hilal, İlelebet İstiklal&quot; Bilgi Yarışması
         </title>
       </Head>
       <div className="flex flex-row gap-1">

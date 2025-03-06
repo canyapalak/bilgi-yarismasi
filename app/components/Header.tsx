@@ -32,7 +32,7 @@ export default function Header() {
           className="w-6 h-6 mt-auto mb-auto hidden md:block"
         />
         <p className="text-base sm:text-lg md:text-xl text-red-600 text-center">
-          "Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması
+          &quot;Bir Yıldız, Bir Hilal, İlelebet İstiklal&quot; Bilgi Yarışması
         </p>
         <Image
           src={turkiyeFlag}

@@ -23,7 +23,6 @@ export default function Contest({
   const [isTimeOut, setIsTimeOut] = useState<boolean>(false);
   const [usedQuestionIds, setUsedQuestionIds] = useState<number[]>([]);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-  let timeout: NodeJS.Timeout;
 
   const fetchRandomQuestion = async () => {
     setLoading(true);
@@ -40,22 +39,20 @@ export default function Contest({
           "Category5",
           "Category6",
           "Category7",
-        ]; // Add all category filenames here
+        ];
 
         const responses = await Promise.all(
           categoryFiles.map((file) => fetch(`/data/${file}.json`))
         );
         const dataArr = await Promise.all(responses.map((res) => res.json()));
 
-        // Merge all questions, ensuring unique IDs using category name
         allQuestions = dataArr.flatMap((data, index) =>
           data.questions.map((q: QuestionProps) => ({
             ...q,
-            id: `${categoryFiles[index]}-${q.id}`, // Unique ID
+            id: `${categoryFiles[index]}-${q.id}`,
           }))
         );
       } else {
-        // Load only the selected category
         const response = await fetch(`/data/${pickedCategoryFileName}.json`);
         if (!response.ok)
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -63,11 +60,10 @@ export default function Contest({
         const data = await response.json();
         allQuestions = data.questions.map((q: QuestionProps) => ({
           ...q,
-          id: `${pickedCategoryFileName}-${q.id}`, // Unique ID
+          id: `${pickedCategoryFileName}-${q.id}`,
         }));
       }
 
-      // Filter out used questions
       const availableQuestions = allQuestions.filter(
         (q) => !usedQuestionIds.includes(q.id)
       );
@@ -80,7 +76,7 @@ export default function Contest({
 
         setTimeout(() => {
           setQuestionData(selectedQuestion);
-          setUsedQuestionIds((prev) => [...prev, selectedQuestion.id]); // Store unique ID
+          setUsedQuestionIds((prev) => [...prev, selectedQuestion.id]);
           setSelectedOption(null);
           setIsCorrect(null);
           setIsTimeOut(false);
@@ -136,7 +132,7 @@ export default function Contest({
 
   const handleOptionClick = (optValue: string) => {
     if (selectedOption === null && !isTimeOut) {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current); // Stop countdown
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
 
       setSelectedOption(optValue);
       setIsCorrect(optValue === String(questionData?.answer));
