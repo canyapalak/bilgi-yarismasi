@@ -14,6 +14,7 @@ export default function MyApp({ Component, pageProps }: any) {
   const handleOpenModal: any = () => {
     setOpen(true);
   };
+
   return (
     <>
       <Head>

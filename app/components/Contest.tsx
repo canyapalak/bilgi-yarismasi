@@ -11,9 +11,16 @@ export default function Contest({
   closeContest,
   openContestResult,
 }: ContestProps) {
+  const contestContext = useContext(ContestContext);
+
+  if (!contestContext) {
+    throw new Error("ContestContext must be used within a ContestProvider");
+  }
+
   const { pickedCategoryFileName, pickedCategoryTitle, isChillMode } =
-    useContext(ContestContext);
+    contestContext;
   const { score, setScore } = useContext(ScoreContext);
+
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
@@ -86,6 +93,7 @@ export default function Contest({
         setLoading(false);
       }
     } catch (error) {
+      console.error("Error:", error);
       setLoading(false);
     }
   };
@@ -147,8 +155,6 @@ export default function Contest({
     if (questionCount < 10) {
       fetchRandomQuestion();
       setQuestionCount(questionCount + 1);
-    } else {
-      ("");
     }
   };
 

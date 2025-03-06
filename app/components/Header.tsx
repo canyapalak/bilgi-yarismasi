@@ -4,8 +4,6 @@ import mebLogo from "@/public/assets/meb-logo.png";
 import turkiyeFlag from "@/public/assets/flag.png";
 
 export default function Header() {
-  console.log('"Bir Yıldız, Bir Hilal, İlelebet İstiklal" Bilgi Yarışması');
-
   return (
     <div className="ml-auto mr-auto mt-4 mb-16 md:mb-20">
       <div className="flex flex-row gap-2 sm:gap-3 lg:gap-8">
@@ -13,6 +11,7 @@ export default function Header() {
           src={berlinLogo}
           alt="Başkonsolosluk-Logo"
           className="w-20 h-24 sm:w-28 sm:h-32 md:w-32 md:h-40"
+          priority={true}
         />
         <div className="flex flex-col text-center justify-center">
           <p className="header text-xl sm:text-2xl md:text-3xl font-bold">
@@ -23,6 +22,7 @@ export default function Header() {
           src={mebLogo}
           alt="MEB-Logo"
           className="w-20 h-20 sm:w-28 sm:h-28 md:w-36 md:h-36"
+          priority={true}
         />
       </div>
       <div className="flex flex-row gap-2 justify-center mt-[-0px] sm:mt-[-18px] md:mt-[-28px] w-2/3 items-center mx-auto">

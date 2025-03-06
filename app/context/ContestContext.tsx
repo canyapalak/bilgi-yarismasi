@@ -1,7 +1,8 @@
 import React, { createContext, useState, ReactNode } from "react";
 import { ContestProviderProps } from "../types";
 
-export const ContestContext = createContext<ContestProviderProps | any>(
+// ContestContext.tsx
+export const ContestContext = createContext<ContestProviderProps | undefined>(
   undefined
 );
 
