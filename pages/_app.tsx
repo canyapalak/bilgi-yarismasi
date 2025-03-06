@@ -7,11 +7,12 @@ import ContactSupportRounded from "@mui/icons-material/ContactSupportRounded";
 import CreditsModal from "@/app/components/CreditsModal";
 import { ContestProvider } from "@/app/context/ContestContext";
 import { ScoreProvider } from "@/app/context/ScoreContext";
+import { AppProps } from "next/app";
 
-export default function MyApp({ Component, pageProps }: any) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   const [open, setOpen] = useState(false);
 
-  const handleOpenModal: any = () => {
+  const handleOpenModal = () => {
     setOpen(true);
   };
 

@@ -19,7 +19,13 @@ export default function Contest({
 
   const { pickedCategoryFileName, pickedCategoryTitle, isChillMode } =
     contestContext;
-  const { score, setScore } = useContext(ScoreContext);
+  const scoreContext = useContext(ScoreContext);
+
+  if (!scoreContext) {
+    throw new Error("ScoreContext must be used within a ScoreProvider");
+  }
+
+  const { score, setScore } = scoreContext;
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -146,7 +152,8 @@ export default function Contest({
       setIsCorrect(optValue === String(questionData?.answer));
 
       if (optValue === String(questionData?.answer)) {
-        setScore(score + 1);
+        // If score is null, use 0 as the default value
+        setScore((prevScore) => (prevScore ?? 0) + 1);
       }
     }
   };

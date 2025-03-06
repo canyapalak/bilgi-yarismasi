@@ -18,7 +18,13 @@ import hulkLogo from "@/public/assets/h-logo06.png";
 export default function ContestResult({
   closeContestResult,
 }: ContestResultProps) {
-  const { score } = useContext(ScoreContext);
+  const scoreContext = useContext(ScoreContext);
+
+  if (!scoreContext) {
+    throw new Error("ScoreContext must be used within a ScoreProvider");
+  }
+
+  const { score, setScore } = scoreContext;
   const [isBackCard, setIsBackCard] = useState<boolean>(false);
 
   const getHeroDetails = (score: number) => {
@@ -45,7 +51,7 @@ export default function ContestResult({
     image: heroImage,
     logo: heroLogo,
     name: heroName,
-  } = getHeroDetails(score);
+  } = getHeroDetails(score !== null ? score : 0); // Check if score is null and use 0 if so
 
   const handleClickCard = () => {
     setIsBackCard((prev) => !prev);
@@ -120,7 +126,7 @@ export default function ContestResult({
     }
   };
 
-  const resultText = getResultText(score);
+  const resultText = score !== null ? getResultText(score) : getResultText(0);
 
   return (
     <div className="gap-8 items-center flex flex-col fade-in-long">
