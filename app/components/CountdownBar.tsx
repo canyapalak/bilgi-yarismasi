@@ -4,7 +4,7 @@ export default function CountdownBar() {
       <div className="progress progress-moved bg-gray-ultralight rounded-md p-1">
         <div
           className="progress-bar h-3"
-          style={{ animationDuration: "10s" }}
+          style={{ animationDuration: "20s" }}
         ></div>
       </div>
     </div>

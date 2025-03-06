@@ -25,7 +25,7 @@ export default function MyApp({ Component, pageProps }: any) {
       </Head>
       <div className="flex flex-row gap-1">
         <ContactSupportRounded
-          className="w-6 mt-1.5 ml-1.5 cursor-pointer hover:text-gray-default"
+          className="w-7 h-7 mt-1.5 ml-1.5 cursor-pointer hover:text-gray-default"
           onClick={handleOpenModal}
         />
         {open ? <CreditsModal open={open} setOpen={setOpen} /> : null}

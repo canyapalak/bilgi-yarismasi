@@ -115,7 +115,7 @@ export default function Contest({
       timeoutRef.current = setTimeout(() => {
         setIsTimeOut(true);
         setIsCorrect(false);
-      }, 10000);
+      }, 20000);
     }
 
     return () => {
