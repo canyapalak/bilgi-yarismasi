@@ -1,7 +1,9 @@
 import React, { createContext, useState, ReactNode } from "react";
 import { ScoreProviderProps } from "../types";
 
-export const ScoreContext = createContext<ScoreProviderProps | any>(undefined);
+export const ScoreContext = createContext<ScoreProviderProps | undefined>(
+  undefined
+);
 
 export const ScoreProvider = ({ children }: { children: ReactNode }) => {
   const [score, setScore] = useState<number | null>(0);
