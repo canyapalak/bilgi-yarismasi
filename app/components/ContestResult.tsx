@@ -24,7 +24,7 @@ export default function ContestResult({
     throw new Error("ScoreContext must be used within a ScoreProvider");
   }
 
-  const { score, setScore } = scoreContext;
+  const { score } = scoreContext;
   const [isBackCard, setIsBackCard] = useState<boolean>(false);
 
   const getHeroDetails = (score: number) => {

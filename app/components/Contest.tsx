@@ -25,7 +25,7 @@ export default function Contest({
     throw new Error("ScoreContext must be used within a ScoreProvider");
   }
 
-  const { score, setScore } = scoreContext;
+  const { setScore } = scoreContext;
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
