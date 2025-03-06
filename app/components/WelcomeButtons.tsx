@@ -10,18 +10,33 @@ export default function WelcomeButtons({
   openHowToPlay,
   openContest,
 }: WelcomeButtonsProps) {
-  const { setPickedCategoryFileName } = useContext(ContestContext);
-  const { setPickedCategoryTitle } = useContext(ContestContext);
-  const { setIsChillMode, isChillMode } = useContext(ContestContext);
-  const { score, setScore } = useContext(ScoreContext);
+  const contestContext = useContext(ContestContext);
+  const scoreContext = useContext(ScoreContext);
+
+  if (!contestContext) {
+    throw new Error("ContestContext must be used within a ContestProvider");
+  }
+
+  if (!scoreContext) {
+    throw new Error("ScoreContext must be used within a ScoreProvider");
+  }
+
+  const {
+    setPickedCategoryFileName,
+    setPickedCategoryTitle,
+    setIsChillMode,
+    isChillMode,
+  } = contestContext;
+  const { setScore } = scoreContext;
 
   const [clickedCategoryButton, setClickedCategoryButton] = useState<
     string | null
   >(null);
   const [isChillInfo, setIsChillInfo] = useState(false);
-  const handleOpenInfo: any = () => {
+  const handleOpenInfo = () => {
     setIsChillInfo(!isChillInfo);
   };
+
   const [isCategoryPicked, setIsCategoryPicked] = useState(false);
   const handleContestCategoryClick = (fileName: string, title: string) => {
     setClickedCategoryButton(title);
