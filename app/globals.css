@@ -103,6 +103,10 @@ body {
   animation: fadeIn 4s;
 }
 
+.toggle-icon {
+  font-size: 2.25rem !important;
+}
+
 .hero {
   -webkit-mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, .2) 50%, #000 75%);
   mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, .2) 50%, #000 75%);

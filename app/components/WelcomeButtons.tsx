@@ -96,12 +96,12 @@ export default function WelcomeButtons({
           {!isChillMode ? (
             <ToggleOffOutlinedIcon
               onClick={handleChillModeClick}
-              className="cursor-pointer text-4xl"
+              className="cursor-pointer toggle-icon text-4xl"
             />
           ) : (
             <ToggleOnOutlinedIcon
               onClick={handleChillModeClick}
-              className="cursor-pointer text-4xl text-green-default"
+              className="cursor-pointer toggle-icon text-4xl text-green-default"
             />
           )}
           <p>Rahat mod</p>
