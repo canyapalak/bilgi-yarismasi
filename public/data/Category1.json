@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "question": "Türkiye'nin en büyük gölü hangisidir?",
+      "question": "Türkiye'nin en büyük yüz ölçümüne sahip gölü hangisidir?",
       "option1": "Van",
       "option2": "Tuz",
       "option3": "Beyşehir",
@@ -92,30 +92,372 @@
     },
     {
       "id": 11,
-      "question": "Karadeniz Bölgesi'nin en büyük şehri hangisidir?",
-      "option1": "Samsun",
-      "option2": "Trabzon",
-      "option3": "Ordu",
-      "option4": "Rize",
-      "answer": "Samsun"
-    },
-    {
-      "id": 12,
-      "question": "Türkiye'de en fazla tarım  yapılan bölge hangisidir?",
-      "option1": "Karadeniz",
-      "option2": "Marmara",
-      "option3": "Akdeniz",
-      "option4": "Güneydoğu Anadolu",
-      "answer": "Akdeniz"
-    },
-    {
-      "id": 13,
       "question": "Türkiye hangi ülkeyle komşu değildir?",
       "option1": "Gürcistan",
       "option2": "Bulgaristan",
       "option3": "Romanya",
       "option4": "İran",
       "answer": "Romanya"
-    }
+    },
+        {
+      "id": 12,
+      "question": "Türkiye'nin yüz ölçümü en büyük ili hangisidir?",
+      "option1": "Konya",
+      "option2": "Ankara",
+      "option3": "Sivas",
+      "option4": "Van",
+      "answer": "Konya"
+    },
+        {
+      "id": 13,
+      "question": "Türkiye'de hangi şehir iki kıta üzerinde yer alır?",
+      "option1": "Bursa",
+      "option2": "İstanbul",
+      "option3": "Çanakkale",
+      "option4": "İzmit",
+      "answer": "İstanbul"
+    },
+        {
+      "id": 14,
+      "question": "Türkiye'de en fazla yağış alan bölge hangisidir?",
+      "option1": "Ege Bölgesi",
+      "option2": "Akdeniz Bölgesi",
+      "option3": "Karadeniz Bölgesi",
+      "option4": "İç Anadolu Bölgesi",
+      "answer": "Karadeniz Bölgesi"
+    },
+        {
+      "id": 15,
+      "question": "Kapadokya bölgesi hangi şehirde yer alır?",
+      "option1": "Nevşehir",
+      "option2": "Kayseri",
+      "option3": "Malatya",
+      "option4": "Konya",
+      "answer": "Nevşehir"
+    },
+        {
+      "id": 16,
+      "question": "Türkiye'nin Kıbrıs'a en yakın şehri hangisidir?",
+      "option1": "Hatay",
+      "option2": "Mersin",
+      "option3": "Antalya",
+      "option4": "Adana",
+      "answer": "Mersin"
+    },
+        {
+      "id": 17,
+      "question": "Aşağıdaki illerden hangisi İç Anadolu Bölgesi'nde yer almaz?",
+      "option1": "Konya",
+      "option2": "Ankara",
+      "option3": "Kayseri",
+      "option4": "Burdur",
+      "answer": "Burdur"
+    },
+        {
+      "id": 18,
+      "question": "Bodrum hangi ilimize bağlıdır?",
+      "option1": "Muğla",
+      "option2": "İzmir",
+      "option3": "Antalya",
+      "option4": "Çanakkale",
+      "answer": "Muğla"
+    },
+        {
+      "id": 19,
+      "question": "Ayder Yaylası hangi ilde bulunur?",
+      "option1": "Sinop",
+      "option2": "Giresun",
+      "option3": "Rize",
+      "option4": "Artvin",
+      "answer": "Rize"
+    },
+        {
+      "id": 20,
+      "question": "Kuş Cenneti Milli Parkı hangi ilde bulunur?",
+      "option1": "Balıkesir",
+      "option2": "Samsun",
+      "option3": "Bursa",
+      "option4": "Aydın",
+      "answer": "Balıkesir"
+    },
+        {
+      "id": 21,
+      "question": "Çanakkale Boğazı hangi iki denizi birbirine bağlar?",
+      "option1": "Karadeniz - Marmara",
+      "option2": "Marmara - Ege",
+      "option3": "Akdeniz - Ege",
+      "option4": "Marmara - Karadeniz",
+      "answer": "Marmara - Ege"
+    },
+        {
+      "id": 22,
+      "question": "Türkiye'nin en batısında hangi deniz yer alır?",
+      "option1": "Akdeniz",
+      "option2": "Karadeniz",
+      "option3": "Ege Denizi",
+      "option4": "Marmara Denizi",
+      "answer": "Ege Denizi"
+    },
+        {
+      "id": 23,
+      "question": "Göbeklitepe arkeolojik alanı hangi il sınırları içerisindedir?",
+      "option1": "Mardin",
+      "option2": "Gaziantep",
+      "option3": "Şanlıurfa",
+      "option4": "Diyarbakır",
+      "answer": "Şanlıurfa"
+    },
+        {
+      "id": 24,
+      "question": "Meşhur Kız Kulesi İstanbul'un hangi ilçesinde bulunur?",
+      "option1": "Üsküdar",
+      "option2": "Beyoğlu",
+      "option3": "Beşiktaş",
+      "option4": "Kadıköy",
+      "answer": "Üsküdar"
+    },
+    {
+    "id": 25,
+    "question": "Türkiye’nin en kuzeyindeki şehir hangisidir?",
+    "option1": "Antalya",
+    "option2": "İzmir",
+    "option3": "Sinop",
+    "option4": "Kars",
+    "answer": "Sinop"
+  },
+  {
+    "id": 26,
+    "question": "Türkiye’de en çok orman hangi bölgede bulunur?",
+    "option1": "Marmara Bölgesi",
+    "option2": "Ege Bölgesi",
+    "option3": "Akdeniz Bölgesi",
+    "option4": "Karadeniz Bölgesi",
+    "answer": "Karadeniz Bölgesi"
+  },
+  {
+    "id": 27,
+    "question": "Türkiye’nin en büyük adası hangisidir?",
+    "option1": "Bozcaada",
+    "option2": "Gökçeada",
+    "option3": "Heybeliada",
+    "option4": "Büyükada",
+    "answer": "Gökçeada"
+  },
+  {
+    "id": 28,
+    "question": "Türkiye’nin en uzun tüneli hangisidir?",
+    "option1": "Bolu Tüneli",
+    "option2": "Zigana Tüneli",
+    "option3": "Ovit Tüneli",
+    "option4": "Ilgaz Tüneli",
+    "answer": "Zigana Tüneli"
+  },
+{
+  "id": 29,
+  "question": "Türkiye'nin en büyük kayak merkezi hangisidir?",
+  "option1": "Uludağ",
+  "option2": "Kartalkaya",
+  "option3": "Erciyes",
+  "option4": "Palandöken",
+  "answer": "Uludağ"
+ },
+  {
+    "id": 30,
+    "question": "Türkiye'nin en uzun sahil şeridine sahip ili hangisidir?",
+    "option1": "Antalya",
+    "option2": "Muğla",
+    "option3": "Mersin",
+    "option4": "İzmir",
+    "answer": "Muğla"
+  },
+  {
+    "id": 31,
+    "question": "Türkiye'nin en büyük barajı hangisidir?",
+    "option1": "Atatürk Barajı",
+    "option2": "Keban Barajı",
+    "option3": "Hirfanlı Barajı",
+    "option4": "Ilısu Barajı",
+    "answer": "Atatürk Barajı"
+  },
+  {
+    "id": 32,
+    "question": "Türkiye’nin en yüksek şelalesi hangisidir?",
+    "option1": "Manavgat Şelalesi",
+    "option2": "Tortum Şelalesi",
+    "option3": "Erfelek Şelalesi",
+    "option4": "Muradiye Şelalesi",
+    "answer": "Tortum Şelalesi"
+  },
+  {
+    "id": 33,
+    "question": "Türkiye'nin en yüksek rakımlı yerleşim yeri hangisidir?",
+    "option1": "Kars",
+    "option2": "Ardahan",
+    "option3": "Erzurum",
+    "option4": "Van",
+    "answer": "Erzurum"
+  },
+  {
+    "id": 34,
+    "question": "Türkiye'nin en uzun mağarası hangisidir?",
+    "option1": "İnsuyu Mağarası",
+    "option2": "Karain Mağarası",
+    "option3": "Pınargözü Mağarası",
+    "option4": "Dupnisa Mağarası",
+    "answer": "Pınargözü Mağarası"
+  },
+  {
+    "id": 35,
+    "question": "Türkiye’nin en eski köprüsü hangisidir?",
+    "option1": "Malabadi Köprüsü",
+    "option2": "Taş Köprü",
+    "option3": "Aspendos Köprüsü",
+    "option4": "Cendere Köprüsü",
+    "answer": "Taş Köprü"
+  },
+  {
+    "id": 36,
+    "question": "Türkiye’nin en eski yerleşim yeri olarak bilinen tarihi bölgesi hangisidir?",
+    "option1": "Göbeklitepe",
+    "option2": "Çatalhöyük",
+    "option3": "Hattuşaş",
+    "option4": "Ani Harabeleri",
+    "answer": "Göbeklitepe"
+  },
+  {
+    "id": 37,
+    "question": "Türkiye'nin en sıcak ili hangisidir?",
+    "option1": "Antalya",
+    "option2": "Şanlıurfa",
+    "option3": "Mardin",
+    "option4": "Adana",
+    "answer": "Şanlıurfa"
+  },
+  {
+    "id": 38,
+    "question": "Türkiye’nin en büyük camisi hangisidir?",
+    "option1": "Selimiye Camii",
+    "option2": "Süleymaniye Camii",
+    "option3": "Çamlıca Camii",
+    "option4": "Ayasofya Camii",
+    "answer": "Çamlıca Camii"
+  },
+  {
+    "id": 39,
+    "question": "Türkiye’nin en büyük ticaret limanı hangisidir?",
+    "option1": "Haydarpaşa Limanı",
+    "option2": "Mersin Limanı",
+    "option3": "İzmir Alsancak Limanı",
+    "option4": "Derince Limanı",
+    "answer": "Mersin Limanı"
+  },
+  {
+    "id": 40,
+    "question": "Türkiye’nin en fazla yağış alan ili hangisidir?",
+    "option1": "Trabzon",
+    "option2": "Rize",
+    "option3": "Artvin",
+    "option4": "Zonguldak",
+    "answer": "Rize"
+  },
+  {
+    "id": 41,
+    "question": "Türkiye'nin en büyük tarım ovası hangisidir?",
+    "option1": "Harran Ovası",
+    "option2": "Konya Ovası",
+    "option3": "Çukurova",
+    "option4": "Gediz Ovası",
+    "answer": "Konya Ovası"
+  },
+  {
+    "id": 42,
+    "question": "Türkiye’nin en uzun köprüsü hangisidir?",
+    "option1": "15 Temmuz Şehitler Köprüsü",
+    "option2": "Yavuz Sultan Selim Köprüsü",
+    "option3": "1915 Çanakkale Köprüsü",
+    "option4": "Fatih Sultan Mehmet Köprüsü",
+    "answer": "1915 Çanakkale Köprüsü"
+  },
+  {
+    "id": 43,
+    "question": "Türkiye’nin en eski çarşısı hangisidir?",
+    "option1": "Kapalıçarşı",
+    "option2": "Mısır Çarşısı",
+    "option3": "Tarihi Kemeraltı Çarşısı",
+    "option4": "Spice Bazaar",
+    "answer": "Kapalıçarşı"
+  },
+  {
+    "id": 44,
+    "question": "Türkiye’nin en büyük adliyesi hangi ilde bulunmaktadır?",
+    "option1": "İzmir",
+    "option2": "İstanbul",
+    "option3": "Ankara",
+    "option4": "Bursa",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 45,
+    "question": "Türkiye’nin en yüksek barajı hangisidir?",
+    "option1": "Atatürk Barajı",
+    "option2": "Keban Barajı",
+    "option3": "Deriner Barajı",
+    "option4": "Yusufeli Barajı",
+    "answer": "Yusufeli Barajı"
+  },
+  {
+    "id": 46,
+    "question": "Türkiye’nin en fazla turist çeken şehri hangisidir?",
+    "option1": "Antalya",
+    "option2": "İstanbul",
+    "option3": "İzmir",
+    "option4": "Kapadokya",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 47,
+    "question": "Türkiye’nin en büyük açık hava müzesi hangisidir?",
+    "option1": "Göbeklitepe",
+    "option2": "Aspendos",
+    "option3": "Kapadokya",
+    "option4": "Efes Antik Kenti",
+    "answer": "Kapadokya"
+  },
+  {
+    "id": 48,
+    "question": "Türkiye’nin en çok üretilen tarım ürünü hangisidir?",
+    "option1": "Buğday",
+    "option2": "Mısır",
+    "option3": "Fındık",
+    "option4": "Pamuk",
+    "answer": "Buğday"
+  },
+  {
+    "id": 49,
+    "question": "Türkiye’nin en büyük havalimanı hangisidir?",
+    "option1": "İstanbul Havalimanı",
+    "option2": "Esenboğa Havalimanı",
+    "option3": "Sabiha Gökçen Havalimanı",
+    "option4": "Antalya Havalimanı",
+    "answer": "İstanbul Havalimanı"
+  },
+{
+  "id": 50,
+  "question": "Türkiye'nin en önemli yeraltı zenginliği hangisidir?",
+  "option1": "Altın",
+  "option2": "Kömür",
+  "option3": "Bakır",
+  "option4": "Linyit",
+  "answer": "Kömür"
+},
+{
+  "id": 51,
+  "question": "Türkiye'de en fazla üretilen tekstil ürünü hangisidir?",
+  "option1": "Pamuk",
+  "option2": "Yün",
+  "option3": "İpek",
+  "option4": "Lif",
+  "answer": "Pamuk"
+}
   ]
 }

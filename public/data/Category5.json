@@ -1,15 +1,6 @@
 {
   "questions": [
     {
-      "id": 1,
-      "question": "Türk mutfağının en ünlü çorbası hangisidir?",
-      "option1": "Mantar çorbası",
-      "option2": "Brokoli çorbası",
-      "option3": "Balkabağı çorbası",
-      "option4": "Mercimek çorbası",
-      "answer": "Mercimek çorbası"
-    },
-    {
       "id": 2,
       "question": "Sütlaç hangi malzemeyle yapılır?",
       "option1": "Mısır",

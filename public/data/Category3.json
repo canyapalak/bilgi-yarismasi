@@ -116,6 +116,15 @@
       "option3": "Papatya",
       "option4": "Kiraz çiçeği",
       "answer": "Lale"
-    }
+    },
+      {
+    "id": 14,
+    "question": "Türkiye'nin en eski lisesi hangisidir?",
+    "option1": "Galatasaray Lisesi",
+    "option2": "Kabataş Erkek Lisesi",
+    "option3": "İstanbul Erkek Lisesi",
+    "option4": "Vefa Lisesi",
+    "answer": "Galatasaray Lisesi"
+  }
   ]
 }
