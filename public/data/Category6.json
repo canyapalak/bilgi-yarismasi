@@ -2,12 +2,12 @@
   "questions": [
     {
       "id": 1,
-      "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
-      "option1": "İnönü",
-      "option2": "Atatürk",
-      "option3": "Menderes",
-      "option4": "Bayar",
-      "answer": "Atatürk"
+      "question": "'Kaplumbağa Terbiyecisi' tablosu ile bilinen Osmanlı ressamı kimdir?",
+      "option1": "Evliya Çelebi",
+      "option2": "Şevki Bey",
+      "option3": "Ahmet Cevdet Paşa",
+      "option4": "Osman Hamdi Bey",
+      "answer": "Osman Hamdi Bey"
     },
     {
       "id": 2,
