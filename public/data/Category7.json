@@ -82,7 +82,7 @@
     "answer": "26 Eylül"
   },
   {
-    "id": 11,
+    "id": 10,
     "question": "2024 Dünya Superbike Şampiyonası'nda ikinci kez dünya şampiyonu olan Türk motosikletçi kimdir?",
     "option1": "Toprak Razgatlıoğlu",
     "option2": "Fernando Alonso",
@@ -91,7 +91,7 @@
     "answer": "Toprak Razgatlıoğlu"
   },
   {
-    "id": 12,
+    "id": 11,
     "question": "Türkiye'nin ilk astronotu uzaya hangi yıl gitmiştir?",
     "option1": "2018",
     "option2": "2024",
@@ -100,7 +100,7 @@
     "answer": "2024"
   },
   {
-    "id": 13,
+    "id": 12,
     "question": "2022 yılında kullanıma açılan ve Türkiye'nin en uzun köprüsü olan 1915 Çanakkale Köprüsü hangi iki şehri birbirine bağlamaktadır?",
     "option1": "İstanbul - Kocaeli",
     "option2": "Çanakkale - Tekirdağ",
@@ -109,7 +109,7 @@
     "answer": "Çanakkale - Tekirdağ"
   },
   {
-    "id": 14,
+    "id": 13,
     "question": "2023 yılında satışa sunulan Türkiye'nin ilk yerli otomobilinin markası nedir?",
     "option1": "Pars",
     "option2": "Sungur",
@@ -118,7 +118,7 @@
     "answer": "Togg"
   },
   {
-    "id": 15,
+    "id": 14,
     "question": "Türkiye'nin ilk milli haberleşme uydusu olan Türksat 6A hangi yıl uzaya fırlatılmıştır?",
     "option1": "2022",
     "option2": "2023",
@@ -127,7 +127,7 @@
     "answer": "2024"
   },
   {
-    "id": 16,
+    "id": 15,
     "question": "Türkiye'de her yıl 23 Nisan'da kutlanan özel gün hangisidir?",
     "option1": "Gençlik ve Spor Bayramı",
     "option2": "Cumhuriyet Bayramı",
@@ -136,7 +136,7 @@
     "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
   },
   {
-    "id": 17,
+    "id": 16,
     "question": "2024 yılında Türkiye'nin en çok ziyaret edilen şehri hangisi olmuştur?",
     "option1": "İstanbul",
     "option2": "Antalya",
@@ -145,7 +145,7 @@
     "answer": "İstanbul"
   },
   {
-    "id": 18,
+    "id": 17,
     "question": "2023 yılında Avrupa'da 'Yılın En İyi Kadın Voleybolcusu' seçilen Türk sporcu kimdir?",
     "option1": "Eda Erdem",
     "option2": "Melissa Vargas",
@@ -154,7 +154,7 @@
     "answer": "Melissa Vargas"
   },
   {
-    "id": 19,
+    "id": 18,
     "question": "2024 yılında Türkiye Süper Ligi'nde şampiyon olan takım hangisidir?",
     "option1": "Fenerbahçe",
     "option2": "Galatasaray",
@@ -163,16 +163,7 @@
     "answer": "Galatasaray"
   },
   {
-    "id": 20,
-    "question": "Türkiye'nin ilk yerli elektrikli lokomotifi hangi isimle tanıtılmıştır?",
-    "option1": "E5000",
-    "option2": "Tülomsaş 2000",
-    "option3": "Yıldırım 3000",
-    "option4": "Toros 1000",
-    "answer": "E5000"
-  },
-  {
-    "id": 21,
+    "id": 19,
     "question": "2024 yılında Türkiye'nin nüfusu yaklaşık kaç milyona ulaşmıştır?",
     "option1": "80 milyon",
     "option2": "85 milyon",
@@ -181,7 +172,7 @@
     "answer": "85 milyon"
   },
   {
-    "id": 22,
+    "id": 20,
     "question": "2023 yılında açılan ve Türkiye'nin en uzun kara yolu tüneli olan Zigana Tüneli hangi iki şehri birbirine bağlamaktadır?",
     "option1": "Trabzon - Gümüşhane",
     "option2": "Rize - Artvin",
@@ -190,7 +181,7 @@
     "answer": "Trabzon - Gümüşhane"
   },
   {
-    "id": 23,
+    "id": 21,
     "question": "Türkiye'nin ilk yerli savaş uçağı olan KAAN hangi yıl ilk uçuşunu yapmıştır?",
     "option1": "2022",
     "option2": "2023",
@@ -199,7 +190,7 @@
     "answer": "2024"
   },
   {
-    "id": 24,
+    "id": 22,
     "question": "2024 yılı itibarıyla Türkiye'nin en büyük havalimanı hangisidir?",
     "option1": "Sabiha Gökçen Havalimanı",
     "option2": "Antalya Havalimanı",
@@ -208,8 +199,8 @@
     "answer": "İstanbul Havalimanı"
   },
   {
-    "id": 25,
-    "question": "2023 yılında Türkiye'de en çok dinlenen müzik türü hangisidir?",
+    "id": 23,
+    "question": "2024 yılında Türkiye'de en çok dinlenen müzik türü hangisidir?",
     "option1": "Pop",
     "option2": "Rap",
     "option3": "Türk Halk Müziği",
@@ -217,13 +208,22 @@
     "answer": "Rap"
   },
   {
-    "id": 26,
+    "id": 24,
     "question": "2024 yılı itibarıyla Türkiye'deki en yüksek baraj hangisidir?",
     "option1": "Atatürk Barajı",
     "option2": "Çoruh Barajı",
     "option3": "Yusufeli Barajı",
     "option4": "Keban Barajı",
     "answer": "Yusufeli Barajı"
+  },
+    {
+    "id": 25,
+    "question": "2024 Avrupa Futbol Şampiyonası'nda Türkiye'nin teknik direktörü kim olmuştur?",
+    "option1": "Fatih Terim",
+    "option2": "Şenol Güneş",
+    "option3": "Vincenzo Montella",
+    "option4": "José Mourinho",
+    "answer": "Vincenzo Montella"
   }
 ]
 }

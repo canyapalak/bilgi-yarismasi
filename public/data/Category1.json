@@ -458,6 +458,132 @@
   "option3": "İpek",
   "option4": "Lif",
   "answer": "Pamuk"
-}
+},
+  {
+    "id": 52,
+    "question": "UNESCO Dünya Mirası Listesi'nde yer alan ve 'dünyanın en eski tapınak kompleksi' olarak bilinen yer neresidir?",
+    "option1": "Zeugma Antik Kenti",
+    "option2": "Göbeklitepe",
+    "option3": "Efes Antik Kenti",
+    "option4": "Aspendos",
+    "answer": "Göbeklitepe"
+  },
+  {
+    "id": 53,
+    "question": "Nemrut Dağı'nda hangi krallığa ait dev heykeller bulunur?",
+    "option1": "Lidya Krallığı",
+    "option2": "Kommagene Krallığı",
+    "option3": "Urartu Krallığı",
+    "option4": "Hitit Krallığı",
+    "answer": "Kommagene Krallığı"
+  },
+  {
+    "id": 54,
+    "question": "Roma dönemine ait mozaikleriyle ünlü olan, Gaziantep’te bulunan antik kent hangisidir?",
+    "option1": "Efes",
+    "option2": "Zeugma",
+    "option3": "Troy",
+    "option4": "Pergamon",
+    "answer": "Zeugma"
+  },
+  {
+    "id": 55,
+    "question": "4. yüzyılda, bugünkü Trabzon şehrinin Maçka ilçesinde, sarp kayalıklar üzerine kurulmuş manastır hangisidir?",
+    "option1": "Sümela Manastırı",
+    "option2": "Mevlana Müzesi",
+    "option3": "Divriği Ulu Camii",
+    "option4": "Topkapı Sarayı",
+    "answer": "Sümela Manastırı"
+  },
+  {
+    "id": 56,
+    "question": "Osmanlı dönemine ait geleneksel Türk evleriyle ve lokumuyla ünlü, UNESCO Dünya Mirası Listesi'nde yer alan şehir hangisidir?",
+    "option1": "Mardin",
+    "option2": "Bursa",
+    "option3": "Safranbolu",
+    "option4": "Şanlıurfa",
+    "answer": "Safranbolu"
+  },
+  {
+    "id": 57,
+    "question": "Mevlana Celaleddin Rumi’nin türbesini içeren müze hangi şehirde yer almaktadır?",
+    "option1": "İstanbul",
+    "option2": "Ankara",
+    "option3": "Konya",
+    "option4": "Bursa",
+    "answer": "Konya"
+  },
+  {
+    "id": 58,
+    "question": "Kapadokya bölgesinde yer alan ve doğal kaya oluşumlarıyla ünlü vadinin adı nedir?",
+    "option1": "Ihlara Vadisi",
+    "option2": "Hevsel Bahçeleri",
+    "option3": "Kazdağları",
+    "option4": "Yedigöller Vadisi",
+    "answer": "Ihlara Vadisi"
+  },
+  {
+    "id": 59,
+    "question": "Mimar Sinan'ın 'ustalık eserim' olarak nitelendirdiği cami hangisidir?",
+    "option1": "Sultan Ahmet Camii",
+    "option2": "Selimiye Camii",
+    "option3": "Dolmabahçe Camii",
+    "option4": "Ulu Camii",
+    "answer": "Selimiye Camii"
+  },
+  {
+    "id": 60,
+    "question": "'Peygamberler Şehri' olarak da bilinen; Harran evleri, tarihi İslam üniversitesi ve Balıklıgöl’ün bulunduğu şehir hangisidir?",
+    "option1": "Mardin",
+    "option2": "Şanlıurfa",
+    "option3": "Gaziantep",
+    "option4": "Diyarbakır",
+    "answer": "Şanlıurfa"
+  },
+  {
+    "id": 61,
+    "question": "Homeros tarafından yazıldığı sanılan iki manzum destandan biri olan İlyada'da bahsi geçen Troya Savaşı'nın gerçekleştiği Troya Antik Kenti hangi il sınırları içinde yer alır?",
+    "option1": "İzmir",
+    "option2": "Çanakkale",
+    "option3": "Muğla",
+    "option4": "Antalya",
+    "answer": "Çanakkale"
+  },
+  {
+    "id": 62,
+    "question": "Antalya’da bulunan Aspendos Tiyatrosu hangi medeniyet tarafından inşa edilmiştir?",
+    "option1": "Hititler",
+    "option2": "Romalılar",
+    "option3": "Lidyalılar",
+    "option4": "Frigyalılar",
+    "answer": "Romalılar"
+  },
+  {
+    "id": 63,
+    "question": "Dünyanın en eski yerleşim yerlerinden biri olarak kabul edilen Çatalhöyük hangi ilimizde yer alır?",
+    "option1": "Konya",
+    "option2": "Kayseri",
+    "option3": "Nevşehir",
+    "option4": "Ankara",
+    "answer": "Konya"
+  },
+  {
+    "id": 64,
+    "question": "Üzerinde Akdamar Kilisesi’nin bulunduğu, inci kefaliyle ünlü göl hangisidir?",
+    "option1": "Van Gölü",
+    "option2": "Eğirdir Gölü",
+    "option3": "Tuz Gölü",
+    "option4": "Beyşehir Gölü",
+    "answer": "Van Gölü"
+  },
+  {
+    "id": 65,
+    "question": "Türkiye'de Kapadokya bölgesinde bulunan yer altı şehirlerinden biri hangisidir?",
+    "option1": "Zeugma",
+    "option2": "Derinkuyu",
+    "option3": "Ani Harabeleri",
+    "option4": "Hasankeyf",
+    "answer": "Derinkuyu"
+  }
   ]
 }

@@ -101,30 +101,138 @@
     },
     {
       "id": 12,
-      "question": "Türkçede birleşik fiil türlerinden biri değildir?",
-      "option1": "Yardımcı eylem",
-      "option2": "Deyimleşmiş fiil",
-      "option3": "Basit fiil",
-      "option4": "Kural birleşik fiil",
-      "answer": "Basit fiil"
-    },
-    {
-      "id": 13,
-      "question": "Aşağıdaki eklerden hangisi yapım eki değildir?",
-      "option1": "-lik",
-      "option2": "-de",
-      "option3": "-cı",
-      "option4": "-gil",
-      "answer": "-de"
-    },
-    {
-      "id": 14,
       "question": "Hangisi Türkçede büyük ünlü uyumuna uyar?",
       "option1": "Kalemlik",
-      "option2": "Evler",
+      "option2": "İğne",
       "option3": "Kitapçı",
       "option4": "Kardeş",
-      "answer": "Kalemlik"
-    }
+      "answer": "İğne"
+    },
+  {
+    "id": 13,
+    "question": "Aşağıdaki kelimelerden hangileri eş anlamlıdır?",
+    "option1": "Büyük - Ufak",
+    "option2": "Güzel - Çirkin",
+    "option3": "Zeki - Akıllı",
+    "option4": "Hızlı - Yavaş",
+    "answer": "Zeki - Akıllı"
+  },
+  {
+    "id": 14,
+    "question": "Hangisi bir atasözüdür?",
+    "option1": "El elden üstündür.",
+    "option2": "Kitap okumak güzeldir.",
+    "option3": "Ali topu tut.",
+    "option4": "Bahçede çiçek var.",
+    "answer": "El elden üstündür."
+  },
+  {
+    "id": 15,
+    "question": "Hangi kelime eş seslidir?",
+    "option1": "Elma",
+    "option2": "Gül",
+    "option3": "Ev",
+    "option4": "Ağaç",
+    "answer": "Gül"
+  },
+  {
+    "id": 16,
+    "question": "Türkçede en çok kullanılan ünlü harf hangisidir?",
+    "option1": "A",
+    "option2": "E",
+    "option3": "K",
+    "option4": "M",
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "Aşağıdaki kelimelerden hangileri zıt anlamlıdır?",
+    "option1": "Büyük - Küçük",
+    "option2": "Güzel - Hoş",
+    "option3": "Sıcak - Ilık",
+    "option4": "Hızlı - Seri",
+    "answer": "Büyük - Küçük"
+  },
+  {
+    "id": 18,
+    "question": "Hangisi bir masal kahramanıdır?",
+    "option1": "Keloğlan",
+    "option2": "Mevlana",
+    "option3": "Nazım Hikmet",
+    "option4": "Evliya Çelebi",
+    "answer": "Keloğlan"
+  },
+  {
+    "id": 19,
+    "question": "Hangisi bir fabl örneğidir?",
+    "option1": "Kurt ile Kuzu",
+    "option2": "Keloğlan Masalları",
+    "option3": "Dede Korkut Hikayeleri",
+    "option4": "Seyahatname",
+    "answer": "Kurt ile Kuzu"
+  },
+  {
+    "id": 20,
+    "question": "Türk edebiyatında hangi yazar çocuk hikayeleriyle ünlüdür?",
+    "option1": "Gülten Dayıoğlu",
+    "option2": "Reşat Nuri Güntekin",
+    "option3": "Halit Ziya Uşaklıgil",
+    "option4": "Yakup Kadri Karaosmanoğlu",
+    "answer": "Gülten Dayıoğlu"
+  },
+  {
+    "id": 21,
+    "question": "Hangisi bir deyimdir?",
+    "option1": "Burnu havada olmak",
+    "option2": "Kitap okumak",
+    "option3": "Güzel yazı yazmak",
+    "option4": "Okula gitmek",
+    "answer": "Burnu havada olmak"
+  },
+  {
+    "id": 22,
+    "question": "Türkçede kaç ünsüz harf vardır?",
+    "option1": "19",
+    "option2": "20",
+    "option3": "21",
+    "option4": "22",
+    "answer": "21"
+  },
+  {
+    "id": 23,
+    "question": "Aşağıdaki tamlamalardan hangisi mecaz anlamlıdır?",
+    "option1": "Keskin bıçak",
+    "option2": "Keskin zeka",
+    "option3": "Mavi gökyüzü",
+    "option4": "Yeşil çimen",
+    "answer": "Keskin zeka"
+  },
+  {
+    "id": 24,
+    "question": "Aşağıdaki cümlelerden hangisi olumlu bir cümledir?",
+    "option1": "Bugün hava çok güzel.",
+    "option2": "Ders çalışmadım.",
+    "option3": "Bugün okula gitmeyeceğim.",
+    "option4": "O kitabı hiç okumadım.",
+    "answer": "Bugün hava çok güzel."
+  },
+  {
+    "id": 25,
+    "question": "Hangi sözcük yapım eki almıştır?",
+    "option1": "Kalemlik",
+    "option2": "Kalem",
+    "option3": "Kitap",
+    "option4": "Defter",
+    "answer": "Kalemlik"
+  },
+  {
+    "id": 26,
+    "question": "Aşağıdaki cümlelerden hangisinde sebep-sonuç ilişkisi vardır?",
+    "option1": "Sınavı kazanamadım çünkü yeterince çalışmadım.",
+    "option2": "Yarın hava güzel olacakmış.",
+    "option3": "Dün sinemaya gittim.",
+    "option4": "Bugün çok mutluyum.",
+    "answer": "Sınavı kazanamadım çünkü yeterince çalışmadım."
+  }
   ]
 }

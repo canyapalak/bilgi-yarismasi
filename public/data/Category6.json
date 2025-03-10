@@ -12,15 +12,15 @@
     {
       "id": 2,
       "question": "İstiklal Marşı'nın yazarı kimdir?",
-      "option1": "Yahya Kemal",
-      "option2": "Mehmet Akif",
-      "option3": "Namık Kemal",
-      "option4": "Necip Fazıl",
-      "answer": "Mehmet Akif"
+      "option1": "Yahya Kemal Beyatlı",
+      "option2": "Mehmet Akif Ersoy",
+      "option3": "Sabahattin Ali",
+      "option4": "Peyami Safa",
+      "answer": "Mehmet Akif Ersoy"
     },
     {
       "id": 3,
-      "question": "Osmanlı'da matbaayı kim getirdi?",
+      "question": "Osmanlı'da matbaayı kim getirmiştir?",
       "option1": "Evliya Çelebi",
       "option2": "İbrahim Müteferrika",
       "option3": "Katip Çelebi",
@@ -65,16 +65,16 @@
     },
     {
       "id": 8,
-      "question": "Türk sinemasının önemli yönetmenlerinden biri kimdir?",
-      "option1": "Nuri Bilge",
-      "option2": "Yılmaz Güney",
-      "option3": "Atıf Yılmaz",
-      "option4": "Metin Erksan",
-      "answer": "Yılmaz Güney"
+      "question": "Aşağıdakilerden hangisi, Türk sinemasının önemli yönetmenlerinden biridir?",
+      "option1": "Nuri Bilge Ceylan",
+      "option2": "Cem Karaca",
+      "option3": "Şener Şen",
+      "option4": "İlber Ortaylı",
+      "answer": "Nuri Bilge Ceylan"
     },
     {
       "id": 9,
-      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazandı?",
+      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazanmıştır?",
       "option1": "Fizik",
       "option2": "Kimya",
       "option3": "Tıp",
@@ -84,11 +84,11 @@
     {
       "id": 10,
       "question": "Hangi Osmanlı padişahı 'Kanuni' unvanına sahiptir?",
-      "option1": "Fatih",
-      "option2": "Kanuni",
+      "option1": "Mehmet",
+      "option2": "Orhan",
       "option3": "Yavuz",
-      "option4": "Orhan",
-      "answer": "Kanuni"
+      "option4": "Osman",
+      "answer": "Süleyman"
     },
     {
       "id": 11,

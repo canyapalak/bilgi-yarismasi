@@ -107,6 +107,223 @@
       "option3": "Sütlaç",
       "option4": "Keşkül",
       "answer": "Revani"
-    }
+    },
+     {
+    "id": 14,
+    "question": "Aşağıdaki tatlılardan hangisi Türk mutfağına aittir?",
+    "option1": "Baklava",
+    "option2": "Cheesecake",
+    "option3": "Tiramisu",
+    "option4": "Supangle",
+    "answer": "Baklava"
+  },
+  {
+    "id": 15,
+    "question": "Simidin üzerine aşağıdakilerden hangisi konur?",
+    "option1": "Haşhaş tohumu",
+    "option2": "Kabak çekirdeği",
+    "option3": "Susam",
+    "option4": "Çörekotu",
+    "answer": "Susam"
+  },
+  {
+    "id": 16,
+    "question": "Hangi yemek 'sulu yemek' olarak adlandırılır?",
+    "option1": "Kuru fasulye",
+    "option2": "Lahmacun",
+    "option3": "Pide",
+    "option4": "Pilav",
+    "answer": "Kuru fasulye"
+  },
+  {
+    "id": 17,
+    "question": "Geleneksel Türk kahvesinin yanında hangisi ikram edilir?",
+    "option1": "Bisküvi",
+    "option2": "Kurabiye",
+    "option3": "Pasta",
+    "option4": "Lokum",
+    "answer": "Lokum"
+  },
+  {
+    "id": 18,
+    "question": "Aşağıdaki çorbalardan hangisi yoğurtla yapılır?",
+    "option1": "Tarhana çorbası",
+    "option2": "Ezogelin çorbası",
+    "option3": "Yayla çorbası",
+    "option4": "Mercimek çorbası",
+    "answer": "Yayla çorbası"
+  },
+  {
+    "id": 19,
+    "question": "Hangi baharat tatlılarda kullanılır?",
+    "option1": "Kekik",
+    "option2": "Kimyon",
+    "option3": "Tarçın",
+    "option4": "Karabiber",
+    "answer": "Tarçın"
+  },
+  {
+    "id": 20,
+    "question": "Dondurmasıyla ünlü ilimiz hangisidir?",
+    "option1": "Edirne",
+    "option2": "Kahramanmaraş",
+    "option3": "Gümüşhane",
+    "option4": "Balıkesir",
+    "answer": "Kahramanmaraş"
+  },
+  {
+    "id": 21,
+    "question": "Ramazan ayıyla özdeşleşen tatlımız hangisidir?",
+    "option1": "Baklava",
+    "option2": "Kadayıf",
+    "option3": "Güllaç",
+    "option4": "Revani",
+    "answer": "Güllaç"
+  },
+  {
+    "id": 22,
+    "question": "Türk mutfağında yemeklerden sonra en çok tüketilen içecek hangisidir?",
+    "option1": "Çay",
+    "option2": "Kola",
+    "option3": "Süt",
+    "option4": "Portakal suyu",
+    "answer": "Çay"
+  },
+  {
+    "id": 23,
+    "question": "Hangi yemek sabah kahvaltılarında tercih edilir?",
+    "option1": "Menemen",
+    "option2": "Dolma",
+    "option3": "Karnıyarık",
+    "option4": "Döner",
+    "answer": "Menemen"
+  },
+  {
+    "id": 24,
+    "question": "Hangi şehrimiz kahvaltısı ile ünlüdür?",
+    "option1": "Bursa",
+    "option2": "Ankara",
+    "option3": "Van",
+    "option4": "İzmir",
+    "answer": "Van"
+  },
+  {
+    "id": 25,
+    "question": "Kabakla yapılan yemek hangisidir?",
+    "option1": "Mücver",
+    "option2": "Kısır",
+    "option3": "İçli köfte",
+    "option4": "Hünkar beğendi",
+    "answer": "Mücver"
+  },
+
+  {
+    "id": 26,
+    "question": "Türk kültüründe çay en çok hangi tür bardakta servis edilir?",
+    "option1": "Fincan",
+    "option2": "Kupa",
+    "option3": "İnce belli bardak",
+    "option4": "Şişe",
+    "answer": "İnce belli bardak"
+  },
+  {
+    "id": 27,
+    "question": "Hangi Türk tatlısında şerbet kullanılmaz?",
+    "option1": "Revani",
+    "option2": "Baklava",
+    "option3": "Sütlaç",
+    "option4": "Şekerpare",
+    "answer": "Sütlaç"
+  },
+  {
+    "id": 28,
+    "question": "Türk mutfağında yemek pişirmek için kullanılan toprak kaplara ne ad verilir?",
+    "option1": "Tencere",
+    "option2": "Güveç",
+    "option3": "Tepsi",
+    "option4": "Kazan",
+    "answer": "Güveç"
+  },
+  {
+    "id": 29,
+    "question": "Yemek yendikten sonra yemeği yapan kişiye ne nedir?",
+    "option1": "Tebrikler",
+    "option2": "Kolay gelsin",
+    "option3": "Eline sağlık",
+    "option4": "Rastgele",
+    "answer": "Eline sağlık"
+  },
+  {
+    "id": 30,
+    "question": "Karadeniz bölgesiyle özdeşleşmiş küçük deniz balığı hangisidir?",
+    "option1": "Çinekop",
+    "option2": "Hamsi",
+    "option3": "Mezgit",
+    "option4": "Palamut",
+    "answer": "Hamsi"
+  },
+  {
+    "id": 31,
+    "question": "'Tavşan kanı' ifadesi hangi içecek için kullanılır?",
+    "option1": "Kahve",
+    "option2": "Çay",
+    "option3": "Ayran",
+    "option4": "Vişne suyu",
+    "answer": "Çay"
+  },
+  {
+    "id": 32,
+    "question": "Türk mutfağında 'bol kepçe' tabiri ne anlama gelir?",
+    "option1": "Büyük porsiyon yemek",
+    "option2": "Küçük porsiyon yemek",
+    "option3": "Taze yemek",
+    "option4": "Pahalı yemek",
+    "answer": "Büyük porsiyon yemek"
+  },
+  {
+    "id": 33,
+    "question": "Geleneksel Türk yemeklerinde önce hangisi sunulur?",
+    "option1": "Ana yemek",
+    "option2": "Tatlı",
+    "option3": "Türk kahvesi",
+    "option4": "Çorba",
+    "answer": "Çorba"
+  },
+  {
+    "id": 34,
+    "question": "Diyarbakır hangi meyve ile ünlüdür?",
+    "option1": "Çilek",
+    "option2": "Karpuz",
+    "option3": "Portakal",
+    "option4": "Ayva",
+    "answer": "Karpuz"
+  },
+  {
+    "id": 35,
+    "question": "Pişmaniyesi ile ünlü ilimiz hangisidir?",
+    "option1": "İstanbul",
+    "option2": "Kocaeli",
+    "option3": "Sakarya",
+    "option4": "Bolu",
+    "answer": "Kocaeli"
+  },
+  {
+    "id": 36,
+    "question": "Zeytinyağlı yemekleri ile ünlü bölgemiz hangisidir?",
+    "option1": "Karadeniz",
+    "option2": "Doğu Anadolu",
+    "option3": "İç Anadolu",
+    "option4": "Ege",
+    "answer": " Ege"
+  },
+  {
+    "id": 37,
+    "question": "Meşhur 'cağ kebabı' hangi ilimize aittir?",
+    "option1": "Erzurum",
+    "option2": "Sivas",
+    "option3": "Kars",
+    "option4": "Artvin",
+    "answer": "Erzurum"
+  }
   ]
 }
