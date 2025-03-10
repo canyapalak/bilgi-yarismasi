@@ -82,7 +82,7 @@ export default function ContestResult({
       );
     } else if (score >= 4 && score <= 5) {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-2">
           10 sorudan <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru bilerek{" "}
           <span className="text-brick-default">Spider-Man</span> oldun! Hızlı,
@@ -93,7 +93,7 @@ export default function ContestResult({
       );
     } else if (score >= 6 && score <= 7) {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-2">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
           tanesine doğru cevap verdin ve{" "}
           <span className="text-brick-default">Wonder Woman</span> oldun! Güçlü,
@@ -104,7 +104,7 @@ export default function ContestResult({
       );
     } else if (score >= 8 && score <= 9) {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-2">
           10 sorudan <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru yanıtladın ve{" "}
           <span className="text-brick-default">Batman</span> oldun! Zekân,
@@ -115,7 +115,7 @@ export default function ContestResult({
       );
     } else {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-2">
           10 sorunun <span className="text-brick-default">10</span>&apos;unu da
           doğru bildin ve <span className="text-brick-default">Superman</span>{" "}
           oldun! Süper güçlerin, hızın ve uçma yeteneğinle herkesin hayran
