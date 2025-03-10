@@ -51,7 +51,7 @@ export default function ContestResult({
     image: heroImage,
     logo: heroLogo,
     name: heroName,
-  } = getHeroDetails(score !== null ? score : 0); // Check if score is null and use 0 if so
+  } = getHeroDetails(score !== null ? score : 0);
 
   const handleClickCard = () => {
     setIsBackCard((prev) => !prev);
@@ -60,7 +60,7 @@ export default function ContestResult({
   const getResultText = (score: number) => {
     if (score >= 0 && score <= 1) {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-3 break-words">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru bildin ve{" "}
           <span className="text-brick-default">Hulk</span> oldun! Üzülme çünkü
@@ -71,7 +71,7 @@ export default function ContestResult({
       );
     } else if (score >= 2 && score <= 3) {
       return (
-        <p className="text-justify px-3">
+        <p className="text-center px-2">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru yanıtladın ve{" "}
           <span className="text-brick-default">Wolverine</span> oldun! Güçlü,

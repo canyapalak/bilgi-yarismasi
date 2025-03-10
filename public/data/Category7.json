@@ -1,112 +1,229 @@
 {
   "questions": [
     {
-      "id": 1,
-      "question": "Türkiye'nin en son düzenlenen büyük spor organizasyonu hangisidir?",
-      "option1": "EURO 2024",
-      "option2": "FIBA Dünya Kupası",
-      "option3": "Formula 1",
-      "option4": "WRC Türkiye Rallisi",
-      "answer": "WRC Türkiye Rallisi"
-    },
-    {
-      "id": 2,
-      "question": "Son yıllarda Türkiye'de en çok izlenen dizi hangisidir?",
-      "option1": "Kuruluş Osman",
-      "option2": "Camdaki Kız",
-      "option3": "Yalı Çapkını",
-      "option4": "Sadakatsiz",
-      "answer": "Yalı Çapkını"
-    },
-    {
-      "id": 3,
-      "question": "Türkiye'nin yerli otomobil markası nedir?",
-      "option1": "Tofaş",
-      "option2": "TOGG",
-      "option3": "BMC",
-      "option4": "Renault",
-      "answer": "TOGG"
-    },
-    {
-      "id": 4,
-      "question": "Türkiye'nin son yıllarda uzaya gönderdiği ilk astronot kimdir?",
-      "option1": "Cevdet Yılmaz",
-      "option2": "Alper Gezeravcı",
-      "option3": "Eren Özmen",
-      "option4": "Aziz Sancar",
-      "answer": "Alper Gezeravcı"
-    },
-    {
-      "id": 5,
-      "question": "Türkiye'de en çok kullanılan sosyal medya platformu hangisidir?",
-      "option1": "Facebook",
-      "option2": "Instagram",
-      "option3": "Twitter",
-      "option4": "TikTok",
-      "answer": "Instagram"
-    },
-    {
-      "id": 6,
-      "question": "Türkiye'de son yıllarda en çok dinlenen şarkıcılardan biri kimdir?",
-      "option1": "Tarkan",
-      "option2": "Sezen Aksu",
-      "option3": "Mabel Matiz",
-      "option4": "Mero",
-      "answer": "Mabel Matiz"
-    },
-    {
-      "id": 7,
-      "question": "Son yıllarda Türkiye'de en çok konuşulan ekonomik gelişme nedir?",
-      "option1": "Kripto para",
-      "option2": "Döviz kuru",
-      "option3": "Asgari ücret",
-      "option4": "Enflasyon",
-      "answer": "Enflasyon"
-    },
-    {
-      "id": 8,
-      "question": "Türkiye'de hangi teknoloji şirketi son yıllarda en çok yatırım aldı?",
-      "option1": "Trendyol",
-      "option2": "Getir",
-      "option3": "Hepsiburada",
-      "option4": "BiTaksi",
-      "answer": "Getir"
-    },
-    {
-      "id": 9,
-      "question": "Türkiye'nin yerli ve milli savunma sanayisindeki en önemli projelerinden biri hangisidir?",
-      "option1": "Altay Tankı",
-      "option2": "İHA/SİHA",
-      "option3": "Denizaltı Projesi",
-      "option4": "Milli Piyade Tüfeği",
-      "answer": "İHA/SİHA"
-    },
-    {
-      "id": 10,
-      "question": "Son yıllarda Türkiye'de en çok turist çeken şehir hangisidir?",
-      "option1": "İstanbul",
-      "option2": "Antalya",
-      "option3": "Kapadokya",
-      "option4": "Bodrum",
-      "answer": "Antalya"
-    },
-    {
-      "id": 11,
-      "question": "Türkiye'nin en büyük havaalanı hangisidir?",
-      "option1": "Sabiha Gökçen",
-      "option2": "Esenboğa",
-      "option3": "İstanbul Havalimanı",
-      "option4": "Adnan Menderes",
-      "answer": "İstanbul Havalimanı"
-    },
-    {
-      "id": 12,
-      "question": "Türkiye'de en fazla nüfusa sahip ilçe hangisidir?",
-      "option1": "Esenyurt",
-      "option2": "Keçiören",
-      "option3": "Çankaya",
-      "option4": "Bağcılar",
-      "answer": "Esenyurt"
-    }
-  ]
+    "id": 1,
+    "question": "Uzaya çıkan ilk Türk astronot kimdir?",
+    "option1": "Alper Gezeravcı",
+    "option2": "Cem Karaca",
+    "option3": "Hazerfen Ahmet Çelebi",
+    "option4": "Barış Manço",
+    "answer": "Alper Gezeravcı"
+  },
+  {
+    "id": 2,
+    "question": "Kimya alanındaki çalışmaları ile 2015 yılında Nobel Ödülü kazanan ilk Türk doktor kimdir?",
+    "option1": "Aziz Sancar",
+    "option2": "Ali Kuşçu",
+    "option3": "Uğur Şahin",
+    "option4": "Mehmet Öz",
+    "answer": "Aziz Sancar"
+  },
+  {
+    "id": 3,
+    "question": "Real Madrid'e transfer olan ilk Türk futbolcu kimdir?",
+    "option1": "Arda Güler",
+    "option2": "Burak Yılmaz",
+    "option3": "Emre Belözoğlu",
+    "option4": "Mehmet Topal",
+    "answer": "Arda Güler"
+  },
+  {
+    "id": 4,
+    "question": "2024 Avrupa Futbol Şampiyonası çeyrek finalinde Türkiye hangi takımla karşılaşmıştır?",
+    "option1": "Hollanda",
+    "option2": "Brezilya",
+    "option3": "Almanya",
+    "option4": "Arjantin",
+    "answer": "Hollanda"
+  },
+  {
+    "id": 5,
+    "question": "2023 yılında hem Dünya Şampiyonu hem de Milletler Ligi Şampiyonu olan A Milli Kadın Voleybol Takımımızın lakabı nedir?",
+    "option1": "Filenin Sultanları",
+    "option2": "Bozkurtlar",
+    "option3": "Kartallar",
+    "option4": "Altın Kızlar",
+    "answer": "Filenin Sultanları"
+  },
+  {
+    "id": 6,
+    "question": "Tokyo 2020 Olimpiyatları'nda okçuluk dalında altın madalya kazanan Türk sporcu kimdir?",
+    "option1": "Mete Gazoz",
+    "option2": "Seda Tokatlıoğlu",
+    "option3": "Serdar Ortaç",
+    "option4": "Halil Mutlu",
+    "answer": "Mete Gazoz"
+  },
+  {
+    "id": 7,
+    "question": "2024 Paris Olimpiyat Oyunları'nda atıcılık dalında gümüş madalya kazanan Türk sporcu kimdir?",
+    "option1": "Yusuf Dikeç",
+    "option2": "Ahmet Nur Çebi",
+    "option3": "Kenan Doğulu",
+    "option4": "Haluk Bilginer",
+    "answer": "Yusuf Dikeç"
+  },
+  {
+    "id": 8,
+    "question": "Türkiye'nin ilk yerli ve milli haberleşme uydusu hangisidir?",
+    "option1": "Türksat 6A",
+    "option2": "Sputnik 1",
+    "option3": "Apollo 11",
+    "option4": "Hubble",
+    "answer": "Türksat 6A"
+  },
+  {
+    "id": 9,
+    "question": "Türk Dil Bayramı her yıl hangi tarihte kutlanmaktadır?",
+    "option1": "26 Eylül",
+    "option2": "19 Mayıs",
+    "option3": "30 Ağustos",
+    "option4": "1 Ocak",
+    "answer": "26 Eylül"
+  },
+  {
+    "id": 11,
+    "question": "2024 Dünya Superbike Şampiyonası'nda ikinci kez dünya şampiyonu olan Türk motosikletçi kimdir?",
+    "option1": "Toprak Razgatlıoğlu",
+    "option2": "Fernando Alonso",
+    "option3": "Lewis Hamilton",
+    "option4": "Valentino Rossi",
+    "answer": "Toprak Razgatlıoğlu"
+  },
+  {
+    "id": 12,
+    "question": "Türkiye'nin ilk astronotu uzaya hangi yıl gitmiştir?",
+    "option1": "2018",
+    "option2": "2024",
+    "option3": "2020",
+    "option4": "2015",
+    "answer": "2024"
+  },
+  {
+    "id": 13,
+    "question": "2022 yılında kullanıma açılan ve Türkiye'nin en uzun köprüsü olan 1915 Çanakkale Köprüsü hangi iki şehri birbirine bağlamaktadır?",
+    "option1": "İstanbul - Kocaeli",
+    "option2": "Çanakkale - Tekirdağ",
+    "option3": "Çanakkale - Balıkesir",
+    "option4": "İzmir - Aydın",
+    "answer": "Çanakkale - Tekirdağ"
+  },
+  {
+    "id": 14,
+    "question": "2023 yılında satışa sunulan Türkiye'nin ilk yerli otomobilinin markası nedir?",
+    "option1": "Pars",
+    "option2": "Sungur",
+    "option3": "Togg",
+    "option4": "Anadolu",
+    "answer": "Togg"
+  },
+  {
+    "id": 15,
+    "question": "Türkiye'nin ilk milli haberleşme uydusu olan Türksat 6A hangi yıl uzaya fırlatılmıştır?",
+    "option1": "2022",
+    "option2": "2023",
+    "option3": "2024",
+    "option4": "2025",
+    "answer": "2024"
+  },
+  {
+    "id": 16,
+    "question": "Türkiye'de her yıl 23 Nisan'da kutlanan özel gün hangisidir?",
+    "option1": "Gençlik ve Spor Bayramı",
+    "option2": "Cumhuriyet Bayramı",
+    "option3": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "option4": "Zafer Bayramı",
+    "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
+  },
+  {
+    "id": 17,
+    "question": "2024 yılında Türkiye'nin en çok ziyaret edilen şehri hangisi olmuştur?",
+    "option1": "İstanbul",
+    "option2": "Antalya",
+    "option3": "İzmir",
+    "option4": "Kapadokya",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 18,
+    "question": "2023 yılında Avrupa'da 'Yılın En İyi Kadın Voleybolcusu' seçilen Türk sporcu kimdir?",
+    "option1": "Eda Erdem",
+    "option2": "Melissa Vargas",
+    "option3": "Zehra Güneş",
+    "option4": "Hande Baladın",
+    "answer": "Melissa Vargas"
+  },
+  {
+    "id": 19,
+    "question": "2024 yılında Türkiye Süper Ligi'nde şampiyon olan takım hangisidir?",
+    "option1": "Fenerbahçe",
+    "option2": "Galatasaray",
+    "option3": "Beşiktaş",
+    "option4": "Trabzonspor",
+    "answer": "Galatasaray"
+  },
+  {
+    "id": 20,
+    "question": "Türkiye'nin ilk yerli elektrikli lokomotifi hangi isimle tanıtılmıştır?",
+    "option1": "E5000",
+    "option2": "Tülomsaş 2000",
+    "option3": "Yıldırım 3000",
+    "option4": "Toros 1000",
+    "answer": "E5000"
+  },
+  {
+    "id": 21,
+    "question": "2024 yılında Türkiye'nin nüfusu yaklaşık kaç milyona ulaşmıştır?",
+    "option1": "80 milyon",
+    "option2": "85 milyon",
+    "option3": "90 milyon",
+    "option4": "95 milyon",
+    "answer": "85 milyon"
+  },
+  {
+    "id": 22,
+    "question": "2023 yılında açılan ve Türkiye'nin en uzun kara yolu tüneli olan Zigana Tüneli hangi iki şehri birbirine bağlamaktadır?",
+    "option1": "Trabzon - Gümüşhane",
+    "option2": "Rize - Artvin",
+    "option3": "Ankara - Eskişehir",
+    "option4": "Bursa - Balıkesir",
+    "answer": "Trabzon - Gümüşhane"
+  },
+  {
+    "id": 23,
+    "question": "Türkiye'nin ilk yerli savaş uçağı olan KAAN hangi yıl ilk uçuşunu yapmıştır?",
+    "option1": "2022",
+    "option2": "2023",
+    "option3": "2024",
+    "option4": "2025",
+    "answer": "2024"
+  },
+  {
+    "id": 24,
+    "question": "2024 yılı itibarıyla Türkiye'nin en büyük havalimanı hangisidir?",
+    "option1": "Sabiha Gökçen Havalimanı",
+    "option2": "Antalya Havalimanı",
+    "option3": "İstanbul Havalimanı",
+    "option4": "Esenboğa Havalimanı",
+    "answer": "İstanbul Havalimanı"
+  },
+  {
+    "id": 25,
+    "question": "2023 yılında Türkiye'de en çok dinlenen müzik türü hangisidir?",
+    "option1": "Pop",
+    "option2": "Rap",
+    "option3": "Türk Halk Müziği",
+    "option4": "Rock",
+    "answer": "Rap"
+  },
+  {
+    "id": 26,
+    "question": "2024 yılı itibarıyla Türkiye'deki en yüksek baraj hangisidir?",
+    "option1": "Atatürk Barajı",
+    "option2": "Çoruh Barajı",
+    "option3": "Yusufeli Barajı",
+    "option4": "Keban Barajı",
+    "answer": "Yusufeli Barajı"
+  }
+]
 }
