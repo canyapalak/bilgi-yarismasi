@@ -103,10 +103,10 @@
       "id": 12,
       "question": "Hangisi Türkçede büyük ünlü uyumuna uyar?",
       "option1": "Kalemlik",
-      "option2": "İğne",
+      "option2": "Kedi",
       "option3": "Kitapçı",
       "option4": "Kardeş",
-      "answer": "İğne"
+      "answer": "Kedi"
     },
   {
     "id": 13,
@@ -211,8 +211,8 @@
     "id": 24,
     "question": "Aşağıdaki cümlelerden hangisi olumlu bir cümledir?",
     "option1": "Bugün hava çok güzel.",
-    "option2": "Ders çalışmadım.",
-    "option3": "Bugün okula gitmeyeceğim.",
+    "option2": "Henüz yemek yemedim.",
+    "option3": "Yarın işe gitmeyeceğim.",
     "option4": "O kitabı hiç okumadım.",
     "answer": "Bugün hava çok güzel."
   },
@@ -233,6 +233,15 @@
     "option3": "Dün sinemaya gittim.",
     "option4": "Bugün çok mutluyum.",
     "answer": "Sınavı kazanamadım çünkü yeterince çalışmadım."
+  },
+    {
+    "id": 27,
+    "question": "Türkçe hangi dil ailesine aittir?",
+    "option1": "Hint-Avrupa",
+    "option2": "Ural-Altay",
+    "option3": "Nil-Sahra",
+    "option4": "Hami-Sami",
+    "answer": "Ural-Altay"
   }
   ]
 }

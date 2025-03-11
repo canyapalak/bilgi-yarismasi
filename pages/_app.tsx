@@ -36,7 +36,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Header />
         <div
           className="ml-auto mr-auto border-dashed
-      border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-4 w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mb-8 container-dash"
+      border-spacing-20 border-4 border-neutral-600 rounded-xl py-6 px-4 xl:px-10 w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mb-8 container-dash"
         >
           <ScoreProvider>
             <ContestProvider>

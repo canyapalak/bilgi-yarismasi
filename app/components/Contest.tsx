@@ -204,8 +204,8 @@ export default function Contest({
                       Doğru cevap! Tebrikler!
                     </div>
                   ) : (
-                    <div className="text-xl mt-4 text-red-default flex flex-col sm:flex-row">
-                      <span className="flex flex-row gap-2">
+                    <div className="text-xl mt-4 text-red-default flex flex-col mx-auto">
+                      <span className="flex flex-row gap-2 mx-auto">
                         <p> Bilemedin! </p>
                         <p className="">Doğru cevap:</p>
                       </span>

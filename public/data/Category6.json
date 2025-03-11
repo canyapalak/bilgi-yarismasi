@@ -84,11 +84,11 @@
     {
       "id": 10,
       "question": "Hangi Osmanlı padişahı 'Kanuni' unvanına sahiptir?",
-      "option1": "Mehmet",
-      "option2": "Orhan",
-      "option3": "Yavuz",
-      "option4": "Osman",
-      "answer": "Süleyman"
+      "option1": "II. Mehmed",
+      "option2": "I. Süleyman",
+      "option3": "I. Selim",
+      "option4": "I. Osman",
+      "answer": "I. Süleyman"
     },
     {
       "id": 11,

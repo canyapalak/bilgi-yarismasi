@@ -495,14 +495,14 @@
     "option4": "Topkapı Sarayı",
     "answer": "Sümela Manastırı"
   },
-  {
+    {
     "id": 56,
-    "question": "Osmanlı dönemine ait geleneksel Türk evleriyle ve lokumuyla ünlü, UNESCO Dünya Mirası Listesi'nde yer alan şehir hangisidir?",
-    "option1": "Mardin",
-    "option2": "Bursa",
-    "option3": "Safranbolu",
-    "option4": "Şanlıurfa",
-    "answer": "Safranbolu"
+    "question": "Türkiye'de Kapadokya bölgesinde bulunan yer altı şehirlerinden biri hangisidir?",
+    "option1": "Zeugma",
+    "option2": "Derinkuyu",
+    "option3": "Ani Harabeleri",
+    "option4": "Hasankeyf",
+    "answer": "Derinkuyu"
   },
   {
     "id": 57,
@@ -575,15 +575,6 @@
     "option3": "Tuz Gölü",
     "option4": "Beyşehir Gölü",
     "answer": "Van Gölü"
-  },
-  {
-    "id": 65,
-    "question": "Türkiye'de Kapadokya bölgesinde bulunan yer altı şehirlerinden biri hangisidir?",
-    "option1": "Zeugma",
-    "option2": "Derinkuyu",
-    "option3": "Ani Harabeleri",
-    "option4": "Hasankeyf",
-    "answer": "Derinkuyu"
   }
   ]
 }
