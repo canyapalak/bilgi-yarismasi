@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "question": "Osmanlı'da matbaayı kim getirmiştir?",
+      "question": "Osmanlı'ya matbaayı kim getirmiştir?",
       "option1": "Evliya Çelebi",
       "option2": "İbrahim Müteferrika",
       "option3": "Katip Çelebi",
@@ -69,7 +69,7 @@
       "option1": "Nuri Bilge Ceylan",
       "option2": "Cem Karaca",
       "option3": "Şener Şen",
-      "option4": "İlber Ortaylı",
+      "option4": "Kemal Sunal",
       "answer": "Nuri Bilge Ceylan"
     },
     {
@@ -101,21 +101,30 @@
     },
     {
       "id": 12,
-      "question": "Hangi Türk halk müziği sanatçısı ‘Mihriban’ şarkısıyla ünlüdür?",
+      "question": "Hangi Türk halk ozanı 'Uzun İnce Bir Yoldayım' türküsüyle tanınır?",
       "option1": "Neşet Ertaş",
       "option2": "Musa Eroğlu",
       "option3": "Mahsuni Şerif",
       "option4": "Aşık Veysel",
-      "answer": "Musa Eroğlu"
+      "answer": "Aşık Veysel"
     },
-    {
+        {
       "id": 13,
-      "question": "Hangi Türk müzisyen ‘Dönence’ şarkısıyla tanınmıştır?",
-      "option1": "Barış Manço",
-      "option2": "Cem Karaca",
-      "option3": "İlhan İrem",
-      "option4": "Zeki Müren",
-      "answer": "Barış Manço"
+      "question": "Türk edebiyatında ‘Halk Şairi’ olarak bilinen ünlü şair kimdir?",
+      "option1": "Yunus Emre",
+      "option2": "Fuzuli",
+      "option3": "Nedim",
+      "option4": "Baki",
+      "answer": "Yunus Emre"
+    },
+            {
+      "id": 14,
+      "question": "Türkiye, Eurovision şarkı yarışmasını hangi sanatçımız ile kazanmıştır?",
+      "option1": "Tarkan",
+      "option2": "Sezen Aksu",
+      "option3": "Sertab Erener",
+      "option4": "Mustafa Sandal",
+      "answer": "Sertab Erener"
     }
   ]
 }

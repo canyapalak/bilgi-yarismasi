@@ -158,7 +158,7 @@
     "question": "Hangisi bir masal kahramanıdır?",
     "option1": "Keloğlan",
     "option2": "Mevlana",
-    "option3": "Nazım Hikmet",
+    "option3": "Mimar Sinan",
     "option4": "Evliya Çelebi",
     "answer": "Keloğlan"
   },
@@ -242,6 +242,69 @@
     "option3": "Nil-Sahra",
     "option4": "Hami-Sami",
     "answer": "Ural-Altay"
-  }
+  },
+      {
+      "id": 28,
+      "question": "Aşağıdaki kelimelerden hangisi soyut bir kavramdır?",
+      "option1": "Sevgi",
+      "option2": "Tahta",
+      "option3": "Bardak",
+      "option4": "Çanta",
+      "answer": "Sevgi"
+    },
+        {
+      "id": 29,
+      "question": "Aşağıdakilerden hangisi bir noktalama işaretidir?",
+      "option1": "Ünlem",
+      "option2": "Bağlaç",
+      "option3": "Fiil",
+      "option4": "Sıfat",
+      "answer": "Ünlem"
+    },
+        {
+      "id": 30,
+      "question": "Hangisi bir halk şairidir?",
+      "option1": "Mevlana",
+      "option2": "Yunus Emre",
+      "option3": "Ömer Seyfettin",
+      "option4": "Reşat Nuri Güntekin",
+      "answer": "Yunus Emre"
+    },
+        {
+      "id": 31,
+      "question": "Aşağıdaki masallardan hangisi bir Türk masalıdır?",
+      "option1": "Keloğlan",
+      "option2": "Pamuk Prenses",
+      "option3": "Külkedisi",
+      "option4": "Kırmızı Başlıklı Kız",
+      "answer": "Keloğlan"
+    },
+        {
+      "id": 32,
+      "question": "Hangisi bir edebi tür değildir?",
+      "option1": "Roman",
+      "option2": "Şiir",
+      "option3": "Hikaye",
+      "option4": "Matematik",
+      "answer": "Matematik"
+    },
+        {
+      "id": 33,
+      "question": "Aşağıdaki kelimelerden hangisi somut bir kelimedir?",
+      "option1": "Heyecan",
+      "option2": "Mutluluk",
+      "option3": "Mektup",
+      "option4": "Üzüntü",
+      "answer": "Mektup"
+    },
+        {
+      "id": 34,
+      "question": "Aşağıdaki kelimelerden hangisi birleşik kelimedir?",
+      "option1": "Okul",
+      "option2": "Denizaltı",
+      "option3": "Pencere",
+      "option4": "Ödev",
+      "answer": "Denizaltı"
+    }
   ]
 }
