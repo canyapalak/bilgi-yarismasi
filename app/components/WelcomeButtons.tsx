@@ -59,13 +59,13 @@ export default function WelcomeButtons({
   };
 
   const CategoryArray: Category[] = [
-    { title: "Dil ve Edebiyat", fileName: "Category2" },
-    { title: "Coğrafya", fileName: "Category1" },
-    { title: "Tarih", fileName: "Category4" },
-    { title: "Kültür ve Sanat", fileName: "Category3" },
+    { title: "Dil ve Edebiyat", fileName: "Category1" },
+    { title: "Coğrafya", fileName: "Category2" },
+    { title: "Tarih", fileName: "Category3" },
+    { title: "Kültür ve Sanat", fileName: "Category4" },
     { title: "Türk Mutfağı", fileName: "Category5" },
-    { title: "Güncel Bilgiler", fileName: "Category7" },
-    { title: "Ünlü Kişiler", fileName: "Category6" },
+    { title: "Güncel Bilgiler", fileName: "Category6" },
+    { title: "Ünlü Kişiler", fileName: "Category7" },
     { title: "Hepsi!", fileName: "Hepsi!" },
   ];
 

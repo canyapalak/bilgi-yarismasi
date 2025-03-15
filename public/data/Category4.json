@@ -2,192 +2,273 @@
   "questions": [
     {
       "id": 1,
-      "question": "Malazgirt Meydan Muharebesi'ni kim kazanmıştır?",
-      "option1": "Bizans",
-      "option2": "Selçuklular",
-      "option3": "Göktürkler",
-      "option4": "Moğollar",
-      "answer": "Selçuklular"
+      "question": "Hangi bayramda çocuklara şeker verilir?",
+      "option1": "Ramazan Bayramı",
+      "option2": "Kurban Bayramı",
+      "option3": "Cumhuriyet Bayramı",
+      "option4": "Zafer Bayramı",
+      "answer": "Ramazan Bayramı"
     },
     {
       "id": 2,
-      "question": "Osmanlı Devleti’nin ilk başkenti hangisidir?",
-      "option1": "Ankara",
-      "option2": "Bursa",
-      "option3": "İzmir",
-      "option4": "İstanbul",
-      "answer": "Bursa"
+      "question": "Türk kültüründe misafirlere ikram edilen en yaygın içecek nedir?",
+      "option1": "Kola",
+      "option2": "Meyve suyu",
+      "option3": "Çay",
+      "option4": "Şalgam",
+      "answer": "Çay"
+    },
+    {
+      "id": 3,
+      "question": "Hacivat ve Karagöz hangi geleneksel sanat türüne aittir?",
+      "option1": "Ebru",
+      "option2": "Gölge oyunu",
+      "option3": "Hat sanatı",
+      "option4": "Minyatür",
+      "answer": "Gölge oyunu"
+    },
+    {
+      "id": 4,
+      "question": "Türk halk müziğinde kullanılan telli çalgımız hangisidir?",
+      "option1": "Saz",
+      "option2": "Keman",
+      "option3": "Zurna",
+      "option4": "Davul",
+      "answer": "Saz"
+    },
+    {
+      "id": 5,
+      "question": "Hangisi Türkiye'de yaygın olarak oynanan bir çocuk oyunu değildir?",
+      "option1": "Saklambaç",
+      "option2": "Körebe",
+      "option3": "Yakan top",
+      "option4": "Frizbi",
+      "answer": "Frizbi"
+    },
+    {
+      "id": 6,
+      "question": "Hangisi Türk kültüründe önemli bir hayvandır?",
+      "option1": "Kurt",
+      "option2": "Zürafa",
+      "option3": "Timsah",
+      "option4": "Tavşan",
+      "answer": "Kurt"
+    },
+    {
+      "id": 7,
+      "question": "Aşık Veysel hangi sanat dalında ünlüdür?",
+      "option1": "Resim",
+      "option2": "Müzik",
+      "option3": "Tiyatro",
+      "option4": "Heykel",
+      "answer": "Müzik"
+    },
+    {
+      "id": 8,
+      "question": "Hangi oyun geleneksel Türk halk oyunlarından biridir?",
+      "option1": "Horon",
+      "option2": "Sirtaki",
+      "option3": "Flamenko",
+      "option4": "Tango",
+      "answer": "Horon"
+    },
+    {
+      "id": 9,
+      "question": "Hangisi ünlü Türk masal kahramanıdır?",
+      "option1": "Peter Pan",
+      "option2": "Kırmızı Başlıklı Kız",
+      "option3": "Keloğlan",
+      "option4": "Şirin Baba",
+      "answer": "Keloğlan"
+    },
+    {
+      "id": 10,
+      "question": "Kırkpınar güreşleri hangi şehirde düzenlenir?",
+      "option1": "Bursa",
+      "option2": "İzmir",
+      "option3": "Manisa",
+      "option4": "Edirne",
+      "answer": "Edirne"
+    },
+    {
+      "id": 11,
+      "question": "Türk kültüründe nazardan korunmak için ne kullanılır?",
+      "option1": "Kehribar",
+      "option2": "Nazar boncuğu",
+      "option3": "Kına",
+      "option4": "Tespih",
+      "answer": "Nazar boncuğu"
+    },
+    {
+      "id": 12,
+      "question": "Hangi geleneksel Türk oyunu çocuklar arasında popülerdir?",
+      "option1": "Misket",
+      "option2": "Satranç",
+      "option3": "Dama",
+      "option4": "Go",
+      "answer": "Misket"
+    },
+        {
+      "id": 13,
+      "question": "Hangi çiçek Türk görsel sanatlarında sıkça kullanılır?",
+      "option1": "Lale",
+      "option2": "Orkide",
+      "option3": "Papatya",
+      "option4": "Kiraz çiçeği",
+      "answer": "Lale"
     },
       {
-    "id": 3,
-    "question": "İstanbul’u fetheden Osmanlı padişahı kimdir?",
-    "option1": "Kanuni Sultan Süleyman",
-    "option2": "Fatih Sultan Mehmet",
-    "option3": "Yavuz Sultan Selim",
-    "option4": "Yıldırım Bayezid",
-    "answer": "Fatih Sultan Mehmet"
-  },
-  {
-    "id": 4,
-    "question": "Türklerin kullandığı ilk alfabe hangisidir?",
-    "option1": "Arap Alfabesi",
-    "option2": "Latin Alfabesi",
-    "option3": "Göktürk Alfabesi",
-    "option4": "Kiril Alfabesi",
-    "answer": "Göktürk Alfabesi"
-  },
-  {
-    "id": 5,
-    "question": "Malazgirt Meydan Muharebesi hangi tarihte yapılmıştır?",
-    "option1": "1453",
-    "option2": "1071",
-    "option3": "1923",
-    "option4": "1299",
-    "answer": "1071"
-  },
-  {
-    "id": 6,
-    "question": "Osmanlı Devleti ne zaman kurulmuştur?",
-    "option1": "1299",
-    "option2": "1453",
-    "option3": "1923",
-    "option4": "1071",
-    "answer": "1299"
-  },
-  {
-    "id": 7,
-    "question": "İlk yazılı Türk anıtları nelerdir?",
-    "option1": "Göktürk Kitabeleri",
-    "option2": "Sümer Tabletleri",
-    "option3": "Hitit Yazıtları",
-    "option4": "Urartu Yazıtları",
-    "answer": "Göktürk Kitabeleri"
-  },
-  {
-    "id": 8,
-    "question": "Türkiye Cumhuriyeti hangi yıl kurulmuştur?",
-    "option1": "1919",
-    "option2": "1923",
-    "option3": "1938",
-    "option4": "1920",
-    "answer": "1923"
-  },
-  {
-    "id": 9,
-    "question": "Cumhuriyet’in ilanı hangi tarihte olmuştur?",
-    "option1": "19 Mayıs 1919",
-    "option2": "29 Ekim 1923",
-    "option3": "23 Nisan 1920",
-    "option4": "30 Ağustos 1922",
-    "answer": "29 Ekim 1923"
-  },
-  {
-    "id": 10,
-    "question": "Osmanlı Devleti’nin ilk padişahı kimdir?",
-    "option1": "Fatih Sultan Mehmet",
-    "option2": "Orhan Gazi",
-    "option3": "Osman Gazi",
-    "option4": "Kanuni Sultan Süleyman",
-    "answer": "Osman Gazi"
-  },
-  {
-    "id": 11,
-    "question": "Osmanlı Devleti’nin başkentleri sırasıyla hangi şehirler olmuştur?",
-    "option1": "Bursa - Edirne - İstanbul",
-    "option2": "Ankara - İstanbul - İzmir",
-    "option3": "Edirne - İstanbul - Konya",
-    "option4": "Bursa - İstanbul - Ankara",
-    "answer": "Bursa - Edirne - İstanbul"
-  },
-  {
-    "id": 12,
-    "question": "Atatürk hangi yılda doğmuştur?",
-    "option1": "1881",
-    "option2": "1890",
-    "option3": "1876",
-    "option4": "1901",
-    "answer": "1881"
-  },
-  {
-    "id": 13,
-    "question": "Çanakkale Savaşı hangi savaş sırasında gerçekleşmiştir?",
-    "option1": "I. Dünya Savaşı",
-    "option2": "Balkan Savaşları",
-    "option3": "II. Dünya Savaşı",
-    "option4": "Niğbolu Savaşı",
-    "answer": "I. Dünya Savaşı"
-  },
- {
     "id": 14,
-    "question": "İstanbul’u fetheden Osmanlı padişahı hangi unvanı almıştır?",
-    "option1": "Yavuz",
-    "option2": "Fatih",
-    "option3": "Kanuni",
-    "option4": "Orhan",
-    "answer": "Fatih"
+    "question": "Türkiye'nin en eski lisesi hangisidir?",
+    "option1": "Galatasaray Lisesi",
+    "option2": "Kabataş Erkek Lisesi",
+    "option3": "İstanbul Erkek Lisesi",
+    "option4": "Vefa Lisesi",
+    "answer": "Galatasaray Lisesi"
   },
   {
-    "id": 15,
-    "question": "Osmanlı Devleti’nde padişahların çocuklarına ne denirdi?",
-    "option1": "Şeyhülislam",
-    "option2": "Şehzade",
-    "option3": "Sadrazam",
-    "option4": "Sancakbeyi",
-    "answer": "Şehzade"
-  },
-  {
-    "id": 16,
-    "question": "Türklerin İslamiyet’i kabul etmesinden sonra kurdukları ilk büyük devlet hangisidir?",
-    "option1": "Osmanlı Devleti",
-    "option2": "Büyük Selçuklu Devleti",
-    "option3": "Göktürkler",
-    "option4": "Avarlar",
-    "answer": "Büyük Selçuklu Devleti"
-  },
-  {
-    "id": 17,
-    "question": "Aşağıdakilerden hangisi, Osmanlı Devleti’nin ünlü denizcilerinden biridir?",
-    "option1": "Evliya Çelebi",
-    "option2": "Piri Reis",
-    "option3": "Mimar Sinan",
-    "option4": "Akşemseddin",
-    "answer": "Piri Reis"
-  },
-  {
-    "id": 18,
-    "question": "Osmanlı Devleti hangi kıtalarda toprak sahibi olmuştur?",
-    "option1": "Asya ve Avrupa",
-    "option2": "Avrupa, Asya ve Afrika",
-    "option3": "Asya ve Afrika",
-    "option4": "Sadece Asya",
-    "answer": "Avrupa, Asya ve Afrika"
-  },
-  {
-    "id": 19,
-    "question": "Dede Korkut Hikâyeleri hangi Türk topluluğuna aittir?",
-    "option1": "Osmanlılar",
-    "option2": "Oğuzlar",
-    "option3": "Selçuklular",
-    "option4": "Karahanlılar",
-    "answer": "Oğuzlar"
-  },
-  {
-    "id": 20,
-    "question": "Galata Kulesi’nden Üsküdar’a uçmayı başarmış olan ünlü Osmanlı mucidi kimdir?",
-    "option1": "Mimar Sinan",
-    "option2": "Ali Kuşçu",
-    "option3": "Hezarfen Ahmet Çelebi",
-    "option4": "İbni Sina",
-    "answer": "Hezarfen Ahmet Çelebi"
-  },
-  {
-    "id": 21,
-    "question": "Seyahatname'nin yazarı olan ünlü Osmanlı gezgini kimdir?",
-    "option1": "Nasreddin Hoca",
-    "option2": "Hezarfen Ahmet Çelebi",
-    "option3": "Piri Reis",
-    "option4": "Evliya Çelebi",
-    "answer": "Evliya Çelebi"
-  }
+  "id": 15,
+  "question": "Aşağıdaki çalgılardan hangisi bir üflemeli çalgıdır?",
+  "option1": "Darbuka",
+  "option2": "Kemençe",
+  "option3": "Kaval",
+  "option4": "Bağlama",
+  "answer": "Kaval"
+},
+{
+  "id": 16,
+  "question": "Bağlama ailesinin en küçük üyesi olan çalgı hangisidir?",
+  "option1": "Kemençe",
+  "option2": "Cura",
+  "option3": "Tulum",
+  "option4": "Kabak Kemane",
+  "answer": "Cura"
+},
+{
+  "id": 17,
+  "question": "Hangi çalgı, özellikle tasavvuf müziğinde yaygın olarak kullanılır?",
+  "option1": "Zurna",
+  "option2": "Ney",
+  "option3": "Kemençe",
+  "option4": "Kanun",
+  "answer": "Ney"
+},
+{
+  "id": 18,
+  "question": "Zurna, hangi malzemeden yapılır?",
+  "option1": "Ahşap",
+  "option2": "Hayvan boynuzu",
+  "option3": "Kamış",
+  "option4": "Bakır",
+  "answer": "Ahşap"
+},
+{
+  "id": 19,
+  "question": "Aşağıdaki çalgılardan hangisi su kabağından yapılır?",
+  "option1": "Kemençe",
+  "option2": "Kabak Kemane",
+  "option3": "Zurna",
+  "option4": "Kanun",
+  "answer": "Kabak Kemane"
+},
+{
+  "id": 20,
+  "question": "Aşağıdaki çalgılardan hangisi, Karadeniz bölgesinin horon ezgilerinde sıklıkla kullanılır?",
+  "option1": "Ney",
+  "option2": "Kemençe",
+  "option3": "Tulum",
+  "option4": "Bağlama",
+  "answer": "Kemençe"
+},
+{
+  "id": 21,
+  "question": "Aşağıdaki çalgılardan hangisi, davul ile birlikte düğünlerde çalınan bir üflemeli çalgıdır?",
+  "option1": "Ney",
+  "option2": "Zurna",
+  "option3": "Kaval",
+  "option4": "Kanun",
+  "answer": "Zurna"
+},
+{
+  "id": 22,
+  "question": "Hangi çalgı, taşınabilir olması nedeniyle özellikle çobanlar tarafından kullanılır?",
+  "option1": "Kanun",
+  "option2": "Kaval",
+  "option3": "Bağlama",
+  "option4": "Ney",
+  "answer": "Kaval"
+},
+{
+  "id": 23,
+  "question": "Aşağıdaki çalgılardan hangisi, Türk halk müziğinin en önemli telli çalgılarından biridir?",
+  "option1": "Kanun",
+  "option2": "Bağlama",
+  "option3": "Darbuka",
+  "option4": "Ney",
+  "answer": "Bağlama"
+},
+{
+  "id": 24,
+  "question": "Kanun, hangi müzik türünde sıkça kullanılır?",
+  "option1": "Türk halk müziği",
+  "option2": "Türk sanat müziği",
+  "option3": "Rock müziği",
+  "option4": "Arabesk müziği",
+  "answer": "Türk sanat müziği"
+},
+{
+  "id": 25,
+  "question": "Tulum, hangi bölgenin müziğinde sıkça yer alır?",
+  "option1": "Doğu Anadolu",
+  "option2": "Doğu Karadeniz",
+  "option3": "Ege",
+  "option4": "Marmara",
+  "answer": "Doğu Karadeniz"
+},
+{
+  "id": 26,
+  "question": "Kaval hangi müzik türüne ait bir çalgıdır?",
+  "option1": "Türk halk müziği",
+  "option2": "Türk sanat müziği",
+  "option3": "Rock müziği",
+  "option4": "Pop müziği",
+  "answer": "Türk halk müziği"
+},
+{
+  "id": 27,
+  "question": "Aşağıdaki çalgılardan hangisi, yüksek sesli bir vurmalı çalgıdır?",
+  "option1": "Kaval",
+  "option2": "Kanun",
+  "option3": "Davul",
+  "option4": "Zil",
+  "answer": "Davul"
+},
+{
+  "id": 28,
+  "question": "Darbuka hangi çalgı ailesine aittir?",
+  "option1": "Vurmalı",
+  "option2": "Yaylı",
+  "option3": "Üflemeli",
+  "option4": "Telli",
+  "answer": "Vurmalı"
+},
+{
+  "id": 29,
+  "question": "Aşağıdaki çalgılardan hangisi, Türk sanat müziği ile ilişkilidir?",
+  "option1": "Darbuka",
+  "option2": "Kanun",
+  "option3": "Zurna",
+  "option4": "Tulum",
+  "answer": "Kanun"
+},
+{
+  "id": 30,
+  "question": "Aşağıdaki çalgılardan hangisi, genellikle düğünlerde çalınan yüksek sesli bir çalgıdır?",
+  "option1": "Tulum",
+  "option2": "Zurna",
+  "option3": "Ney",
+  "option4": "Kanun",
+  "answer": "Zurna"
+}
   ]
 }

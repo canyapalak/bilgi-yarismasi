@@ -145,11 +145,11 @@ body {
 .flip-card-back {
   background-size: 100%;
   transform: rotateY(180deg);
-  background: url('../public/assets/herocard-back.png');
+  background: url('../public/assets/herocard-bg.png');
   }
 
 .flip-card-front {
-  background: url('../public/assets/herocard-front.png');
+  background: url('../public/assets/herocard-bg.png');
 }
 
 @keyframes maskAnimation {

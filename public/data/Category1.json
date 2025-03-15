@@ -2,579 +2,309 @@
   "questions": [
     {
       "id": 1,
-      "question": "Türkiye'nin başkenti neresidir?",
-      "option1": "İstanbul",
+      "question": "Aşağıdaki kelimelerden hangisi özel isimdir?",
+      "option1": "Masa",
       "option2": "Ankara",
-      "option3": "İzmir",
-      "option4": "Bursa",
+      "option3": "Kalem",
+      "option4": "Defter",
       "answer": "Ankara"
     },
     {
       "id": 2,
-      "question": "Türkiye'nin en uzun nehri hangisidir?",
-      "option1": "Kızılırmak",
-      "option2": "Yeşilırmak",
-      "option3": "Fırat",
-      "option4": "Dicle",
-      "answer": "Kızılırmak"
+      "question": "Hangisi bir zamirdir?",
+      "option1": "Ev",
+      "option2": "Güzel",
+      "option3": "Sen",
+      "option4": "Kitap",
+      "answer": "Sen"
     },
     {
       "id": 3,
-      "question": "Türkiye'nin en yüksek dağı hangisidir?",
-      "option1": "Uludağ",
-      "option2": "Erciyes",
-      "option3": "Ağrı",
-      "option4": "Kaçkar",
-      "answer": "Ağrı"
+      "question": "Hangisi bir fiildir?",
+      "option1": "Koşmak",
+      "option2": "Deniz",
+      "option3": "Bisiklet",
+      "option4": "Mutluluk",
+      "answer": "Koşmak"
     },
     {
       "id": 4,
-      "question": "Türkiye'nin en büyük yüz ölçümüne sahip gölü hangisidir?",
-      "option1": "Van",
-      "option2": "Tuz",
-      "option3": "Beyşehir",
-      "option4": "Eğirdir",
-      "answer": "Van"
+      "question": "Bir cümlenin öznesini bulmak için hangi soruyu sorarız?",
+      "option1": "Nasıl?",
+      "option2": "Ne zaman?",
+      "option3": "Kim?",
+      "option4": "Nerede?",
+      "answer": "Kim?"
     },
     {
       "id": 5,
-      "question": "Anıtkabir hangi ilimizdedir?",
-      "option1": "Çanakkale",
-      "option2": "Samsun",
-      "option3": "İstanbul",
-      "option4": "Ankara",
-      "answer": "Ankara"
+      "question": "Hangisi bir tamlama değildir?",
+      "option1": "Güzel çiçek",
+      "option2": "Kitap okuyorum",
+      "option3": "Çocuğun çantası",
+      "option4": "Mavi gökyüzü",
+      "answer": "Kitap okuyorum"
     },
     {
       "id": 6,
-      "question": "Türkiye'nin en kalabalık şehri hangisidir?",
-      "option1": "Ankara",
-      "option2": "İstanbul",
-      "option3": "İzmir",
-      "option4": "Bursa",
-      "answer": "İstanbul"
+      "question": "Hangi kelime tür olarak diğerlerinden farklıdır?",
+      "option1": "Ben",
+      "option2": "Onlar",
+      "option3": "Siz",
+      "option4": "Bazen",
+      "answer": "Bazen"
     },
     {
       "id": 7,
-      "question": "Türkiye kaç coğrafi bölgeye ayrılır?",
-      "option1": "5",
-      "option2": "6",
-      "option3": "7",
-      "option4": "8",
-      "answer": "7"
+      "question": "Hangisi bir fiil değildir?",
+      "option1": "Yürümek",
+      "option2": "Görmek",
+      "option3": "Oynamak",
+      "option4": "Yumak",
+      "answer": "Yumak"
     },
     {
       "id": 8,
-      "question": "Pamukkale travertenleri hangi ilde bulunur?",
-      "option1": "Aydın",
-      "option2": "Denizli",
-      "option3": "Muğla",
-      "option4": "Isparta",
-      "answer": "Denizli"
+      "question": "Aşağıdaki kelimelerden hangisi bir bağlaçtır?",
+      "option1": "Veya",
+      "option2": "Uyumak",
+      "option3": "Güzel",
+      "option4": "Tamam",
+      "answer": "Veya"
     },
     {
       "id": 9,
-      "question": "Hangi ilimizin denize kıyısı yoktur?",
-      "option1": "Mersin",
-      "option2": "Bursa",
-      "option3": "Konya",
-      "option4": "Trabzon",
-      "answer": "Konya"
+      "question": "Hangi cümle olumsuzdur?",
+      "option1": "Sabah erken kalktım.",
+      "option2": "Kitap okumayı severim.",
+      "option3": "Otobüsü son anda kaçırdım.",
+      "option4": "Dışarı çıkmayacağım.",
+      "answer": "Dışarı çıkmayacağım."
     },
     {
       "id": 10,
-      "question": "Türkiye'nin en doğusundaki il hangisidir?",
-      "option1": "Van",
-      "option2": "Iğdır",
-      "option3": "Ağrı",
-      "option4": "Hakkari",
-      "answer": "Iğdır"
+      "question": "Hangisi bir sıfat değildir?",
+      "option1": "Kırmızı",
+      "option2": "Sıcak",
+      "option3": "Güneş",
+      "option4": "Parlak",
+      "answer": "Güneş"
     },
     {
       "id": 11,
-      "question": "Türkiye hangi ülkeyle komşu değildir?",
-      "option1": "Gürcistan",
-      "option2": "Bulgaristan",
-      "option3": "Romanya",
-      "option4": "İran",
-      "answer": "Romanya"
-    },
-        {
-      "id": 12,
-      "question": "Türkiye'nin yüz ölçümü en büyük ili hangisidir?",
-      "option1": "Konya",
-      "option2": "Ankara",
-      "option3": "Sivas",
-      "option4": "Van",
-      "answer": "Konya"
-    },
-        {
-      "id": 13,
-      "question": "Türkiye'de hangi şehir iki kıta üzerinde yer alır?",
-      "option1": "Bursa",
-      "option2": "İstanbul",
-      "option3": "Çanakkale",
-      "option4": "İzmit",
-      "answer": "İstanbul"
-    },
-        {
-      "id": 14,
-      "question": "Türkiye'de en fazla yağış alan bölge hangisidir?",
-      "option1": "Ege Bölgesi",
-      "option2": "Akdeniz Bölgesi",
-      "option3": "Karadeniz Bölgesi",
-      "option4": "İç Anadolu Bölgesi",
-      "answer": "Karadeniz Bölgesi"
-    },
-        {
-      "id": 15,
-      "question": "Kapadokya bölgesi hangi şehirde yer alır?",
-      "option1": "Nevşehir",
-      "option2": "Kayseri",
-      "option3": "Malatya",
-      "option4": "Konya",
-      "answer": "Nevşehir"
-    },
-        {
-      "id": 16,
-      "question": "Türkiye'nin Kıbrıs'a en yakın şehri hangisidir?",
-      "option1": "Hatay",
-      "option2": "Mersin",
-      "option3": "Antalya",
-      "option4": "Adana",
-      "answer": "Mersin"
-    },
-        {
-      "id": 17,
-      "question": "Aşağıdaki illerden hangisi İç Anadolu Bölgesi'nde yer almaz?",
-      "option1": "Konya",
-      "option2": "Ankara",
-      "option3": "Kayseri",
-      "option4": "Burdur",
-      "answer": "Burdur"
-    },
-        {
-      "id": 18,
-      "question": "Bodrum hangi ilimize bağlıdır?",
-      "option1": "Muğla",
-      "option2": "İzmir",
-      "option3": "Antalya",
-      "option4": "Çanakkale",
-      "answer": "Muğla"
-    },
-        {
-      "id": 19,
-      "question": "Ayder Yaylası hangi ilde bulunur?",
-      "option1": "Sinop",
-      "option2": "Giresun",
-      "option3": "Rize",
-      "option4": "Artvin",
-      "answer": "Rize"
-    },
-        {
-      "id": 20,
-      "question": "Kuş Cenneti Milli Parkı hangi ilde bulunur?",
-      "option1": "Balıkesir",
-      "option2": "Samsun",
-      "option3": "Bursa",
-      "option4": "Aydın",
-      "answer": "Balıkesir"
-    },
-        {
-      "id": 21,
-      "question": "Çanakkale Boğazı hangi iki denizi birbirine bağlar?",
-      "option1": "Karadeniz - Marmara",
-      "option2": "Marmara - Ege",
-      "option3": "Akdeniz - Ege",
-      "option4": "Marmara - Karadeniz",
-      "answer": "Marmara - Ege"
-    },
-        {
-      "id": 22,
-      "question": "Türkiye'nin en batısında hangi deniz yer alır?",
-      "option1": "Akdeniz",
-      "option2": "Karadeniz",
-      "option3": "Ege Denizi",
-      "option4": "Marmara Denizi",
-      "answer": "Ege Denizi"
-    },
-        {
-      "id": 23,
-      "question": "Göbeklitepe arkeolojik alanı hangi il sınırları içerisindedir?",
-      "option1": "Mardin",
-      "option2": "Gaziantep",
-      "option3": "Şanlıurfa",
-      "option4": "Diyarbakır",
-      "answer": "Şanlıurfa"
-    },
-        {
-      "id": 24,
-      "question": "Meşhur Kız Kulesi İstanbul'un hangi ilçesinde bulunur?",
-      "option1": "Üsküdar",
-      "option2": "Beyoğlu",
-      "option3": "Beşiktaş",
-      "option4": "Kadıköy",
-      "answer": "Üsküdar"
+      "question": "Türkçede kaç ünlü harf vardır?",
+      "option1": "5",
+      "option2": "8",
+      "option3": "10",
+      "option4": "12",
+      "answer": "8"
     },
     {
+      "id": 12,
+      "question": "Hangisi Türkçede büyük ünlü uyumuna uyar?",
+      "option1": "Kalemlik",
+      "option2": "Kedi",
+      "option3": "Kitapçı",
+      "option4": "Kardeş",
+      "answer": "Kedi"
+    },
+  {
+    "id": 13,
+    "question": "Aşağıdaki kelimelerden hangileri eş anlamlıdır?",
+    "option1": "Büyük - Ufak",
+    "option2": "Güzel - Çirkin",
+    "option3": "Zeki - Akıllı",
+    "option4": "Hızlı - Yavaş",
+    "answer": "Zeki - Akıllı"
+  },
+  {
+    "id": 14,
+    "question": "Hangisi bir atasözüdür?",
+    "option1": "El elden üstündür.",
+    "option2": "Kitap okumak güzeldir.",
+    "option3": "Ali topu tut.",
+    "option4": "Bahçede çiçek var.",
+    "answer": "El elden üstündür."
+  },
+  {
+    "id": 15,
+    "question": "Hangi kelime eş seslidir?",
+    "option1": "Elma",
+    "option2": "Gül",
+    "option3": "Ev",
+    "option4": "Ağaç",
+    "answer": "Gül"
+  },
+  {
+    "id": 16,
+    "question": "Türkçede en çok kullanılan ünlü harf hangisidir?",
+    "option1": "A",
+    "option2": "E",
+    "option3": "K",
+    "option4": "M",
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "Aşağıdaki kelimelerden hangileri zıt anlamlıdır?",
+    "option1": "Büyük - Küçük",
+    "option2": "Güzel - Hoş",
+    "option3": "Sıcak - Ilık",
+    "option4": "Hızlı - Seri",
+    "answer": "Büyük - Küçük"
+  },
+  {
+    "id": 18,
+    "question": "Hangisi bir masal kahramanıdır?",
+    "option1": "Keloğlan",
+    "option2": "Mevlana",
+    "option3": "Mimar Sinan",
+    "option4": "Evliya Çelebi",
+    "answer": "Keloğlan"
+  },
+  {
+    "id": 19,
+    "question": "Hangisi bir fabl örneğidir?",
+    "option1": "Kurt ile Kuzu",
+    "option2": "Keloğlan Masalları",
+    "option3": "Dede Korkut Hikayeleri",
+    "option4": "Seyahatname",
+    "answer": "Kurt ile Kuzu"
+  },
+  {
+    "id": 20,
+    "question": "Türk edebiyatında hangi yazar çocuk hikayeleriyle ünlüdür?",
+    "option1": "Gülten Dayıoğlu",
+    "option2": "Reşat Nuri Güntekin",
+    "option3": "Halit Ziya Uşaklıgil",
+    "option4": "Yakup Kadri Karaosmanoğlu",
+    "answer": "Gülten Dayıoğlu"
+  },
+  {
+    "id": 21,
+    "question": "Hangisi bir deyimdir?",
+    "option1": "Burnu havada olmak",
+    "option2": "Kitap okumak",
+    "option3": "Güzel yazı yazmak",
+    "option4": "Okula gitmek",
+    "answer": "Burnu havada olmak"
+  },
+  {
+    "id": 22,
+    "question": "Türkçede kaç ünsüz harf vardır?",
+    "option1": "19",
+    "option2": "20",
+    "option3": "21",
+    "option4": "22",
+    "answer": "21"
+  },
+  {
+    "id": 23,
+    "question": "Aşağıdaki tamlamalardan hangisi mecaz anlamlıdır?",
+    "option1": "Keskin bıçak",
+    "option2": "Keskin zeka",
+    "option3": "Mavi gökyüzü",
+    "option4": "Yeşil çimen",
+    "answer": "Keskin zeka"
+  },
+  {
+    "id": 24,
+    "question": "Aşağıdaki cümlelerden hangisi olumlu bir cümledir?",
+    "option1": "Bugün hava çok güzel.",
+    "option2": "Henüz yemek yemedim.",
+    "option3": "Yarın işe gitmeyeceğim.",
+    "option4": "O kitabı hiç okumadım.",
+    "answer": "Bugün hava çok güzel."
+  },
+  {
     "id": 25,
-    "question": "Türkiye’nin en kuzeyindeki şehir hangisidir?",
-    "option1": "Antalya",
-    "option2": "İzmir",
-    "option3": "Sinop",
-    "option4": "Kars",
-    "answer": "Sinop"
+    "question": "Hangi sözcük yapım eki almıştır?",
+    "option1": "Kalemlik",
+    "option2": "Kalem",
+    "option3": "Kitap",
+    "option4": "Defter",
+    "answer": "Kalemlik"
   },
   {
     "id": 26,
-    "question": "Türkiye’de en çok orman hangi bölgede bulunur?",
-    "option1": "Marmara Bölgesi",
-    "option2": "Ege Bölgesi",
-    "option3": "Akdeniz Bölgesi",
-    "option4": "Karadeniz Bölgesi",
-    "answer": "Karadeniz Bölgesi"
-  },
-  {
-    "id": 27,
-    "question": "Türkiye’nin en büyük adası hangisidir?",
-    "option1": "Bozcaada",
-    "option2": "Gökçeada",
-    "option3": "Heybeliada",
-    "option4": "Büyükada",
-    "answer": "Gökçeada"
-  },
-  {
-    "id": 28,
-    "question": "Türkiye’nin en uzun tüneli hangisidir?",
-    "option1": "Bolu Tüneli",
-    "option2": "Zigana Tüneli",
-    "option3": "Ovit Tüneli",
-    "option4": "Ilgaz Tüneli",
-    "answer": "Zigana Tüneli"
-  },
-{
-  "id": 29,
-  "question": "Türkiye'nin en büyük kayak merkezi hangisidir?",
-  "option1": "Uludağ",
-  "option2": "Kartalkaya",
-  "option3": "Erciyes",
-  "option4": "Palandöken",
-  "answer": "Uludağ"
- },
-  {
-    "id": 30,
-    "question": "Türkiye'nin en uzun sahil şeridine sahip ili hangisidir?",
-    "option1": "Antalya",
-    "option2": "Muğla",
-    "option3": "Mersin",
-    "option4": "İzmir",
-    "answer": "Muğla"
-  },
-  {
-    "id": 31,
-    "question": "Türkiye'nin en büyük barajı hangisidir?",
-    "option1": "Atatürk Barajı",
-    "option2": "Keban Barajı",
-    "option3": "Hirfanlı Barajı",
-    "option4": "Ilısu Barajı",
-    "answer": "Atatürk Barajı"
-  },
-  {
-    "id": 32,
-    "question": "Türkiye’nin en yüksek şelalesi hangisidir?",
-    "option1": "Manavgat Şelalesi",
-    "option2": "Tortum Şelalesi",
-    "option3": "Erfelek Şelalesi",
-    "option4": "Muradiye Şelalesi",
-    "answer": "Tortum Şelalesi"
-  },
-  {
-    "id": 33,
-    "question": "Türkiye'nin en yüksek rakımlı yerleşim yeri hangisidir?",
-    "option1": "Kars",
-    "option2": "Ardahan",
-    "option3": "Erzurum",
-    "option4": "Van",
-    "answer": "Erzurum"
-  },
-  {
-    "id": 34,
-    "question": "Türkiye'nin en uzun mağarası hangisidir?",
-    "option1": "İnsuyu Mağarası",
-    "option2": "Karain Mağarası",
-    "option3": "Pınargözü Mağarası",
-    "option4": "Dupnisa Mağarası",
-    "answer": "Pınargözü Mağarası"
-  },
-  {
-    "id": 35,
-    "question": "Türkiye’nin en eski köprüsü hangisidir?",
-    "option1": "Malabadi Köprüsü",
-    "option2": "Taş Köprü",
-    "option3": "Aspendos Köprüsü",
-    "option4": "Cendere Köprüsü",
-    "answer": "Taş Köprü"
-  },
-  {
-    "id": 36,
-    "question": "Türkiye’nin en eski yerleşim yeri olarak bilinen tarihi bölgesi hangisidir?",
-    "option1": "Göbeklitepe",
-    "option2": "Çatalhöyük",
-    "option3": "Hattuşaş",
-    "option4": "Ani Harabeleri",
-    "answer": "Göbeklitepe"
-  },
-  {
-    "id": 37,
-    "question": "Türkiye'nin en sıcak ili hangisidir?",
-    "option1": "Antalya",
-    "option2": "Şanlıurfa",
-    "option3": "Mardin",
-    "option4": "Adana",
-    "answer": "Şanlıurfa"
-  },
-  {
-    "id": 38,
-    "question": "Türkiye’nin en büyük camisi hangisidir?",
-    "option1": "Selimiye Camii",
-    "option2": "Süleymaniye Camii",
-    "option3": "Çamlıca Camii",
-    "option4": "Ayasofya Camii",
-    "answer": "Çamlıca Camii"
-  },
-  {
-    "id": 39,
-    "question": "Türkiye’nin en büyük ticaret limanı hangisidir?",
-    "option1": "Haydarpaşa Limanı",
-    "option2": "Mersin Limanı",
-    "option3": "İzmir Alsancak Limanı",
-    "option4": "Derince Limanı",
-    "answer": "Mersin Limanı"
-  },
-  {
-    "id": 40,
-    "question": "Türkiye’nin en fazla yağış alan ili hangisidir?",
-    "option1": "Trabzon",
-    "option2": "Rize",
-    "option3": "Artvin",
-    "option4": "Zonguldak",
-    "answer": "Rize"
-  },
-  {
-    "id": 41,
-    "question": "Türkiye'nin en büyük tarım ovası hangisidir?",
-    "option1": "Harran Ovası",
-    "option2": "Konya Ovası",
-    "option3": "Çukurova",
-    "option4": "Gediz Ovası",
-    "answer": "Konya Ovası"
-  },
-  {
-    "id": 42,
-    "question": "Türkiye’nin en uzun köprüsü hangisidir?",
-    "option1": "15 Temmuz Şehitler Köprüsü",
-    "option2": "Yavuz Sultan Selim Köprüsü",
-    "option3": "1915 Çanakkale Köprüsü",
-    "option4": "Fatih Sultan Mehmet Köprüsü",
-    "answer": "1915 Çanakkale Köprüsü"
-  },
-  {
-    "id": 43,
-    "question": "Türkiye’nin en eski çarşısı hangisidir?",
-    "option1": "Kapalıçarşı",
-    "option2": "Mısır Çarşısı",
-    "option3": "Tarihi Kemeraltı Çarşısı",
-    "option4": "Spice Bazaar",
-    "answer": "Kapalıçarşı"
-  },
-  {
-    "id": 44,
-    "question": "Türkiye’nin en büyük adliyesi hangi ilde bulunmaktadır?",
-    "option1": "İzmir",
-    "option2": "İstanbul",
-    "option3": "Ankara",
-    "option4": "Bursa",
-    "answer": "İstanbul"
-  },
-  {
-    "id": 45,
-    "question": "Türkiye’nin en yüksek barajı hangisidir?",
-    "option1": "Atatürk Barajı",
-    "option2": "Keban Barajı",
-    "option3": "Deriner Barajı",
-    "option4": "Yusufeli Barajı",
-    "answer": "Yusufeli Barajı"
-  },
-  {
-    "id": 46,
-    "question": "Türkiye’nin en fazla turist çeken şehri hangisidir?",
-    "option1": "Antalya",
-    "option2": "İstanbul",
-    "option3": "İzmir",
-    "option4": "Kapadokya",
-    "answer": "İstanbul"
-  },
-  {
-    "id": 47,
-    "question": "Türkiye’nin en büyük açık hava müzesi hangisidir?",
-    "option1": "Göbeklitepe",
-    "option2": "Aspendos",
-    "option3": "Kapadokya",
-    "option4": "Efes Antik Kenti",
-    "answer": "Kapadokya"
-  },
-  {
-    "id": 48,
-    "question": "Türkiye’nin en çok üretilen tarım ürünü hangisidir?",
-    "option1": "Buğday",
-    "option2": "Mısır",
-    "option3": "Fındık",
-    "option4": "Pamuk",
-    "answer": "Buğday"
-  },
-  {
-    "id": 49,
-    "question": "Türkiye’nin en büyük havalimanı hangisidir?",
-    "option1": "İstanbul Havalimanı",
-    "option2": "Esenboğa Havalimanı",
-    "option3": "Sabiha Gökçen Havalimanı",
-    "option4": "Antalya Havalimanı",
-    "answer": "İstanbul Havalimanı"
-  },
-{
-  "id": 50,
-  "question": "Türkiye'nin en önemli yeraltı zenginliği hangisidir?",
-  "option1": "Altın",
-  "option2": "Kömür",
-  "option3": "Bakır",
-  "option4": "Linyit",
-  "answer": "Kömür"
-},
-{
-  "id": 51,
-  "question": "Türkiye'de en fazla üretilen tekstil ürünü hangisidir?",
-  "option1": "Pamuk",
-  "option2": "Yün",
-  "option3": "İpek",
-  "option4": "Lif",
-  "answer": "Pamuk"
-},
-  {
-    "id": 52,
-    "question": "UNESCO Dünya Mirası Listesi'nde yer alan ve 'dünyanın en eski tapınak kompleksi' olarak bilinen yer neresidir?",
-    "option1": "Zeugma Antik Kenti",
-    "option2": "Göbeklitepe",
-    "option3": "Efes Antik Kenti",
-    "option4": "Aspendos",
-    "answer": "Göbeklitepe"
-  },
-  {
-    "id": 53,
-    "question": "Nemrut Dağı'nda hangi krallığa ait dev heykeller bulunur?",
-    "option1": "Lidya Krallığı",
-    "option2": "Kommagene Krallığı",
-    "option3": "Urartu Krallığı",
-    "option4": "Hitit Krallığı",
-    "answer": "Kommagene Krallığı"
-  },
-  {
-    "id": 54,
-    "question": "Roma dönemine ait mozaikleriyle ünlü olan, Gaziantep’te bulunan antik kent hangisidir?",
-    "option1": "Efes",
-    "option2": "Zeugma",
-    "option3": "Troy",
-    "option4": "Pergamon",
-    "answer": "Zeugma"
-  },
-  {
-    "id": 55,
-    "question": "4. yüzyılda, bugünkü Trabzon şehrinin Maçka ilçesinde, sarp kayalıklar üzerine kurulmuş manastır hangisidir?",
-    "option1": "Sümela Manastırı",
-    "option2": "Mevlana Müzesi",
-    "option3": "Divriği Ulu Camii",
-    "option4": "Topkapı Sarayı",
-    "answer": "Sümela Manastırı"
+    "question": "Aşağıdaki cümlelerden hangisinde sebep-sonuç ilişkisi vardır?",
+    "option1": "Sınavı kazanamadım çünkü yeterince çalışmadım.",
+    "option2": "Yarın hava güzel olacakmış.",
+    "option3": "Dün sinemaya gittim.",
+    "option4": "Bugün çok mutluyum.",
+    "answer": "Sınavı kazanamadım çünkü yeterince çalışmadım."
   },
     {
-    "id": 56,
-    "question": "Türkiye'de Kapadokya bölgesinde bulunan yer altı şehirlerinden biri hangisidir?",
-    "option1": "Zeugma",
-    "option2": "Derinkuyu",
-    "option3": "Ani Harabeleri",
-    "option4": "Hasankeyf",
-    "answer": "Derinkuyu"
+    "id": 27,
+    "question": "Türkçe hangi dil ailesine aittir?",
+    "option1": "Hint-Avrupa",
+    "option2": "Ural-Altay",
+    "option3": "Nil-Sahra",
+    "option4": "Hami-Sami",
+    "answer": "Ural-Altay"
   },
-  {
-    "id": 57,
-    "question": "Mevlana Celaleddin Rumi’nin türbesini içeren müze hangi şehirde yer almaktadır?",
-    "option1": "İstanbul",
-    "option2": "Ankara",
-    "option3": "Konya",
-    "option4": "Bursa",
-    "answer": "Konya"
-  },
-  {
-    "id": 58,
-    "question": "Kapadokya bölgesinde yer alan ve doğal kaya oluşumlarıyla ünlü vadinin adı nedir?",
-    "option1": "Ihlara Vadisi",
-    "option2": "Hevsel Bahçeleri",
-    "option3": "Kazdağları",
-    "option4": "Yedigöller Vadisi",
-    "answer": "Ihlara Vadisi"
-  },
-  {
-    "id": 59,
-    "question": "Mimar Sinan'ın 'ustalık eserim' olarak nitelendirdiği cami hangisidir?",
-    "option1": "Sultan Ahmet Camii",
-    "option2": "Selimiye Camii",
-    "option3": "Dolmabahçe Camii",
-    "option4": "Ulu Camii",
-    "answer": "Selimiye Camii"
-  },
-  {
-    "id": 60,
-    "question": "'Peygamberler Şehri' olarak da bilinen; Harran evleri, tarihi İslam üniversitesi ve Balıklıgöl’ün bulunduğu şehir hangisidir?",
-    "option1": "Mardin",
-    "option2": "Şanlıurfa",
-    "option3": "Gaziantep",
-    "option4": "Diyarbakır",
-    "answer": "Şanlıurfa"
-  },
-  {
-    "id": 61,
-    "question": "Homeros tarafından yazıldığı sanılan iki manzum destandan biri olan İlyada'da bahsi geçen Troya Savaşı'nın gerçekleştiği Troya Antik Kenti hangi il sınırları içinde yer alır?",
-    "option1": "İzmir",
-    "option2": "Çanakkale",
-    "option3": "Muğla",
-    "option4": "Antalya",
-    "answer": "Çanakkale"
-  },
-  {
-    "id": 62,
-    "question": "Antalya’da bulunan Aspendos Tiyatrosu hangi medeniyet tarafından inşa edilmiştir?",
-    "option1": "Hititler",
-    "option2": "Romalılar",
-    "option3": "Lidyalılar",
-    "option4": "Frigyalılar",
-    "answer": "Romalılar"
-  },
-  {
-    "id": 63,
-    "question": "Dünyanın en eski yerleşim yerlerinden biri olarak kabul edilen Çatalhöyük hangi ilimizde yer alır?",
-    "option1": "Konya",
-    "option2": "Kayseri",
-    "option3": "Nevşehir",
-    "option4": "Ankara",
-    "answer": "Konya"
-  }, 
-  {
-    "id": 64,
-    "question": "Üzerinde Akdamar Kilisesi’nin bulunduğu, inci kefaliyle ünlü göl hangisidir?",
-    "option1": "Van Gölü",
-    "option2": "Eğirdir Gölü",
-    "option3": "Tuz Gölü",
-    "option4": "Beyşehir Gölü",
-    "answer": "Van Gölü"
-  }
+      {
+      "id": 28,
+      "question": "Aşağıdaki kelimelerden hangisi soyut bir kavramdır?",
+      "option1": "Sevgi",
+      "option2": "Tahta",
+      "option3": "Bardak",
+      "option4": "Çanta",
+      "answer": "Sevgi"
+    },
+        {
+      "id": 29,
+      "question": "Aşağıdakilerden hangisi bir noktalama işaretidir?",
+      "option1": "Ünlem",
+      "option2": "Bağlaç",
+      "option3": "Fiil",
+      "option4": "Sıfat",
+      "answer": "Ünlem"
+    },
+        {
+      "id": 30,
+      "question": "Hangisi bir halk şairidir?",
+      "option1": "Mevlana",
+      "option2": "Yunus Emre",
+      "option3": "Ömer Seyfettin",
+      "option4": "Reşat Nuri Güntekin",
+      "answer": "Yunus Emre"
+    },
+        {
+      "id": 31,
+      "question": "Aşağıdaki masallardan hangisi bir Türk masalıdır?",
+      "option1": "Keloğlan",
+      "option2": "Pamuk Prenses",
+      "option3": "Külkedisi",
+      "option4": "Kırmızı Başlıklı Kız",
+      "answer": "Keloğlan"
+    },
+        {
+      "id": 32,
+      "question": "Hangisi bir edebi tür değildir?",
+      "option1": "Roman",
+      "option2": "Şiir",
+      "option3": "Hikaye",
+      "option4": "Matematik",
+      "answer": "Matematik"
+    },
+        {
+      "id": 33,
+      "question": "Aşağıdaki kelimelerden hangisi somut bir kelimedir?",
+      "option1": "Heyecan",
+      "option2": "Mutluluk",
+      "option3": "Mektup",
+      "option4": "Üzüntü",
+      "answer": "Mektup"
+    },
+        {
+      "id": 34,
+      "question": "Aşağıdaki kelimelerden hangisi birleşik kelimedir?",
+      "option1": "Okul",
+      "option2": "Denizaltı",
+      "option3": "Pencere",
+      "option4": "Ödev",
+      "answer": "Denizaltı"
+    }
   ]
 }

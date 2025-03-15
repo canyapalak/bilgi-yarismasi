@@ -1,130 +1,229 @@
 {
   "questions": [
     {
-      "id": 1,
-      "question": "'Kaplumbağa Terbiyecisi' tablosu ile bilinen Osmanlı ressamı kimdir?",
-      "option1": "Evliya Çelebi",
-      "option2": "Şevki Bey",
-      "option3": "Ahmet Cevdet Paşa",
-      "option4": "Osman Hamdi Bey",
-      "answer": "Osman Hamdi Bey"
-    },
+    "id": 1,
+    "question": "Uzaya çıkan ilk Türk astronot kimdir?",
+    "option1": "Alper Gezeravcı",
+    "option2": "Cem Karaca",
+    "option3": "Hazerfen Ahmet Çelebi",
+    "option4": "Barış Manço",
+    "answer": "Alper Gezeravcı"
+  },
+  {
+    "id": 2,
+    "question": "Kimya alanındaki çalışmaları ile 2015 yılında Nobel Ödülü kazanan ilk Türk doktor kimdir?",
+    "option1": "Aziz Sancar",
+    "option2": "Ali Kuşçu",
+    "option3": "Uğur Şahin",
+    "option4": "Mehmet Öz",
+    "answer": "Aziz Sancar"
+  },
+  {
+    "id": 3,
+    "question": "Real Madrid'e transfer olan ilk Türk futbolcu kimdir?",
+    "option1": "Arda Güler",
+    "option2": "Burak Yılmaz",
+    "option3": "Emre Belözoğlu",
+    "option4": "Mehmet Topal",
+    "answer": "Arda Güler"
+  },
+  {
+    "id": 4,
+    "question": "2024 Avrupa Futbol Şampiyonası çeyrek finalinde Türkiye hangi takımla karşılaşmıştır?",
+    "option1": "Hollanda",
+    "option2": "Brezilya",
+    "option3": "Almanya",
+    "option4": "Arjantin",
+    "answer": "Hollanda"
+  },
+  {
+    "id": 5,
+    "question": "2023 yılında hem Dünya Şampiyonu hem de Milletler Ligi Şampiyonu olan A Milli Kadın Voleybol Takımımızın lakabı nedir?",
+    "option1": "Filenin Sultanları",
+    "option2": "Bozkurtlar",
+    "option3": "Kartallar",
+    "option4": "Altın Kızlar",
+    "answer": "Filenin Sultanları"
+  },
+  {
+    "id": 6,
+    "question": "Tokyo 2020 Olimpiyatları'nda okçuluk dalında altın madalya kazanan Türk sporcu kimdir?",
+    "option1": "Mete Gazoz",
+    "option2": "Seda Tokatlıoğlu",
+    "option3": "Serdar Ortaç",
+    "option4": "Halil Mutlu",
+    "answer": "Mete Gazoz"
+  },
+  {
+    "id": 7,
+    "question": "2024 Paris Olimpiyat Oyunları'nda atıcılık dalında gümüş madalya kazanan Türk sporcu kimdir?",
+    "option1": "Yusuf Dikeç",
+    "option2": "Ahmet Nur Çebi",
+    "option3": "Kenan Doğulu",
+    "option4": "Haluk Bilginer",
+    "answer": "Yusuf Dikeç"
+  },
+  {
+    "id": 8,
+    "question": "Türkiye'nin ilk yerli ve milli haberleşme uydusu hangisidir?",
+    "option1": "Türksat 6A",
+    "option2": "Sputnik 1",
+    "option3": "Apollo 11",
+    "option4": "Hubble",
+    "answer": "Türksat 6A"
+  },
+  {
+    "id": 9,
+    "question": "Türk Dil Bayramı her yıl hangi tarihte kutlanmaktadır?",
+    "option1": "26 Eylül",
+    "option2": "19 Mayıs",
+    "option3": "30 Ağustos",
+    "option4": "1 Ocak",
+    "answer": "26 Eylül"
+  },
+  {
+    "id": 10,
+    "question": "2024 Dünya Superbike Şampiyonası'nda ikinci kez dünya şampiyonu olan Türk motosikletçi kimdir?",
+    "option1": "Toprak Razgatlıoğlu",
+    "option2": "Fernando Alonso",
+    "option3": "Lewis Hamilton",
+    "option4": "Valentino Rossi",
+    "answer": "Toprak Razgatlıoğlu"
+  },
+  {
+    "id": 11,
+    "question": "Türkiye'nin ilk astronotu uzaya hangi yıl gitmiştir?",
+    "option1": "2018",
+    "option2": "2024",
+    "option3": "2020",
+    "option4": "2015",
+    "answer": "2024"
+  },
+  {
+    "id": 12,
+    "question": "2022 yılında kullanıma açılan ve Türkiye'nin en uzun köprüsü olan 1915 Çanakkale Köprüsü hangi iki şehri birbirine bağlamaktadır?",
+    "option1": "İstanbul - Kocaeli",
+    "option2": "Çanakkale - Tekirdağ",
+    "option3": "Çanakkale - Balıkesir",
+    "option4": "İzmir - Aydın",
+    "answer": "Çanakkale - Tekirdağ"
+  },
+  {
+    "id": 13,
+    "question": "2023 yılında satışa sunulan Türkiye'nin ilk yerli otomobilinin markası nedir?",
+    "option1": "Pars",
+    "option2": "Sungur",
+    "option3": "Togg",
+    "option4": "Anadolu",
+    "answer": "Togg"
+  },
+  {
+    "id": 14,
+    "question": "Türkiye'nin ilk milli haberleşme uydusu olan Türksat 6A hangi yıl uzaya fırlatılmıştır?",
+    "option1": "2022",
+    "option2": "2023",
+    "option3": "2024",
+    "option4": "2025",
+    "answer": "2024"
+  },
+  {
+    "id": 15,
+    "question": "Türkiye'de her yıl 23 Nisan'da kutlanan özel gün hangisidir?",
+    "option1": "Gençlik ve Spor Bayramı",
+    "option2": "Cumhuriyet Bayramı",
+    "option3": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "option4": "Zafer Bayramı",
+    "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
+  },
+  {
+    "id": 16,
+    "question": "2024 yılında Türkiye'nin en çok ziyaret edilen şehri hangisi olmuştur?",
+    "option1": "İstanbul",
+    "option2": "Antalya",
+    "option3": "İzmir",
+    "option4": "Kapadokya",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 17,
+    "question": "2023 yılında Avrupa'da 'Yılın En İyi Kadın Voleybolcusu' seçilen Türk sporcu kimdir?",
+    "option1": "Eda Erdem",
+    "option2": "Melissa Vargas",
+    "option3": "Zehra Güneş",
+    "option4": "Hande Baladın",
+    "answer": "Melissa Vargas"
+  },
+  {
+    "id": 18,
+    "question": "2024 yılında Türkiye Süper Ligi'nde şampiyon olan takım hangisidir?",
+    "option1": "Fenerbahçe",
+    "option2": "Galatasaray",
+    "option3": "Beşiktaş",
+    "option4": "Trabzonspor",
+    "answer": "Galatasaray"
+  },
+  {
+    "id": 19,
+    "question": "2024 yılında Türkiye'nin nüfusu yaklaşık kaç milyona ulaşmıştır?",
+    "option1": "80 milyon",
+    "option2": "85 milyon",
+    "option3": "90 milyon",
+    "option4": "95 milyon",
+    "answer": "85 milyon"
+  },
+  {
+    "id": 20,
+    "question": "2023 yılında açılan ve Türkiye'nin en uzun kara yolu tüneli olan Zigana Tüneli hangi iki şehri birbirine bağlamaktadır?",
+    "option1": "Trabzon - Gümüşhane",
+    "option2": "Rize - Artvin",
+    "option3": "Ankara - Eskişehir",
+    "option4": "Bursa - Balıkesir",
+    "answer": "Trabzon - Gümüşhane"
+  },
+  {
+    "id": 21,
+    "question": "Türkiye'nin ilk yerli savaş uçağı olan KAAN hangi yıl ilk uçuşunu yapmıştır?",
+    "option1": "2022",
+    "option2": "2023",
+    "option3": "2024",
+    "option4": "2025",
+    "answer": "2024"
+  },
+  {
+    "id": 22,
+    "question": "2024 yılı itibarıyla Türkiye'nin en büyük havalimanı hangisidir?",
+    "option1": "Sabiha Gökçen Havalimanı",
+    "option2": "Antalya Havalimanı",
+    "option3": "İstanbul Havalimanı",
+    "option4": "Esenboğa Havalimanı",
+    "answer": "İstanbul Havalimanı"
+  },
+  {
+    "id": 23,
+    "question": "2024 yılında Türkiye'de en çok dinlenen müzik türü hangisidir?",
+    "option1": "Pop",
+    "option2": "Rap",
+    "option3": "Türk Halk Müziği",
+    "option4": "Rock",
+    "answer": "Rap"
+  },
+  {
+    "id": 24,
+    "question": "2024 yılı itibarıyla Türkiye'deki en yüksek baraj hangisidir?",
+    "option1": "Atatürk Barajı",
+    "option2": "Çoruh Barajı",
+    "option3": "Yusufeli Barajı",
+    "option4": "Keban Barajı",
+    "answer": "Yusufeli Barajı"
+  },
     {
-      "id": 2,
-      "question": "İstiklal Marşı'nın yazarı kimdir?",
-      "option1": "Yahya Kemal Beyatlı",
-      "option2": "Mehmet Akif Ersoy",
-      "option3": "Sabahattin Ali",
-      "option4": "Peyami Safa",
-      "answer": "Mehmet Akif Ersoy"
-    },
-    {
-      "id": 3,
-      "question": "Osmanlı'ya matbaayı kim getirmiştir?",
-      "option1": "Evliya Çelebi",
-      "option2": "İbrahim Müteferrika",
-      "option3": "Katip Çelebi",
-      "option4": "Ali Kuşçu",
-      "answer": "İbrahim Müteferrika"
-    },
-    {
-      "id": 4,
-      "question": "İlk Türk kadın pilot kimdir?",
-      "option1": "Sabiha Gökçen",
-      "option2": "Afet İnan",
-      "option3": "Halide Edib",
-      "option4": "Latife Hanım",
-      "answer": "Sabiha Gökçen"
-    },
-    {
-      "id": 5,
-      "question": "Türkiye'nin ilk Nobel ödüllü yazarı kimdir?",
-      "option1": "Yaşar Kemal",
-      "option2": "Orhan Pamuk",
-      "option3": "Nazım Hikmet",
-      "option4": "Ahmet Hamdi",
-      "answer": "Orhan Pamuk"
-    },
-    {
-      "id": 6,
-      "question": "Divan edebiyatının en ünlü şairlerinden biri kimdir?",
-      "option1": "Fuzuli",
-      "option2": "Yunus Emre",
-      "option3": "Mevlana",
-      "option4": "Pir Sultan",
-      "answer": "Fuzuli"
-    },
-    {
-      "id": 7,
-      "question": "Ünlü denizci Barbaros Hayreddin Paşa'nın gerçek adı nedir?",
-      "option1": "Piri Reis",
-      "option2": "Hızır Reis",
-      "option3": "Turgut Reis",
-      "option4": "Evliya Çelebi",
-      "answer": "Hızır Reis"
-    },
-    {
-      "id": 8,
-      "question": "Aşağıdakilerden hangisi, Türk sinemasının önemli yönetmenlerinden biridir?",
-      "option1": "Nuri Bilge Ceylan",
-      "option2": "Cem Karaca",
-      "option3": "Şener Şen",
-      "option4": "Kemal Sunal",
-      "answer": "Nuri Bilge Ceylan"
-    },
-    {
-      "id": 9,
-      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazanmıştır?",
-      "option1": "Fizik",
-      "option2": "Kimya",
-      "option3": "Tıp",
-      "option4": "Matematik",
-      "answer": "Kimya"
-    },
-    {
-      "id": 10,
-      "question": "Hangi Osmanlı padişahı 'Kanuni' unvanına sahiptir?",
-      "option1": "II. Mehmed",
-      "option2": "I. Süleyman",
-      "option3": "I. Selim",
-      "option4": "I. Osman",
-      "answer": "I. Süleyman"
-    },
-    {
-      "id": 11,
-      "question": "Hangi Türk yazar ‘İnce Memed’ romanını yazmıştır?",
-      "option1": "Yaşar Kemal",
-      "option2": "Orhan Pamuk",
-      "option3": "Reşat Nuri Güntekin",
-      "option4": "Sait Faik Abasıyanık",
-      "answer": "Yaşar Kemal"
-    },
-    {
-      "id": 12,
-      "question": "Hangi Türk halk ozanı 'Uzun İnce Bir Yoldayım' türküsüyle tanınır?",
-      "option1": "Neşet Ertaş",
-      "option2": "Musa Eroğlu",
-      "option3": "Mahsuni Şerif",
-      "option4": "Aşık Veysel",
-      "answer": "Aşık Veysel"
-    },
-        {
-      "id": 13,
-      "question": "Türk edebiyatında ‘Halk Şairi’ olarak bilinen ünlü şair kimdir?",
-      "option1": "Yunus Emre",
-      "option2": "Fuzuli",
-      "option3": "Nedim",
-      "option4": "Baki",
-      "answer": "Yunus Emre"
-    },
-            {
-      "id": 14,
-      "question": "Türkiye, Eurovision şarkı yarışmasını hangi sanatçımız ile kazanmıştır?",
-      "option1": "Tarkan",
-      "option2": "Sezen Aksu",
-      "option3": "Sertab Erener",
-      "option4": "Mustafa Sandal",
-      "answer": "Sertab Erener"
-    }
-  ]
+    "id": 25,
+    "question": "2024 Avrupa Futbol Şampiyonası'nda Türkiye'nin teknik direktörü kim olmuştur?",
+    "option1": "Fatih Terim",
+    "option2": "Şenol Güneş",
+    "option3": "Vincenzo Montella",
+    "option4": "José Mourinho",
+    "answer": "Vincenzo Montella"
+  }
+]
 }
