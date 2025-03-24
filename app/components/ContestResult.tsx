@@ -63,64 +63,82 @@ export default function ContestResult({
         <p className="text-center px-3 break-words">
           10 sorunun <span className="text-brick-default">{score}</span>{" "}
           tanesini doğru bildin ve{" "}
-          <span className="text-brick-default">Hulk</span> oldun! Üzülme çünkü
-          sen inanılmaz bir güce ve büyük bir kalbe sahipsin. Bazen her şeyi bir
-          anda çözmek zor olabilir ama önemli olan her zaman gelişmek ve
-          öğrenmeye devam etmek. Senin içinde harika bir kahraman var!
+          <span className="text-brick-default">Hulk</span> oldun! Hiç sorun
+          değil! Sen de Hulk gibi muazzam bir güce sahipsin, ama bu gücü daha
+          iyi yönlendirmek için çalışman gerekiyor. Yarışmadaki performansın,
+          öğrenme yolculuğunun henüz başlangıcında olduğunu ama hızla
+          ilerleyebileceğini gösteriyor. Önemli olan bu yolculuğa devam etmek ve
+          her adımda biraz daha güçlenmek. Unutma, her yolculuk tek bir ilk
+          adımla başlar. Şimdi bu gücü kontrol etme ve bilgiyle güçlenme zamanı!
         </p>
       );
     } else if (score >= 2 && score <= 3) {
       return (
         <p className="text-center px-2">
-          10 sorunun <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru yanıtladın ve{" "}
-          <span className="text-brick-default">Wolverine</span> oldun! Güçlü,
-          dayanıklı ve çok kararlısın. Zorluklar seni asla durduramaz, her zaman
-          en iyisini yapmak için çalışırsın. Ayrıca arkadaşlarına karşı çok
-          sadık bir kahramansın!
+          İyi bir sonuç! 10 sorunun{" "}
+          <span className="text-brick-default">{score}</span> tanesini doğru
+          yanıtladın ve <span className="text-brick-default">Wolverine</span>{" "}
+          oldun! Sen de Wolverine gibi dayanıklısın ve asla pes etmiyorsun.
+          Yarışmadaki performansın, doğru yolda ilerlediğini ama keşfedecek çok
+          şeyin olduğunu gösteriyor. Bilgi yolculuğunda her adımda daha güçlü
+          hale geleceksin. Azmin ve kararlılığın sayesinde, potansiyelini ortaya
+          çıkaracak güce sahipsin. Şimdi daha çok çalışmanın ve bu yolculukta
+          ilerlemenin tam zamanı!
         </p>
       );
     } else if (score >= 4 && score <= 5) {
       return (
         <p className="text-center px-2">
-          10 sorudan <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru bilerek{" "}
-          <span className="text-brick-default">Spider-Man</span> oldun! Hızlı,
-          çevik ve çok zekisin! Her zaman enerjik ve pozitif biri olarak
-          sorunların üstesinden geliyorsun. Eğlenceli kişiliğin ve cesaretin
-          sayesinde herkesin sevgisini kazanıyorsun!
+          Harika bir iş çıkardın! 10 sorudan{" "}
+          <span className="text-brick-default">{score}</span> tanesini doğru
+          bilerek <span className="text-brick-default">Spider-Man</span> oldun!
+          Tıpkı Spider-Man gibi çevik ve zeki birisin. Yarışmada sergilediğin
+          performans, öğrenmeye açık ve gelişime yatkın olduğunu gösteriyor. Her
+          doğru cevapla, bilgi ağını genişleterek daha güçlü bir konuma
+          geliyorsun. Önemli olan cesaretin ve denemeye devam etmen. Unutma,
+          büyük güç büyük sorumluluk getirir. Potansiyelinle bilgi yolculuğunda
+          çok daha ileriye gideceksin!
         </p>
       );
     } else if (score >= 6 && score <= 7) {
       return (
         <p className="text-center px-2">
-          10 sorunun <span className="text-brick-default">{score}</span>{" "}
-          tanesine doğru cevap verdin ve{" "}
-          <span className="text-brick-default">Wonder Woman</span> oldun! Güçlü,
-          kararlı ve cesursun. Adaletin savunucusu olarak başkalarına ilham
-          veriyorsun. Sadece fiziksel gücünle değil, bilgeliğin ve iyiliğinle de
-          herkese örnek oluyorsun!
+          Harikasın! 10 sorunun{" "}
+          <span className="text-brick-default">{score}</span> tanesine doğru
+          cevap verdin. Senin cesaretin ve gücün tıpkı{" "}
+          <span className="text-brick-default">Wonder Woman</span>'a benziyor.
+          Kararlılığın ve zekân sayesinde her zorluğun üstesinden gelebilirsin.
+          Yarışmada gösterdiğin başarı, bilgiye olan tutkunun ve güçlü
+          sezgilerinin ne kadar etkileyici olduğunu gösteriyor. Her soruya
+          verdiğin dikkatli cevaplarla öğrenme yolculuğunda ne kadar ileri
+          gittiğini kanıtladın.
         </p>
       );
     } else if (score >= 8 && score <= 9) {
       return (
         <p className="text-center px-2">
-          10 sorudan <span className="text-brick-default">{score}</span>{" "}
-          tanesini doğru yanıtladın ve{" "}
-          <span className="text-brick-default">Batman</span> oldun! Zekân,
-          cesaretin ve harika planların sayesinde her sorunu çözebiliyorsun.
-          Teknoloji ve aklını kullanarak her zaman bir adım önde oluyorsun.
-          Geceyi aydınlatan bir kahraman olarak herkesin güvenini kazanıyorsun!
+          Tebrikler! 10 sorudan{" "}
+          <span className="text-brick-default">{score}</span> tanesini doğru
+          yanıtladın ve <span className="text-brick-default">Batman</span>{" "}
+          oldun! Batman gibi karanlıkta bile ışığı bulabiliyor, zorluklar
+          karşısında stratejik düşünüyorsun. Yarışmada sergilediğin performans,
+          analitik zekânın ve problem çözme yeteneğinin gücünü ortaya koyuyor.
+          Senin gibi bir zihin her zaman fark yaratır. Bu başarı, seni ustalığa
+          ve büyük işler başarmaya bir adım daha yaklaştıracak!
         </p>
       );
     } else {
       return (
         <p className="text-center px-2">
-          10 sorunun <span className="text-brick-default">10</span>&apos;unu da
-          doğru bildin ve <span className="text-brick-default">Superman</span>{" "}
-          oldun! Süper güçlerin, hızın ve uçma yeteneğinle herkesin hayran
-          olduğu bir kahramansın. Yardımsever, cesur ve her zaman iyilik için
-          çalışan biri olarak dünyayı daha güzel bir yer haline getiriyorsun!
+          Sen inanılmazsın! 10 sorunun{" "}
+          <span className="text-brick-default">10</span>&apos;unu da doğru
+          bildin ve <span className="text-brick-default">Superman</span> oldun!
+          Tıpkı onun gibi en zoru başarıyorsun ve herkesin hayranlıkla izlediği
+          bir lider oluyorsun. Gücün, zekân ve azminle dünyayı kurtarmaya
+          hazırsın. Yarışmada sergilediğin üstün performans, bilgiye olan
+          hakimiyetini ve sınır tanımayan potansiyelini ortaya koyuyor. Her
+          soruda gösterdiğin netlik ve hız, tam anlamıyla bir süper kahraman
+          olduğunun kanıtı. Bilgi dünyasının zirvesinde, başarıyla parlıyorsun!
         </p>
       );
     }

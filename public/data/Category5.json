@@ -324,6 +324,116 @@
     "option3": "Kars",
     "option4": "Artvin",
     "answer": "Erzurum"
-  }
+  },
+
+{
+"id": 38,
+"question": "Afyon'un hangi yiyeceği meşhurdur?",
+"option1": "Sucuk",
+"option2": "Ezine peyniri",
+"option3": "Laz böreği",
+"option4": "Tantuni",
+"answer": "Sucuk"
+},
+
+{
+"id": 39,
+"question": "Amasya'nın “Misket” olarak da adlandırılan, ağacı bir yıl çok ürün verirken diğer yıl az ürün veren ünlü meyvesi aşağıdakilerden hangisidir?",
+"option1": "Kayısı",
+"option2": "Elma",
+"option3": "Kiraz",
+"option4": "Şeftali",
+"answer": "Elma"
+},
+
+{
+"id": 40,
+"question": "Bolu'nun hangi yemeği meşhurdur?",
+"option1": "Mengen pilavı",
+"option2": "Beyran çorbası",
+"option3": "Toyga çorbası",
+"option4": "Tepsi kebabı",
+"answer": "Mengen pilavı"
+},
+
+{
+"id": 41,
+"question": "Bursa'nın ünlü tatlısı aşağıdakilerden hangisidir?",
+"option1": "Kestane şekeri",
+"option2": "Kadayıf dolması",
+"option3": "Mesir macunu",
+"option4": "Cezerye",
+"answer": "Kestane şekeri"
+},
+
+{
+"id": 42,
+"question": "Çorum'un özel gün ve toplantılarda yapılan, Türk Patent ve Marka Kurumu tarafından tescillenmiş ve coğrafi işaret almış ünlü yiyeceği nedir?",
+"option1": "İskilip dolması",
+"option2": "Tava ciğer",
+"option3": "Pişmaniye",
+"option4": "Laz böreği",
+"answer": "İskilip dolması"
+},
+
+{
+"id": 43,
+"question": "Diyarbakır'ın hangi tatlısı meşhurdur?",
+"option1": "Kadayıf dolması",
+"option2": "Burma kadayıf",
+"option3": "Cezerye",
+"option4": "Gül lokumu",
+"answer": "Burma kadayıf"
+},
+
+{
+"id": 44,
+"question": "Gaziantep'in baklavadan sonra en ünlü tatlısı nedir?",
+"option1": "Künefe",
+"option2": "Katmer",
+"option3": "Pişmaniye",
+"option4": "Höşmerim",
+"answer": "Katmer"
+},
+
+{
+"id": 45,
+"question": "Giresun'un ünlü yemişi aşağıdakilerden hangisidir?",
+"option1": "Fındık",
+"option2": "Fıstık",
+"option3": "İncir",
+"option4": "Kayısı",
+"answer": "Fındık"
+},
+
+{
+"id": 46,
+"question": "Hatay'ın peynirle yapılan ünlü tatlısı nedir?",
+"option1": "Burma kadayıf",
+"option2": "Künefe",
+"option3": "Höşmerim",
+"option4": "Mesir macunu",
+"answer": "Künefe"
+},
+
+{
+"id": 47,
+"question": "Isparta'nın hangi ürünü meşhurdur?",
+"option1": "Gül lokumu",
+"option2": "Cezerye",
+"option3": "Kaymak",
+"option4": "Kaz eti",
+"answer": "Gül lokumu"
+},
+
+{
+"id": 48,
+"question": "Konya'nın hangi yemeği ünlüdür?",
+"option1": "Etli ekmek",
+"option2": "Höşmerim tatlısı",
+"option3": "Samsun pidesi",
+"option4": "Manisa kebabı",
+"answer": "Etli ekmek"
+}
   ]
 }

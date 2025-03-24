@@ -305,6 +305,123 @@
       "option3": "Pencere",
       "option4": "Ödev",
       "answer": "Denizaltı"
-    }
+    },
+  {
+    "id": 35,
+    "question": "Aşağıdaki sözcüklerden hangisi türemiş bir kelimedir?",
+    "option1": "Kitaplık",
+    "option2": "Kalem",
+    "option3": "Masa",
+    "option4": "Göz",
+    "answer": "Kitaplık"
+  },
+  {
+    "id": 36,
+    "question": "Aşağıdaki kelimelerden hangisi birleşik kelimedir?",
+    "option1": "Kırmızı",
+    "option2": "Gözlük",
+    "option3": "Hanımeli",
+    "option4": "Defter",
+    "answer": "Hanımeli"
+  },
+  {
+    "id": 37,
+    "question": "Hangi cümlede özne zamirdir?",
+    "option1": "Öğrenciler sınava girdi.",
+    "option2": "O kapıyı açtı.",
+    "option3": "Ali sinemaya gitti.",
+    "option4": "Babam işten geldi.",
+    "answer": "O kapıyı açtı."
+  },
+  {
+    "id": 38,
+    "question": "Aşağıdaki cümlelerden hangisi basit bir cümledir?",
+    "option1": "Ali sinemaya gitti.",
+    "option2": "Eve geldim ve hemen uyudum.",
+    "option3": "Bugün mutluyum çünkü bir haber aldım.",
+    "option4": "Sınava iyi hazırlanmadı ve başarısız oldu.",
+    "answer": "Ali sinemaya gitti."
+  },
+  {
+    "id": 39,
+    "question": "Hangi cümlede mecaz anlamlı bir kelime vardır?",
+    "option1": "Güneş bugün çok sıcak.",
+    "option2": "Kırmızı elbiseni çok beğendim.",
+    "option3": "Bu haber içimi ısıttı.",
+    "option4": "Kedi pencerenin kenarında oturuyor.",
+    "answer": "Bu haber içimi ısıttı."
+  },
+  {
+    "id": 40,
+    "question": "Hangi kelimede ünsüz yumuşaması görülmez?",
+    "option1": "Kitap",
+    "option2": "Ağaç",
+    "option3": "Defter",
+    "option4": "Kağıt",
+    "answer": "Defter"
+  },
+  {
+    "id": 41,
+    "question": "Hangisi bir roman türüdür?",
+    "option1": "Masal",
+    "option2": "Fabl",
+    "option3": "Destan",
+    "option4": "Polisiye",
+    "answer": "Polisiye"
+  },
+  {
+    "id": 42,
+    "question": "Hangi yazar Çalıkuşu romanını yazmıştır?",
+    "option1": "Reşat Nuri Güntekin",
+    "option2": "Orhan Pamuk",
+    "option3": "Halide Edib Adıvar",
+    "option4": "Yaşar Kemal",
+    "answer": "Reşat Nuri Güntekin"
+  },
+  {
+    "id": 43,
+    "question": "Hangisi bir halk şairidir?",
+    "option1": "Mehmet Akif Ersoy",
+    "option2": "Aşık Veysel",
+    "option3": "Orhan Veli Kanık",
+    "option4": "Tevfik Fikret",
+    "answer": "Aşık Veysel"
+  },
+  {
+    "id": 44,
+    "question": "Hangi sözcük fiil değildir?",
+    "option1": "Konuşmak",
+    "option2": "Yüzmek",
+    "option3": "Sevmek",
+    "option4": "Güzel",
+    "answer": "Güzel"
+  },
+  {
+    "id": 45,
+    "question": "Hangi cümlede kişi zamiri kullanılmıştır?",
+    "option1": "Bu kitap çok güzel.",
+    "option2": "O, okula gitti.",
+    "option3": "Masadaki defter mavi.",
+    "option4": "Sınıf çok kalabalıktı.",
+    "answer": "O, okula gitti."
+  },
+  {
+    "id": 46,
+    "question": "Hangi cümlede yüklem bir fiil değildir?",
+    "option1": "Ali kitap okuyor.",
+    "option2": "Okul çok büyüktü.",
+    "option3": "Kardeşim sinemaya gitti.",
+    "option4": "Çocuk bahçede oynuyor.",
+    "answer": "Okul çok büyüktü."
+  },
+  {
+    "id": 47,
+    "question": "Hangisi yazılışları aynı, anlamları farklı olan kelimelere örnektir?",
+    "option1": "Kara – siyah",
+    "option2": "Gül – gülmek",
+    "option3": "Kalem – defter",
+    "option4": "Hızlı – çabuk",
+    "answer": "Gül – gülmek"
+  }
   ]
 }

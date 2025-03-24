@@ -126,26 +126,8 @@
     "option4": "Vefa Lisesi",
     "answer": "Galatasaray Lisesi"
   },
-  {
+{
   "id": 15,
-  "question": "Aşağıdaki çalgılardan hangisi bir üflemeli çalgıdır?",
-  "option1": "Darbuka",
-  "option2": "Kemençe",
-  "option3": "Kaval",
-  "option4": "Bağlama",
-  "answer": "Kaval"
-},
-{
-  "id": 16,
-  "question": "Bağlama ailesinin en küçük üyesi olan çalgı hangisidir?",
-  "option1": "Kemençe",
-  "option2": "Cura",
-  "option3": "Tulum",
-  "option4": "Kabak Kemane",
-  "answer": "Cura"
-},
-{
-  "id": 17,
   "question": "Hangi çalgı, özellikle tasavvuf müziğinde yaygın olarak kullanılır?",
   "option1": "Zurna",
   "option2": "Ney",
@@ -154,26 +136,8 @@
   "answer": "Ney"
 },
 {
-  "id": 18,
-  "question": "Zurna, hangi malzemeden yapılır?",
-  "option1": "Ahşap",
-  "option2": "Hayvan boynuzu",
-  "option3": "Kamış",
-  "option4": "Bakır",
-  "answer": "Ahşap"
-},
-{
-  "id": 19,
-  "question": "Aşağıdaki çalgılardan hangisi su kabağından yapılır?",
-  "option1": "Kemençe",
-  "option2": "Kabak Kemane",
-  "option3": "Zurna",
-  "option4": "Kanun",
-  "answer": "Kabak Kemane"
-},
-{
-  "id": 20,
-  "question": "Aşağıdaki çalgılardan hangisi, Karadeniz bölgesinin horon ezgilerinde sıklıkla kullanılır?",
+  "id": 16,
+  "question": "Aşağıdaki çalgılardan hangisi, Karadeniz bölgesinin horon ezgileriyle sıklıkla kullanılır?",
   "option1": "Ney",
   "option2": "Kemençe",
   "option3": "Tulum",
@@ -181,7 +145,7 @@
   "answer": "Kemençe"
 },
 {
-  "id": 21,
+  "id": 17,
   "question": "Aşağıdaki çalgılardan hangisi, davul ile birlikte düğünlerde çalınan bir üflemeli çalgıdır?",
   "option1": "Ney",
   "option2": "Zurna",
@@ -190,7 +154,7 @@
   "answer": "Zurna"
 },
 {
-  "id": 22,
+  "id": 18,
   "question": "Hangi çalgı, taşınabilir olması nedeniyle özellikle çobanlar tarafından kullanılır?",
   "option1": "Kanun",
   "option2": "Kaval",
@@ -199,7 +163,7 @@
   "answer": "Kaval"
 },
 {
-  "id": 23,
+  "id": 19,
   "question": "Aşağıdaki çalgılardan hangisi, Türk halk müziğinin en önemli telli çalgılarından biridir?",
   "option1": "Kanun",
   "option2": "Bağlama",
@@ -208,67 +172,22 @@
   "answer": "Bağlama"
 },
 {
-  "id": 24,
-  "question": "Kanun, hangi müzik türünde sıkça kullanılır?",
-  "option1": "Türk halk müziği",
-  "option2": "Türk sanat müziği",
-  "option3": "Rock müziği",
-  "option4": "Arabesk müziği",
-  "answer": "Türk sanat müziği"
-},
-{
-  "id": 25,
-  "question": "Tulum, hangi bölgenin müziğinde sıkça yer alır?",
-  "option1": "Doğu Anadolu",
-  "option2": "Doğu Karadeniz",
-  "option3": "Ege",
-  "option4": "Marmara",
-  "answer": "Doğu Karadeniz"
-},
-{
-  "id": 26,
-  "question": "Kaval hangi müzik türüne ait bir çalgıdır?",
-  "option1": "Türk halk müziği",
-  "option2": "Türk sanat müziği",
-  "option3": "Rock müziği",
-  "option4": "Pop müziği",
-  "answer": "Türk halk müziği"
-},
-{
-  "id": 27,
-  "question": "Aşağıdaki çalgılardan hangisi, yüksek sesli bir vurmalı çalgıdır?",
+  "id": 20,
+  "question": "Aşağıdaki çalgılardan hangisi, Türk müziğinde kullanılan vurmalı çalgıdır?",
   "option1": "Kaval",
   "option2": "Kanun",
-  "option3": "Davul",
+  "option3": "Darbuka",
   "option4": "Zil",
-  "answer": "Davul"
+  "answer": "Darbuka"
 },
 {
-  "id": 28,
-  "question": "Darbuka hangi çalgı ailesine aittir?",
-  "option1": "Vurmalı",
-  "option2": "Yaylı",
-  "option3": "Üflemeli",
-  "option4": "Telli",
-  "answer": "Vurmalı"
-},
-{
-  "id": 29,
+  "id": 21,
   "question": "Aşağıdaki çalgılardan hangisi, Türk sanat müziği ile ilişkilidir?",
   "option1": "Darbuka",
   "option2": "Kanun",
   "option3": "Zurna",
   "option4": "Tulum",
   "answer": "Kanun"
-},
-{
-  "id": 30,
-  "question": "Aşağıdaki çalgılardan hangisi, genellikle düğünlerde çalınan yüksek sesli bir çalgıdır?",
-  "option1": "Tulum",
-  "option2": "Zurna",
-  "option3": "Ney",
-  "option4": "Kanun",
-  "answer": "Zurna"
 }
   ]
 }
