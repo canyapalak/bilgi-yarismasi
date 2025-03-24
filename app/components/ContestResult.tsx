@@ -106,10 +106,10 @@ export default function ContestResult({
           Harikasın! 10 sorunun{" "}
           <span className="text-brick-default">{score}</span> tanesine doğru
           cevap verdin. Senin cesaretin ve gücün tıpkı{" "}
-          <span className="text-brick-default">Wonder Woman</span>'a benziyor.
-          Kararlılığın ve zekân sayesinde her zorluğun üstesinden gelebilirsin.
-          Yarışmada gösterdiğin başarı, bilgiye olan tutkunun ve güçlü
-          sezgilerinin ne kadar etkileyici olduğunu gösteriyor. Her soruya
+          <span className="text-brick-default">Wonder Woman</span>&apos;a
+          benziyor. Kararlılığın ve zekân sayesinde her zorluğun üstesinden
+          gelebilirsin. Yarışmada gösterdiğin başarı, bilgiye olan tutkunun ve
+          güçlü sezgilerinin ne kadar etkileyici olduğunu gösteriyor. Her soruya
           verdiğin dikkatli cevaplarla öğrenme yolculuğunda ne kadar ileri
           gittiğini kanıtladın.
         </p>
