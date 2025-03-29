@@ -211,7 +211,7 @@ export default function Contest({
       <span
         className={`text-neutral-50 text-lg py-1 category-tag text-center ${
           pickedCategoryFileName === "Category8"
-            ? "bg-rose-default px-1"
+            ? "bg-violet-default px-1"
             : "bg-navy-default px-2"
         }`}
       >

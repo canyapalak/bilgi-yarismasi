@@ -39,9 +39,9 @@ const config: Config = {
           default: "#ac3973",
           light: "#c6538c",
         },
-        rose: {
-          default: "#cf4c62",
-          light: "#ed6673",
+        violet: {
+          default: "#6a65c9",
+          light: "#8a86db",
         },
       },
     },

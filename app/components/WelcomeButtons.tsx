@@ -102,10 +102,10 @@ export default function WelcomeButtons({
           </div>
         ))}
         <div
-          className={`button-prm bg-rose-default text-neutral-50 text-2xl rounded-md p-3 cursor-pointer text-center shadow-lg shadow-zinc-400 w-60 sm:w-full col-span-1 sm:col-span-2
+          className={`button-prm bg-violet-default text-neutral-50 text-2xl rounded-md p-3 cursor-pointer text-center shadow-lg shadow-zinc-400 w-60 sm:w-full col-span-1 sm:col-span-2
     ${
       clickedCategoryButton === Category8Object.title
-        ? "button-prm-active bg-rose-light"
+        ? "button-prm-active bg-violet-light"
         : ""
     } 
     `}
