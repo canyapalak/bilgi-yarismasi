@@ -162,7 +162,11 @@ export default function Contest({
       setIsCorrect(isAnswerCorrect);
       stop();
 
-      isAnswerCorrect ? playCorrect() : playWrong();
+      if (isAnswerCorrect) {
+        playCorrect();
+      } else {
+        playWrong();
+      }
 
       if (isAnswerCorrect) {
         setScore((prevScore) => (prevScore ?? 0) + 1);
