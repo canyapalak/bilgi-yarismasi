@@ -153,7 +153,7 @@ export default function ContestResult({
           isBackCard ? "flipped" : ""
         }`}
       >
-        <div className="flip-card-inner w-[14rem] h-[14rem] sm:w-[18rem] sm:h-[18rem] mb-6">
+        <div className="button flip-card-inner w-[14rem] h-[14rem] sm:w-[18rem] sm:h-[18rem] mb-6">
           <div
             className={`flip-card-back hero border-2 rounded-lg border-yellow-900 p-3 text-[20px] flex items-center justify-center ${
               isBackCard ? "" : ""

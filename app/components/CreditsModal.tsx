@@ -18,7 +18,7 @@ export default function CreditsModal({ open, setOpen }: ModalInterface) {
            border-2 border-neutral-600 shadow-md rounded-lg outline-none flex flex-col w-[21rem] sm:w-[26rem] modal-box"
         >
           <HighlightOffIcon
-            className="ml-auto mr-1 mt-1 cursor-pointer text-3xl hover:text-gray-default"
+            className="button ml-auto mr-1 mt-1 cursor-pointer text-3xl hover:text-gray-default"
             onClick={handleClose}
           />
           <div

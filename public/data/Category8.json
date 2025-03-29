@@ -1,0 +1,148 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Malazgirt Meydan Muharebesi'ni kim kazanmıştır?",
+      "option1": "Bizans",
+      "option2": "Selçuklular",
+      "option3": "Göktürkler",
+      "option4": "Moğollar",
+      "answer": "Selçuklular"
+    },
+    {
+      "id": 2,
+      "question": "Osmanlı Devleti’nin ilk başkenti hangisidir?",
+      "option1": "Ankara",
+      "option2": "Bursa",
+      "option3": "İzmir",
+      "option4": "İstanbul",
+      "answer": "Bursa"
+    },
+    {
+      "id": 3,
+      "question": "Osmanlı'ya matbaayı kim getirmiştir?",
+      "option1": "Evliya Çelebi",
+      "option2": "İbrahim Müteferrika",
+      "option3": "Katip Çelebi",
+      "option4": "Ali Kuşçu",
+      "answer": "İbrahim Müteferrika"
+    },
+    {
+      "id": 4,
+      "question": "İlk Türk kadın pilot kimdir?",
+      "option1": "Sabiha Gökçen",
+      "option2": "Afet İnan",
+      "option3": "Halide Edib",
+      "option4": "Latife Hanım",
+      "answer": "Sabiha Gökçen"
+    },
+    {
+      "id": 5,
+      "question": "Türkiye hangi ülkeyle komşu değildir?",
+      "option1": "Gürcistan",
+      "option2": "Bulgaristan",
+      "option3": "Romanya",
+      "option4": "İran",
+      "answer": "Romanya"
+    },
+        {
+      "id": 6,
+      "question": "Türkiye'nin yüz ölçümü en büyük ili hangisidir?",
+      "option1": "Konya",
+      "option2": "Ankara",
+      "option3": "Sivas",
+      "option4": "Van",
+      "answer": "Konya"
+    },
+    {
+      "id": 7,
+      "question": "Hacivat ve Karagöz hangi geleneksel sanat türüne aittir?",
+      "option1": "Ebru",
+      "option2": "Gölge oyunu",
+      "option3": "Hat sanatı",
+      "option4": "Minyatür",
+      "answer": "Gölge oyunu"
+    },
+    {
+      "id": 8,
+      "question": "Türk halk müziğinde kullanılan telli çalgımız hangisidir?",
+      "option1": "Saz",
+      "option2": "Keman",
+      "option3": "Zurna",
+      "option4": "Davul",
+      "answer": "Saz"
+    },
+    {
+      "id": 9,
+      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazanmıştır?",
+      "option1": "Fizik",
+      "option2": "Kimya",
+      "option3": "Tıp",
+      "option4": "Matematik",
+      "answer": "Kimya"
+    },
+  {
+    "id": 10,
+    "question": "Türk mutfağında yemek pişirmek için kullanılan toprak kaplara ne ad verilir?",
+    "option1": "Tencere",
+    "option2": "Güveç",
+    "option3": "Tepsi",
+    "option4": "Kazan",
+    "answer": "Güveç"
+  },
+  {
+    "id": 11,
+    "question": "Yemek yendikten sonra yemeği yapan kişiye ne nedir?",
+    "option1": "Tebrikler",
+    "option2": "Kolay gelsin",
+    "option3": "Eline sağlık",
+    "option4": "Rastgele",
+    "answer": "Eline sağlık"
+  },
+    {
+      "id": 12,
+      "question": "Hangi Türk yazar ‘İnce Memed’ romanını yazmıştır?",
+      "option1": "Yaşar Kemal",
+      "option2": "Orhan Pamuk",
+      "option3": "Reşat Nuri Güntekin",
+      "option4": "Sait Faik Abasıyanık",
+      "answer": "Yaşar Kemal"
+    },
+  {
+    "id": 13,
+    "question": "Türkiye'de her yıl 23 Nisan'da kutlanan özel gün hangisidir?",
+    "option1": "Gençlik ve Spor Bayramı",
+    "option2": "Cumhuriyet Bayramı",
+    "option3": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "option4": "Zafer Bayramı",
+    "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
+  },
+  {
+    "id": 14,
+    "question": "2024 yılında Türkiye'nin en çok ziyaret edilen şehri hangisi olmuştur?",
+    "option1": "İstanbul",
+    "option2": "Antalya",
+    "option3": "İzmir",
+    "option4": "Kapadokya",
+    "answer": "İstanbul"
+  },
+      {
+      "id": 15,
+      "question": "Hangi Türk halk ozanı 'Uzun İnce Bir Yoldayım' türküsüyle tanınır?",
+      "option1": "Neşet Ertaş",
+      "option2": "Musa Eroğlu",
+      "option3": "Mahsuni Şerif",
+      "option4": "Aşık Veysel",
+      "answer": "Aşık Veysel"
+    },
+      {
+    "id": 16,
+    "question": "Türklerin kullandığı ilk alfabe hangisidir?",
+    "option1": "Arap Alfabesi",
+    "option2": "Latin Alfabesi",
+    "option3": "Göktürk Alfabesi",
+    "option4": "Kiril Alfabesi",
+    "answer": "Göktürk Alfabesi"
+  }
+  ]
+}

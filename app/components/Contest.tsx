@@ -2,6 +2,7 @@ import { ContestProps, QuestionProps } from "../types";
 import { useContext, useEffect, useRef, useState } from "react";
 import { ContestContext } from "../context/ContestContext";
 import { ScoreContext } from "../context/ScoreContext";
+import useSound from "use-sound";
 import Spinner from "./Spinner";
 import CountdownBar from "./CountdownBar";
 import Image from "next/image";
@@ -12,6 +13,12 @@ export default function Contest({
   openContestResult,
 }: ContestProps) {
   const contestContext = useContext(ContestContext);
+
+  const [playTimer, { stop }] = useSound("/assets/timer_sound.wav");
+  const [playCorrect] = useSound("/assets/correct_sound.wav");
+  const [playWrong] = useSound("/assets/wrong_sound.wav");
+  const [playShine] = useSound("/assets/shine_sound.wav");
+  const [playTada] = useSound("/assets/tada_sound.wav");
 
   if (!contestContext) {
     throw new Error("ContestContext must be used within a ContestProvider");
@@ -129,13 +136,15 @@ export default function Contest({
       timeoutRef.current = setTimeout(() => {
         setIsTimeOut(true);
         setIsCorrect(false);
+        playWrong();
+        stop();
       }, 20000);
     }
 
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
-  }, [questionData]);
+  }, [questionData, isChillMode, stop]);
 
   const shuffleOptionsArray = (array: string[]) => {
     return array
@@ -149,10 +158,13 @@ export default function Contest({
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
 
       setSelectedOption(optValue);
-      setIsCorrect(optValue === String(questionData?.answer));
+      const isAnswerCorrect = optValue === String(questionData?.answer);
+      setIsCorrect(isAnswerCorrect);
+      stop();
 
-      if (optValue === String(questionData?.answer)) {
-        // If score is null, use 0 as the default value
+      isAnswerCorrect ? playCorrect() : playWrong();
+
+      if (isAnswerCorrect) {
         setScore((prevScore) => (prevScore ?? 0) + 1);
       }
     }
@@ -168,11 +180,37 @@ export default function Contest({
   const handleShowResultsClick = (): void => {
     closeContest();
     openContestResult();
+    playTada();
   };
+
+  const stopTimerAndCloseContest = (): void => {
+    closeContest();
+    stop();
+  };
+
+  useEffect(() => {
+    if (!loading && questionData && !isChillMode && questionCount < 10) {
+      playTimer();
+    } else {
+      stop();
+    }
+  }, [questionData, isChillMode, questionCount, playTimer, stop]);
+
+  useEffect(() => {
+    if (questionCount === 10) {
+      playShine();
+    }
+  }, [questionCount, playShine]);
 
   return (
     <div className="flex flex-col gap-2 items-center">
-      <span className="bg-navy-default text-neutral-50 text-lg px-2 py-1 category-tag">
+      <span
+        className={`text-neutral-50 text-lg px-2 py-1 category-tag text-center ${
+          pickedCategoryFileName === "Category8"
+            ? "bg-rose-default"
+            : "bg-navy-default"
+        }`}
+      >
         {pickedCategoryTitle}
       </span>
       <div className="text-center mt-[-40px]">
@@ -217,7 +255,7 @@ export default function Contest({
                 </div>
               ) : null}
 
-              <div className="flex flex-wrap items-center gap-6 mt-8 mb-6 justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6 mt-8 mb-6 justify-center">
                 {shuffledOptions.map((optValue, index) => (
                   <div
                     key={index}
@@ -244,7 +282,7 @@ export default function Contest({
                   className="button-prm bg-purple-default hover:bg-purple-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-6"
                   onClick={handleNewQuestion}
                 >
-                  Sonraki Soru
+                  {questionCount === 9 ? "İleri" : "Sonraki Soru"}
                 </button>
               )}
             </div>
@@ -269,7 +307,7 @@ export default function Contest({
       )}
       <div
         className="button-prm bg-gray-default hover:bg-gray-light text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-48 text-center shadow-lg shadow-zinc-400 mt-3"
-        onClick={closeContest}
+        onClick={stopTimerAndCloseContest}
       >
         Ana Sayfa
       </div>

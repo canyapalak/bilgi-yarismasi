@@ -45,6 +45,13 @@ export default function WelcomeButtons({
     setPickedCategoryTitle(title);
   };
 
+  const handleCategory8Click = (fileName: string, title: string) => {
+    setClickedCategoryButton(title);
+    setIsCategoryPicked(true);
+    setPickedCategoryFileName(fileName);
+    setPickedCategoryTitle(title);
+  };
+
   useEffect(() => {
     setIsChillMode(false);
     setScore(0);
@@ -69,26 +76,48 @@ export default function WelcomeButtons({
     { title: "Hepsi!", fileName: "Hepsi!" },
   ];
 
+  const Category8Object: Category = {
+    title: "!! 2025 Bilgi Yarışması Soruları !!",
+    fileName: "Category8",
+  };
+
   return (
     <div className="flex flex-col gap-6 items-center">
       <p className="text-center text-neutral-700 fade-in text-2xl">
         Bir kategori seç!
       </p>
-      <div className="flex flex-wrap gap-6 justify-center fade-in">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center fade-in">
         {CategoryArray.map((cat, index) => (
           <div
             key={index}
             className={`button-prm bg-navy-default text-neutral-50 text-2xl rounded-md p-3 cursor-pointer w-60 text-center shadow-lg shadow-zinc-400
-              ${
-                clickedCategoryButton === cat.title
-                  ? "button-prm-active bg-navy-light"
-                  : ""
-              }`}
+      ${
+        clickedCategoryButton === cat.title
+          ? "button-prm-active bg-navy-light"
+          : ""
+      }`}
             onClick={() => handleContestCategoryClick(cat.fileName, cat.title)}
           >
             {cat.title}
           </div>
         ))}
+        <div
+          className={`button-prm bg-rose-default text-neutral-50 text-2xl rounded-md p-3 cursor-pointer text-center shadow-lg shadow-zinc-400 w-60 sm:w-full col-span-1 sm:col-span-2
+    ${
+      clickedCategoryButton === Category8Object.title
+        ? "button-prm-active bg-rose-light"
+        : ""
+    } 
+    `}
+          onClick={() =>
+            handleCategory8Click(
+              Category8Object.fileName,
+              Category8Object.title
+            )
+          }
+        >
+          {Category8Object.title}
+        </div>
       </div>
 
       <div className="flex flex-col items-center text-neutral-700 fade-in mb-2">
@@ -96,12 +125,12 @@ export default function WelcomeButtons({
           {!isChillMode ? (
             <ToggleOffOutlinedIcon
               onClick={handleChillModeClick}
-              className="cursor-pointer toggle-icon text-4xl"
+              className="button cursor-pointer toggle-icon text-4xl"
             />
           ) : (
             <ToggleOnOutlinedIcon
               onClick={handleChillModeClick}
-              className="cursor-pointer toggle-icon text-4xl text-green-default"
+              className="button cursor-pointer toggle-icon text-4xl text-green-default"
             />
           )}
           <p>Rahat mod</p>
