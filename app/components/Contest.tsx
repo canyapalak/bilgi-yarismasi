@@ -209,10 +209,10 @@ export default function Contest({
   return (
     <div className="flex flex-col gap-2 items-center">
       <span
-        className={`text-neutral-50 text-lg px-2 py-1 category-tag text-center ${
+        className={`text-neutral-50 text-lg py-1 category-tag text-center ${
           pickedCategoryFileName === "Category8"
-            ? "bg-rose-default"
-            : "bg-navy-default"
+            ? "bg-rose-default px-1"
+            : "bg-navy-default px-2"
         }`}
       >
         {pickedCategoryTitle}
