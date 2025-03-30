@@ -110,12 +110,12 @@
     },
   {
     "id": 13,
-    "question": "Türkiye'de her yıl 23 Nisan'da kutlanan özel gün hangisidir?",
-    "option1": "Gençlik ve Spor Bayramı",
-    "option2": "Cumhuriyet Bayramı",
-    "option3": "Ulusal Egemenlik ve Çocuk Bayramı",
-    "option4": "Zafer Bayramı",
-    "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
+    "question": "2023 yılında hem Dünya Şampiyonu hem de Milletler Ligi Şampiyonu olan A Milli Kadın Voleybol Takımımızın lakabı nedir?",
+    "option1": "Filenin Sultanları",
+    "option2": "Bozkurtlar",
+    "option3": "Kartallar",
+    "option4": "Altın Kızlar",
+    "answer": "Filenin Sultanları"
   },
   {
     "id": 14,
@@ -143,6 +143,69 @@
     "option3": "Göktürk Alfabesi",
     "option4": "Kiril Alfabesi",
     "answer": "Göktürk Alfabesi"
-  }
+  },
+    {
+    "id": 17,
+    "question": "Hangi Türk tatlısında şerbet kullanılmaz?",
+    "option1": "Revani",
+    "option2": "Baklava",
+    "option3": "Sütlaç",
+    "option4": "Şekerpare",
+    "answer": "Sütlaç"
+  },
+      {
+      "id": 18,
+      "question": "Hangisi ünlü Türk masal kahramanıdır?",
+      "option1": "Peter Pan",
+      "option2": "Kırmızı Başlıklı Kız",
+      "option3": "Keloğlan",
+      "option4": "Şirin Baba",
+      "answer": "Keloğlan"
+    },
+        {
+      "id": 19,
+      "question": "Kırkpınar güreşleri hangi şehirde düzenlenir?",
+      "option1": "Bursa",
+      "option2": "İzmir",
+      "option3": "Manisa",
+      "option4": "Edirne",
+      "answer": "Edirne"
+    },
+      {
+    "id": 20,
+    "question": "Aşağıdakilerden hangisi, Osmanlı Devleti’nin ünlü denizcilerinden biridir?",
+    "option1": "Evliya Çelebi",
+    "option2": "Piri Reis",
+    "option3": "Mimar Sinan",
+    "option4": "Akşemseddin",
+    "answer": "Piri Reis"
+  },
+          {
+      "id": 21,
+      "question": "Çanakkale Boğazı hangi iki denizi birbirine bağlar?",
+      "option1": "Karadeniz - Marmara",
+      "option2": "Marmara - Ege",
+      "option3": "Akdeniz - Ege",
+      "option4": "Marmara - Karadeniz",
+      "answer": "Marmara - Ege"
+    },
+      {
+    "id": 22,
+    "question": "Aşağıdaki kelimelerden hangisi birleşik kelimedir?",
+    "option1": "Kırmızı",
+    "option2": "Gözlük",
+    "option3": "Hanımeli",
+    "option4": "Defter",
+    "answer": "Hanımeli"
+  },
+        {
+      "id": 23,
+      "question": "Aşağıdaki kelimelerden hangisi soyut bir kavramdır?",
+      "option1": "Sevgi",
+      "option2": "Tahta",
+      "option3": "Bardak",
+      "option4": "Çanta",
+      "answer": "Sevgi"
+    }
   ]
 }
