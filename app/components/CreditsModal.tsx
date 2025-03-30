@@ -42,7 +42,7 @@ export default function CreditsModal({ open, setOpen }: ModalInterface) {
                 Yarışması
               </p>
               <p className="text-md">2025</p>
-              <p className="text-md">Versiyon: 1.0</p>
+              <p className="text-md">Versiyon: 1.1</p>
               <div className="flex flex-row gap-1">
                 <p className="text-md italic text-center mt-2 text-gray-default">
                   Tüm hakları T.C. Berlin Başkonsolosluğu Eğitim Ataşeliğinde
