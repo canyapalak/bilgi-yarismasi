@@ -422,6 +422,15 @@
     "option3": "Kalem – defter",
     "option4": "Hızlı – çabuk",
     "answer": "Gül – gülmek"
-  }
+  },
+      {
+      "id": 48,
+      "question": "Aşağıdakilerden hangisi bir ağıt türüdür?",
+      "option1": "Mersiye",
+      "option2": "Koşma",
+      "option3": "Gazel",
+      "option4": "Naat",
+      "answer": "Mersiye"
+    }
   ]
 }
