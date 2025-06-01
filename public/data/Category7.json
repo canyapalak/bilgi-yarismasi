@@ -2,15 +2,6 @@
   "questions": [
     {
       "id": 1,
-      "question": "'Kaplumbağa Terbiyecisi' tablosu ile bilinen Osmanlı ressamı kimdir?",
-      "option1": "Evliya Çelebi",
-      "option2": "Şevki Bey",
-      "option3": "Ahmet Cevdet Paşa",
-      "option4": "Osman Hamdi Bey",
-      "answer": "Osman Hamdi Bey"
-    },
-    {
-      "id": 2,
       "question": "İstiklal Marşı'nın yazarı kimdir?",
       "option1": "Yahya Kemal Beyatlı",
       "option2": "Mehmet Akif Ersoy",
@@ -19,7 +10,7 @@
       "answer": "Mehmet Akif Ersoy"
     },
     {
-      "id": 3,
+      "id": 2,
       "question": "Osmanlı'ya matbaayı kim getirmiştir?",
       "option1": "Evliya Çelebi",
       "option2": "İbrahim Müteferrika",
@@ -28,16 +19,7 @@
       "answer": "İbrahim Müteferrika"
     },
     {
-      "id": 4,
-      "question": "İlk Türk kadın pilot kimdir?",
-      "option1": "Sabiha Gökçen",
-      "option2": "Afet İnan",
-      "option3": "Halide Edib",
-      "option4": "Latife Hanım",
-      "answer": "Sabiha Gökçen"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "question": "Türkiye'nin ilk Nobel ödüllü yazarı kimdir?",
       "option1": "Yaşar Kemal",
       "option2": "Orhan Pamuk",
@@ -46,7 +28,7 @@
       "answer": "Orhan Pamuk"
     },
     {
-      "id": 6,
+      "id": 4,
       "question": "Divan edebiyatının en ünlü şairlerinden biri kimdir?",
       "option1": "Fuzuli",
       "option2": "Yunus Emre",
@@ -55,7 +37,7 @@
       "answer": "Fuzuli"
     },
     {
-      "id": 7,
+      "id": 5,
       "question": "Ünlü denizci Barbaros Hayreddin Paşa'nın gerçek adı nedir?",
       "option1": "Piri Reis",
       "option2": "Hızır Reis",
@@ -64,16 +46,7 @@
       "answer": "Hızır Reis"
     },
     {
-      "id": 8,
-      "question": "Aşağıdakilerden hangisi, Türk sinemasının önemli yönetmenlerinden biridir?",
-      "option1": "Nuri Bilge Ceylan",
-      "option2": "Cem Karaca",
-      "option3": "Şener Şen",
-      "option4": "Kemal Sunal",
-      "answer": "Nuri Bilge Ceylan"
-    },
-    {
-      "id": 9,
+      "id": 6,
       "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazanmıştır?",
       "option1": "Fizik",
       "option2": "Kimya",
@@ -82,7 +55,7 @@
       "answer": "Kimya"
     },
     {
-      "id": 10,
+      "id": 7,
       "question": "Hangi Osmanlı padişahı 'Kanuni' unvanına sahiptir?",
       "option1": "II. Mehmed",
       "option2": "I. Süleyman",
@@ -91,34 +64,7 @@
       "answer": "I. Süleyman"
     },
     {
-      "id": 11,
-      "question": "Hangi Türk yazar 'İnce Memed' romanını yazmıştır?",
-      "option1": "Yaşar Kemal",
-      "option2": "Orhan Pamuk",
-      "option3": "Reşat Nuri Güntekin",
-      "option4": "Sait Faik Abasıyanık",
-      "answer": "Yaşar Kemal"
-    },
-    {
-      "id": 12,
-      "question": "Hangi Türk halk ozanı 'Uzun İnce Bir Yoldayım' türküsüyle tanınır?",
-      "option1": "Neşet Ertaş",
-      "option2": "Musa Eroğlu",
-      "option3": "Mahsuni Şerif",
-      "option4": "Aşık Veysel",
-      "answer": "Aşık Veysel"
-    },
-    {
-      "id": 13,
-      "question": "Türk edebiyatında 'Halk Şairi' olarak bilinen ünlü şair kimdir?",
-      "option1": "Yunus Emre",
-      "option2": "Fuzuli",
-      "option3": "Nedim",
-      "option4": "Baki",
-      "answer": "Yunus Emre"
-    },
-    {
-      "id": 14,
+      "id": 8,
       "question": "Adına Türkiye’de bir havalimanı bulunan, Türkiye'nin ilk kadın pilotu ve dünyanın ilk kadın askeri pilotu kimdir?",
       "option1": "Sabiha Gökçen",
       "option2": "Feriha Sanerk",
@@ -127,7 +73,7 @@
       "answer": "Sabiha Gökçen"
     },
     {
-      "id": 15,
+      "id": 9,
       "question": "Selimiye Camii ve Süleymaniye Camii, Osmanlı mimarisine damga vuran hangi ünlü mimarın eserleridir?",
       "option1": "Mimar Kemaleddin",
       "option2": "Mimar Hayreddin",
@@ -136,7 +82,7 @@
       "answer": "Mimar Sinan"
     },
     {
-      "id": 16,
+      "id": 10,
       "question": "17. yüzyılda yaşamış, o dönem pek çok ülkeyi gezmiş, 'Seyahatname' adlı eseriyle tanınan gezgin kimdir?",
       "option1": "Katip Çelebi",
       "option2": "Evliya Çelebi",
@@ -145,7 +91,7 @@
       "answer": "Evliya Çelebi"
     },
     {
-      "id": 17,
+      "id": 11,
       "question": "Galata Kulesi’nden Üsküdar’a uçtuğu rivayet edilen, 17. yüzyılda ilk uçuş girişimiyle tanınan havacılık öncüsü kimdir?",
       "option1": "İbn-i Sina",
       "option2": "Barbaros Hayreddin Paşa",
@@ -154,7 +100,7 @@
       "answer": "Hezarfen Ahmet Çelebi"
     },
     {
-      "id": 18,
+      "id": 12,
       "question": "El-Kanun fi't-Tıbb adlı eseriyle tanınan bilim insanı kimdir?",
       "option1": "Farabi",
       "option2": "İbn-i Sina",
@@ -163,7 +109,7 @@
       "answer": "İbn-i Sina"
     },
     {
-      "id": 19,
+      "id": 13,
       "question": "'Ne olursan ol yine gel!' sözü ve 'Mesnevi' adlı eser kime aittir?",
       "option1": "Yunus Emre",
       "option2": "Hacı Bektaş Veli",
@@ -172,7 +118,7 @@
       "answer": "Mevlana"
     },
     {
-      "id": 20,
+      "id": 14,
       "question": "Leyla ile Mecnun adlı eserin sahibi olan ve ismi aynı zamanda 'gereksiz', 'lüzumsuz' anlamına da gelen divan şairimiz kimdir?",
       "option1": "Fuzuli",
       "option2": "Nef’i",
@@ -181,7 +127,7 @@
       "answer": "Fuzuli"
     },
     {
-      "id": 21,
+      "id": 15,
       "question": "İlahileriyle tanınan ve Anadolu’da Türkçe şiirin öncüsü olan şair kimdir? Bu şairimiz aynı zamanda ‘İlim ilim bilmektir /İlim kendin bilmektir /Sen kendini bilmezsin /Ya nice okumaktır’ dizeleriyle de çok ünlüdür.",
       "option1": "Mevlana",
       "option2": "Fuzuli",
@@ -190,7 +136,7 @@
       "answer": "Yunus Emre"
     },
     {
-      "id": 22,
+      "id": 16,
       "question": "Çağdaş Türk müzeciliğinin kurucusu ve modern Türk resim sanatının öncülerinden olan, 'Kaplumbağa Terbiyecisi' tablosuyla tanınan sanatçı kimdir?",
       "option1": "Şeker Ahmet Paşa",
       "option2": "Osman Hamdi Bey",
@@ -199,7 +145,7 @@
       "answer": "Osman Hamdi Bey"
     },
     {
-      "id": 23,
+      "id": 17,
       "question": "'Çile' adlı şiir kitabı ve mistik-düşünsel yönüyle tanınan, aynı zamanda Büyük Doğu Hareketi'nin kurucusu olan, özellikle şiirleri ve tiyatro eserleri ile tanınan edebiyatçı kimdir?",
       "option1": "Ömer Seyfettin",
       "option2": "Necip Fazıl Kısakürek",
@@ -208,7 +154,7 @@
       "answer": "Necip Fazıl Kısakürek"
     },
     {
-      "id": 24,
+      "id": 18,
       "question": "Toplumcu gerçekçi yönüyle tanınan, Safahat adlı eseriyle önemli sosyal ve ahlaki temaları işleyen İstiklal Marşı’mızın yazarı kimdir?",
       "option1": "Ziya Gökalp",
       "option2": "Mehmet Akif Ersoy",
@@ -217,7 +163,7 @@
       "answer": "Mehmet Akif Ersoy"
     },
     {
-      "id": 25,
+      "id": 19,
       "question": "Türkçülük düşüncesini sistemleştiren, Türk milliyetçiliğinin öncülerinden olan ve 'Türkçülüğün Esasları' eseri ile bilinen sosyolog, yazar, şair ve düşünür kimdir?",
       "option1": "Ziya Gökalp",
       "option2": "Halide Edip Adıvar",
@@ -226,7 +172,7 @@
       "answer": "Ziya Gökalp"
     },
     {
-      "id": 26,
+      "id": 20,
       "question": "Milli Edebiyat Döneminin tanınmış ilk kadın romancısı ve hikâyecisi olan. Türkiye Büyük Millet Meclisi’nde milletvekilliği de yapmış, 'Sinekli Bakkal' adlı romanıyla tanınan yazarımız kimdir?",
       "option1": "Suat Derviş",
       "option2": "Halide Edip Adıvar",
@@ -235,7 +181,7 @@
       "answer": "Halide Edip Adıvar"
     },
     {
-      "id": 27,
+      "id": 21,
       "question": "Cumhuriyet döneminin en çok okunan romanlarından biri olan 'Çalıkuşu' ile tanınan; öğretmenlik temasını, eğitimin ve öğretmenlerin toplumdaki rolünü eserlerinde sıkça işleyen yazarımız kimdir?",
       "option1": "Reşat Nuri Güntekin",
       "option2": "Ömer Seyfettin",
@@ -244,7 +190,7 @@
       "answer": "Reşat Nuri Güntekin"
     },
     {
-      "id": 28,
+      "id": 22,
       "question": "Milli edebiyat döneminin öncülerinden, kısa ve öğretici hikayeleriyle tanınan, 'Kaşağı', 'Pembe İncili Kaftan' ve 'Diyet' gibi öyküleriyle bilinen yazar kimdir?",
       "option1": "Sait Faik Abasıyanık",
       "option2": "Sabahattin Ali",
@@ -253,7 +199,7 @@
       "answer": "Ömer Seyfettin"
     },
     {
-      "id": 29,
+      "id": 23,
       "question": "'Uzun İnce Bir Yoldayım' türküsüyle hafızalara kazınan ve 'Dost dost diye nicesine sarıldım/ Benim sadık yarım kara topraktır' diyen halk ozanı kimdir?",
       "option1": "Aşık Veysel",
       "option2": "Pir Sultan Abdal",
@@ -262,7 +208,7 @@
       "answer": "Aşık Veysel"
     },
     {
-      "id": 30,
+      "id": 24,
       "question": "Toplumcu gerçekçi şiirin öncüsü olan, 'Yaşamak bir ağaç gibi tek ve hür/ ve bir orman gibi kardeşçesine' dizeleriyle ve Kurtuluş Savaşımız için yazdığı 'Kuvayi Milliye Destanı' ile tanınan şair kimdir?",
       "option1": "Nazım Hikmet",
       "option2": "Orhan Veli",
@@ -271,7 +217,7 @@
       "answer": "Nazım Hikmet"
     },
     {
-      "id": 31,
+      "id": 25,
       "question": "'Saatleri Ayarlama Enstitüsü' ve 'Huzur' romanlarının yazarı kimdir?",
       "option1": "Ahmet Hamdi Tanpınar",
       "option2": "Orhan Pamuk",
@@ -280,7 +226,7 @@
       "answer": "Ahmet Hamdi Tanpınar"
     },
     {
-      "id": 32,
+      "id": 26,
       "question": "Garip akımının öncüsü, günlük yaşamı sade bir dille anlatan ve 'İstanbul'u dinliyorum gözlerim kapalı' dizeleriyle tanınan şair kimdir?",
       "option1": "Nazım Hikmet",
       "option2": "Orhan Veli Kanık",
@@ -289,7 +235,7 @@
       "answer": "Orhan Veli Kanık"
     },
     {
-      "id": 33,
+      "id": 27,
       "question": "Modern Türk öykücülüğünün öncülerinden, 'Lüzumsuz Adam' ve ‘Semaver’ adlı eserlerin yazarı kimdir?",
       "option1": "Sabahattin Ali",
       "option2": "Sait Faik Abasıyanık",
@@ -298,7 +244,7 @@
       "answer": "Sait Faik Abasıyanık"
     },
     {
-      "id": 34,
+      "id": 28,
       "question": "Türk Tiyatrosu’ndaki ilk epik tiyatro örneği olan 'Keşanlı Ali Destanı'nı yazan tiyatro yazarı kimdir?",
       "option1": "Turgut Özakman",
       "option2": "Haldun Taner",
@@ -307,7 +253,7 @@
       "answer": "Haldun Taner"
     },
     {
-      "id": 35,
+      "id": 29,
       "question": "'Kış Uykusu' filmi ile 2014 yılında Cannes Film Festivali'nde Altın Palmiye Ödülü kazanmış, 'Bir Zamanlar Anadolu’da' ve ‘Ahlat Ağacı’ filmleriyle de tanınan Türk yönetmen kimdir?",
       "option1": "Zeki Demirkubuz",
       "option2": "Reha Erdem",
@@ -316,7 +262,7 @@
       "answer": "Nuri Bilge Ceylan"
     },
     {
-      "id": 36,
+      "id": 30,
       "question": "Fotoğraflarıyla İstanbul’u belgeleyen, 'Fotoğrafın Gözü' olarak bilinen ve siyah-beyaz İstanbul kareleriyle dünyaca tanınan fotoğraf sanatçısı kimdir?",
       "option1": "Ara Güler",
       "option2": "Nuri Bilge Ceylan",
@@ -325,7 +271,7 @@
       "answer": "Ara Güler"
     },
     {
-      "id": 37,
+      "id": 31,
       "question": "Eserlerini toplumcu bir anlayışla yazan, 'Kuyucaklı Yusuf' ve 'Kürk Mantolu Madonna' romanlarıyla tanınan yazar kimdir?",
       "option1": "Suat Derviş",
       "option2": "Halide Edip Adıvar",
@@ -334,7 +280,7 @@
       "answer": "Sabahattin Ali"
     },
     {
-      "id": 38,
+      "id": 32,
       "question": "Bir dönem Berlin’de yaşayan ve Türkiye’nin ilk kadın gazeteci-yazarlarından olan, 'Fosforlu Cevriye' romanının yazarı kimdir?",
       "option1": "Halide Nusret Zorlutuna",
       "option2": "Suat Derviş",
@@ -343,7 +289,7 @@
       "answer": "Suat Derviş"
     },
     {
-      "id": 39,
+      "id": 33,
       "question": "Çukurova’nın doğası ve köylülerin yaşamı üzerinden Anadolu'yu anlatan, 'İnce Memed' romanıyla tanınan yazar kimdir?",
       "option1": "Yaşar Kemal",
       "option2": "Sabahattin Ali",
