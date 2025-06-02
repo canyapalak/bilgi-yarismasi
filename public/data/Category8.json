@@ -2,210 +2,228 @@
   "questions": [
     {
       "id": 1,
-      "question": "Malazgirt Meydan Muharebesi'ni kim kazanmıştır?",
-      "option1": "Bizans",
-      "option2": "Selçuklular",
-      "option3": "Göktürkler",
-      "option4": "Moğollar",
-      "answer": "Selçuklular"
+      "question": "Mehmet Akif Ersoy, İstiklal Marşı’nı kime ithaf etmiştir (kimin için yazmıştır)?",
+      "option1": "Türk Milletine",
+      "option2": "Kahraman Ordumuza",
+      "option3": "Türkiye Büyük Millet Meclisine",
+      "option4": "Öğrencilere",
+      "answer": "Kahraman Ordumuza"
     },
     {
       "id": 2,
-      "question": "Osmanlı Devleti’nin ilk başkenti hangisidir?",
-      "option1": "Ankara",
-      "option2": "Bursa",
-      "option3": "İzmir",
-      "option4": "İstanbul",
-      "answer": "Bursa"
+      "question": "'Arkadaşım Eşek' şarkısı kime aittir?",
+      "option1": "Aşık Veysel",
+      "option2": "Tarkan",
+      "option3": "Barış Manço",
+      "option4": "Neşet Ertaş",
+      "answer": "Barış Manço"
     },
     {
       "id": 3,
-      "question": "Osmanlı'ya matbaayı kim getirmiştir?",
-      "option1": "Evliya Çelebi",
-      "option2": "İbrahim Müteferrika",
-      "option3": "Katip Çelebi",
-      "option4": "Ali Kuşçu",
-      "answer": "İbrahim Müteferrika"
+      "question": "'Türk Marşı' olarak da bilinen, 'Rondo Alla Turca' isimli beste kime aittir?",
+      "option1": "Johann Sebastian Bach",
+      "option2": "Wolfgang Amadeus Mozart",
+      "option3": "Ludwig van Beethoven",
+      "option4": "Johann Strauss II",
+      "answer": "Wolfgang Amadeus Mozart"
     },
     {
       "id": 4,
-      "question": "İlk Türk kadın pilot kimdir?",
-      "option1": "Sabiha Gökçen",
-      "option2": "Afet İnan",
-      "option3": "Halide Edib",
-      "option4": "Latife Hanım",
-      "answer": "Sabiha Gökçen"
+      "question": "Türkiye'nin en yüksek dağı hangisidir?",
+      "option1": "Erciyes Dağı",
+      "option2": "Ağrı Dağı",
+      "option3": "Uludağ",
+      "option4": "Nemrut Dağı",
+      "answer": "Ağrı Dağı"
     },
     {
       "id": 5,
-      "question": "Türkiye hangi ülkeyle komşu değildir?",
-      "option1": "Gürcistan",
-      "option2": "Bulgaristan",
-      "option3": "Romanya",
-      "option4": "İran",
-      "answer": "Romanya"
+      "question": "Türkiye coğrafi olarak hangi iki kıta arasında bulunur?",
+      "option1": "Afrika - Asya",
+      "option2": "Avrupa - Asya",
+      "option3": "Avrupa - Afrika",
+      "option4": "Amerika - Avrupa",
+      "answer": "Avrupa - Asya"
     },
-        {
+    {
       "id": 6,
-      "question": "Türkiye'nin yüz ölçümü en büyük ili hangisidir?",
-      "option1": "Konya",
-      "option2": "Ankara",
-      "option3": "Sivas",
-      "option4": "Van",
-      "answer": "Konya"
+      "question": "'İstiklal' kelimesinin anlamı nedir?",
+      "option1": "Bağımsızlık",
+      "option2": "Cumhuriyet",
+      "option3": "Eşitlik",
+      "option4": "Gelecek",
+      "answer": "Bağımsızlık"
     },
     {
       "id": 7,
-      "question": "Hacivat ve Karagöz hangi geleneksel sanat türüne aittir?",
-      "option1": "Ebru",
-      "option2": "Gölge oyunu",
-      "option3": "Hat sanatı",
-      "option4": "Minyatür",
-      "answer": "Gölge oyunu"
+      "question": "Türkiye ile ilgili verilen bilgilerden hangisi yanlıştır?",
+      "option1": "Kurucusu Mustafa Kemal Atatürk’tür.",
+      "option2": "Nüfusu 86 milyondur. (2023 verilerine göre)",
+      "option3": "Para birimi Türk Lirası’dır.",
+      "option4": "Konumunun büyük bir kısmı Avrupa’da, küçük bir bölümü ise Asya’dadır.",
+      "answer": "Konumunun büyük bir kısmı Avrupa’da, küçük bir bölümü ise Asya’dadır."
     },
     {
       "id": 8,
-      "question": "Türk halk müziğinde kullanılan telli çalgımız hangisidir?",
-      "option1": "Saz",
-      "option2": "Keman",
-      "option3": "Zurna",
-      "option4": "Davul",
-      "answer": "Saz"
+      "question": "Aşağıdaki milli bayramlardan hangisi 23 Nisan’da kutlanır?",
+      "option1": "Zafer Bayramı",
+      "option2": "Cumhuriyet Bayramı",
+      "option3": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "option4": "Gençlik ve Spor Bayramı",
+      "answer": "Ulusal Egemenlik ve Çocuk Bayramı"
     },
     {
       "id": 9,
-      "question": "Türk bilim insanı Aziz Sancar hangi alanda Nobel kazanmıştır?",
-      "option1": "Fizik",
-      "option2": "Kimya",
-      "option3": "Tıp",
-      "option4": "Matematik",
-      "answer": "Kimya"
+      "question": "Şanlıurfa'da bulunan ve geçmişi yaklaşık 12.000 yıl öncesine dayanan tarihi tapınak kompleksinin adı nedir?",
+      "option1": "Kapadokya",
+      "option2": "Göbeklitepe",
+      "option3": "Efes Antik Kenti",
+      "option4": "Truva Antik Kenti",
+      "answer": "Göbeklitepe"
     },
-  {
-    "id": 10,
-    "question": "Türk mutfağında yemek pişirmek için kullanılan toprak kaplara ne ad verilir?",
-    "option1": "Tencere",
-    "option2": "Güveç",
-    "option3": "Tepsi",
-    "option4": "Kazan",
-    "answer": "Güveç"
-  },
-  {
-    "id": 11,
-    "question": "Yemek yendikten sonra yemeği yapan kişiye ne nedir?",
-    "option1": "Tebrikler",
-    "option2": "Kolay gelsin",
-    "option3": "Eline sağlık",
-    "option4": "Rastgele",
-    "answer": "Eline sağlık"
-  },
+    {
+      "id": 10,
+      "question": "Erzurum ilimiz hangi yemeğiyle ünlüdür?",
+      "option1": "İskender Kebap",
+      "option2": "Mantı",
+      "option3": "Cağ Kebabı",
+      "option4": "Etli Ekmek",
+      "answer": "Cağ Kebabı"
+    },
+    {
+      "id": 11,
+      "question": "UNESCO Dünya Mirası Listesinde yer alan ve travertenleriyle meşhur Pamukkale hangi ilimizde bulunur?",
+      "option1": "Denizli",
+      "option2": "Nevşehir",
+      "option3": "Trabzon",
+      "option4": "Sivas",
+      "answer": "Denizli"
+    },
     {
       "id": 12,
-      "question": "Hangi Türk yazar ‘İnce Memed’ romanını yazmıştır?",
-      "option1": "Yaşar Kemal",
-      "option2": "Orhan Pamuk",
-      "option3": "Reşat Nuri Güntekin",
-      "option4": "Sait Faik Abasıyanık",
-      "answer": "Yaşar Kemal"
+      "question": "Leblebisiyle ünlü şehrimiz aşağıdakilerden hangisidir?",
+      "option1": "Yozgat",
+      "option2": "Çorum",
+      "option3": "Bursa",
+      "option4": "Adana",
+      "answer": "Çorum"
     },
-  {
-    "id": 13,
-    "question": "2023 yılında hem Dünya Şampiyonu hem de Milletler Ligi Şampiyonu olan A Milli Kadın Voleybol Takımımızın lakabı nedir?",
-    "option1": "Filenin Sultanları",
-    "option2": "Bozkurtlar",
-    "option3": "Kartallar",
-    "option4": "Altın Kızlar",
-    "answer": "Filenin Sultanları"
-  },
-  {
-    "id": 14,
-    "question": "2024 yılında Türkiye'nin en çok ziyaret edilen şehri hangisi olmuştur?",
-    "option1": "İstanbul",
-    "option2": "Antalya",
-    "option3": "İzmir",
-    "option4": "Kapadokya",
-    "answer": "İstanbul"
-  },
-      {
-      "id": 15,
-      "question": "Hangi Türk halk ozanı 'Uzun İnce Bir Yoldayım' türküsüyle tanınır?",
-      "option1": "Neşet Ertaş",
-      "option2": "Musa Eroğlu",
-      "option3": "Mahsuni Şerif",
-      "option4": "Aşık Veysel",
-      "answer": "Aşık Veysel"
-    },
-      {
-    "id": 16,
-    "question": "Türklerin kullandığı ilk alfabe hangisidir?",
-    "option1": "Arap Alfabesi",
-    "option2": "Latin Alfabesi",
-    "option3": "Göktürk Alfabesi",
-    "option4": "Kiril Alfabesi",
-    "answer": "Göktürk Alfabesi"
-  },
     {
-    "id": 17,
-    "question": "Hangi Türk tatlısında şerbet kullanılmaz?",
-    "option1": "Revani",
-    "option2": "Baklava",
-    "option3": "Sütlaç",
-    "option4": "Şekerpare",
-    "answer": "Sütlaç"
-  },
-      {
+      "id": 13,
+      "question": "Mehmet Akif Ersoy'un tüm şiirlerini topladığı ünlü eserinin adı nedir?",
+      "option1": "Safahat",
+      "option2": "Kaşağı",
+      "option3": "Değirmen",
+      "option4": "Vatan",
+      "answer": "Safahat"
+    },
+    {
+      "id": 14,
+      "question": "18. ve 19. yüzyıllarda inşa edilmiş ve yaklaşık 2000'i yerleşimde bulunan, UNESCO Dünya Mirası Listesi’nde yer alan, Osmanlı sivil mimarisinin en iyi örneklerinden biri olarak kabul edilen geleneksel Türk evleri nerededir?",
+      "option1": "Safranbolu",
+      "option2": "Zeugma",
+      "option3": "Kapadokya",
+      "option4": "Harran",
+      "answer": "Safranbolu"
+    },
+    {
+      "id": 15,
+      "question": "Aşağıda bazı tarihi ve doğal güzellikler ile bulundukları şehirlerin eşleştirmeleri verilmiştir. Hangisi yanlıştır?",
+      "option1": "Sümela Manastırı - Trabzon",
+      "option2": "Zeugma Antik Kenti - Gaziantep",
+      "option3": "Mevlana Müzesi - Konya",
+      "option4": "Truva Antik Kenti - İstanbul",
+      "answer": "Truva Antik Kenti - İstanbul"
+    },
+    {
+      "id": 16,
+      "question": "İncir en çok hangi bölgemizde yetiştirilir?",
+      "option1": "Ege Bölgesi",
+      "option2": "Karadeniz Bölgesi",
+      "option3": "Doğu Anadolu Bölgesi",
+      "option4": "İç Anadolu Bölgesi",
+      "answer": "Ege Bölgesi"
+    },
+    {
+      "id": 17,
+      "question": "Uzaya çıkan ilk Türk astronot kimdir?",
+      "option1": "Yasemin Adar",
+      "option2": "Aziz Sancar",
+      "option3": "Alper Gezeravcı",
+      "option4": "Taha Akgül",
+      "answer": "Alper Gezeravcı"
+    },
+    {
       "id": 18,
-      "question": "Hangisi ünlü Türk masal kahramanıdır?",
-      "option1": "Peter Pan",
-      "option2": "Kırmızı Başlıklı Kız",
-      "option3": "Keloğlan",
-      "option4": "Şirin Baba",
-      "answer": "Keloğlan"
+      "question": "1980'li yıllarda Berlin'de yaşayan ve 2012 yılında vefat eden Bozkırın Tezenesi lakaplı ünlü müzisyen kimdir?",
+      "option1": "Aşık Mahsuni Şerif",
+      "option2": "Musa Eroğlu",
+      "option3": "Barış Manço",
+      "option4": "Neşet Ertaş",
+      "answer": "Neşet Ertaş"
     },
-        {
+    {
       "id": 19,
-      "question": "Kırkpınar güreşleri hangi şehirde düzenlenir?",
-      "option1": "Bursa",
-      "option2": "İzmir",
-      "option3": "Manisa",
-      "option4": "Edirne",
-      "answer": "Edirne"
+      "question": "Türk resim sanatının öncülerinden Osman Hamdi Bey’in en bilinen eserinin adı nedir?",
+      "option1": "Tavşan Eğiticisi",
+      "option2": "Kelebek Toplayıcısı",
+      "option3": "Kaplumbağa Terbiyecisi",
+      "option4": "Kartal Bekçisi",
+      "answer": "Kaplumbağa Terbiyecisi"
     },
-      {
-    "id": 20,
-    "question": "Aşağıdakilerden hangisi, Osmanlı Devleti’nin ünlü denizcilerinden biridir?",
-    "option1": "Evliya Çelebi",
-    "option2": "Piri Reis",
-    "option3": "Mimar Sinan",
-    "option4": "Akşemseddin",
-    "answer": "Piri Reis"
-  },
-          {
+    {
+      "id": 20,
+      "question": "İki takım arasında oynanan; amacı, kısa değneği uzun değnekle yerden havalandırarak uzağa göndermek olan çocuk oyununun adı nedir?",
+      "option1": "Saklambaç",
+      "option2": "Körebe",
+      "option3": "Seksek",
+      "option4": "Çelik Çomak",
+      "answer": "Çelik Çomak"
+    },
+    {
       "id": 21,
-      "question": "Çanakkale Boğazı hangi iki denizi birbirine bağlar?",
-      "option1": "Karadeniz - Marmara",
-      "option2": "Marmara - Ege",
-      "option3": "Akdeniz - Ege",
-      "option4": "Marmara - Karadeniz",
-      "answer": "Marmara - Ege"
+      "question": "'Dışı var içi yok, tekme yer suçu yok.' bilmecesinin cevabı nedir?",
+      "option1": "Üzüm",
+      "option2": "Top",
+      "option3": "Ayakkabı",
+      "option4": "Hava",
+      "answer": "Top"
     },
-      {
-    "id": 22,
-    "question": "Aşağıdaki kelimelerden hangisi birleşik kelimedir?",
-    "option1": "Kırmızı",
-    "option2": "Gözlük",
-    "option3": "Hanımeli",
-    "option4": "Defter",
-    "answer": "Hanımeli"
-  },
-        {
+    {
+      "id": 22,
+      "question": "'Uzaktan baktım bir kara taş, yanına vardım dört ayak bir baş' bilmecesinin cevabı nedir?",
+      "option1": "Salyangoz",
+      "option2": "Tavuk",
+      "option3": "Kirpi",
+      "option4": "Kaplumbağa",
+      "answer": "Kaplumbağa"
+    },
+    {
       "id": 23,
-      "question": "Aşağıdaki kelimelerden hangisi soyut bir kavramdır?",
-      "option1": "Sevgi",
-      "option2": "Tahta",
-      "option3": "Bardak",
-      "option4": "Çanta",
-      "answer": "Sevgi"
+      "question": "'Maşallah' ifadesi aşağıdaki durumlardan hangisinde kullanılır?",
+      "option1": "Bir şeyi çok beğendiğimizde ve ona nazar değmesini istemediğimizde",
+      "option2": "Cenaze töreninde, cenaze sahiplerinden biriyle karşılaşınca",
+      "option3": "Banyodan çıkan ya da yeni tıraş olmuş kişilere",
+      "option4": "Bayramlarda büyüklerimizin elini öperken",
+      "answer": "Bir şeyi çok beğendiğimizde ve ona nazar değmesini istemediğimizde"
+    },
+    {
+      "id": 24,
+      "question": "'İyi bir arkadaş zor zamanlarda yanında olur.' anlamına gelen atasözümüz aşağıdakilerden hangisidir?",
+      "option1": "Armut dibine düşer.",
+      "option2": "Dost kara günde belli olur.",
+      "option3": "Damlaya damlaya göl olur.",
+      "option4": "Besle kargayı, oysun gözünü.",
+      "answer": "Dost kara günde belli olur."
+    },
+    {
+      "id": 25,
+      "question": "'Keçileri kaçırmak' deyiminin anlamı hangi seçenekte doğru verilmiştir?",
+      "option1": "Çok sevinmek",
+      "option2": "Dikkatsiz davranmak",
+      "option3": "Delirmek, çıldırmak",
+      "option4": "Arkasından gitmek, kovalamak",
+      "answer": "Delirmek, çıldırmak"
     }
   ]
 }
