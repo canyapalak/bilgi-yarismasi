@@ -21,7 +21,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="favicon.ico" />
+        <meta name="description" content="T.C. Berlin Başkonsolosluğu Eğitim Ataşeliği - 'Bir Yıldız, Bir Hilal, İlelebet İstiklal' Bilgi Yarışması"/>
+        <link rel="icon" href="/favicon.ico" />
         <title>
           &quot;Bir Yıldız, Bir Hilal, İlelebet İstiklal&quot; Bilgi Yarışması
         </title>
