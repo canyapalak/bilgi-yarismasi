@@ -263,7 +263,7 @@ export default function Contest({
                 {shuffledOptions.map((optValue, index) => (
                   <div
                     key={index}
-                    className={`w-56 sm:w-64 text-center text-2xl rounded-md p-3 shadow-lg shadow-zinc-400 text-white ${
+                    className={`w-56 sm:w-60 text-center text-2xl rounded-md p-3 shadow-lg shadow-zinc-400 text-white ${
                       selectedOption === optValue
                         ? isCorrect
                           ? "bg-green-default"
